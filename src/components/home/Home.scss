@@ -1,0 +1,66 @@
+section{
+
+    $alturaSeccion:calc(100vh - 5rem);
+
+    height: $alturaSeccion;
+
+    .contenedor-seccion{
+        display:flex;
+        flex-direction: column;
+
+        h3{
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 3.25rem;
+            text-align: center;
+            color:#ffca43;
+
+            background-color: rgba(179,163,122,0.7);
+            border: 3px solid #be9324;
+            border-radius: 28px;
+
+            width: 27.25rem;
+            padding: 0.5rem 0;
+            margin: 2rem auto 0 auto;
+            position: relative;
+
+            &::before{
+                content:"";
+                display: block;
+                width: 31.25rem;
+                height: 2px;
+                background:#d0b160;
+                position: absolute;
+                left: -31.4rem;
+                top:50%
+            }
+
+            &::after{
+                content:"";
+                display: block;
+                width: 31.25rem;
+                height: 2px;
+                background:#d0b160;
+                position: absolute;
+                left: 27.4rem;
+                top:50%
+            }
+        }
+    }
+}
+
+.seccion-busqueda-selecciones{
+    background: rgba(217,217,217,0.69);
+}
+
+.seccion-busqueda-estilos{
+    background: green;
+}
+
+.seccion-busqueda-posiciones{
+    background: greenyellow;
+}
+
+.seccion-busqueda-jugador{
+    background: #04040D;
+}

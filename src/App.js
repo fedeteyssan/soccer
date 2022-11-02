@@ -1,14 +1,28 @@
 import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './components/home/Home';
+import ListadoBotinesSelecciones from './containers/ListadoBotinesSelecciones';
+import ScrollToTop from './components/ScrollToTop';
 
-import TituloSeccion from './components/tituloSeccion/TituloSeccion';
 
-function App() {
+const App = () => {
+
   return (
-    <main className="App">
+    <div className="App">
+
+      <BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route exact path="/seleccion/:seleccionID">
+          <ScrollToTop/>
+          <ListadoBotinesSelecciones/>
+        </Route>
+      </Switch>
+      </BrowserRouter>
       
-      <TituloSeccion text="Selecciona un pais" className="contenedor-titulo contenedor-titulo-pais"/>
-      <TituloSeccion text="Selecciona por jugador" className="contenedor-titulo contenedor-titulo-estilo"/>
-    </main>
+    </div>
   );
 }
 

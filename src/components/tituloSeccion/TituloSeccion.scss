@@ -32,10 +32,18 @@
     }
 }
 
-.contenedor-titulo-pais{
+.contenedor-titulo-selecciones{
     background: linear-gradient(180deg, rgba(77,103,33,0.7)0%, rgba(59,60,58,0.9)100%);
 }
 
-.contenedor-titulo-estilo{
+.contenedor-titulo-estilos{
     background: linear-gradient(180deg, #811111 0%, rgba(59,60,58,0.9)100%);
+}
+
+.contenedor-titulo-posiciones{
+    background: linear-gradient(180deg, rgba(77,103,33,0.7) 0%, rgba(59,60,58,0.9)100%);
+}
+
+.contenedor-titulo-jugador{
+    background: linear-gradient(180deg, #555156 0%, #380C52 100%);
 }

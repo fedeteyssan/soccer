@@ -1,0 +1,33 @@
+
+.card-botines{
+    width: 317px;
+    height: 441px;
+    border-radius: 4px;
+    border: 3px solid #be9324;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin:1rem 0;
+
+    .botines-img{
+        position: relative;
+        top:2rem;
+
+        width: 70%;
+    }
+
+    .botines-box{
+        position: relative;
+        top:6rem;
+
+        h3{
+            font-size: 22px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}

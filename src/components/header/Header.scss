@@ -1,0 +1,74 @@
+header{
+
+    background-image: url(../../Multimedia/estadio.png);
+    background-color: red;
+
+    height: 100vh;
+
+    color: #FDF9F9;
+
+    hr{
+        border: 2px solid #d0b160;
+        box-shadow: 0px 4px 4px #ffca43;
+
+        position: relative;
+        top:88px;
+    }
+
+    h1{
+        font-size: 3.125rem;
+        font-weight: 800;
+        line-height: 4.5rem;
+        
+        position: relative;
+        top:388px;
+        left: 105px;
+       
+        span{
+            font-style: italic;
+            font-weight: 600;
+        }
+    }
+
+    .header-cta{
+        position: relative;
+        top:393px;
+        left:110px;
+
+        p{
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 2.5rem; 
+        }
+    
+    
+        button{  
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.5rem; 
+            
+            color: #FDF9F9;
+            background-color:#d0b160;
+            border: 3px solid #d0b160;
+            border-radius: 33px;
+
+            padding: 10px 35px;
+
+            position: relative;
+            top:20px;
+        
+
+            transition: transform .5s;
+            &:hover{
+                transform: scale(1.25);
+            }
+        }
+
+    }
+
+    .auxiliarScroll{
+        position: absolute;
+        top:100vh;
+    }
+
+}

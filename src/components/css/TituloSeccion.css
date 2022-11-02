@@ -1,0 +1,61 @@
+.contenedor-titulo {
+  height: 5rem;
+  border-width: 4px 0px;
+  border-style: solid;
+  border-color: #be9324;
+  -webkit-box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-titulo h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fffbfb;
+}
+
+.contenedor-titulo .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-titulo .arrows .arrow1 {
+  position: relative;
+  left: 1.5rem;
+  width: 2rem;
+}
+
+.contenedor-titulo .arrows .arrow2 {
+  width: 3rem;
+}
+
+.contenedor-titulo-selecciones {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 103, 33, 0.7)), to(rgba(59, 60, 58, 0.9)));
+  background: linear-gradient(180deg, rgba(77, 103, 33, 0.7) 0%, rgba(59, 60, 58, 0.9) 100%);
+}
+
+.contenedor-titulo-estilos {
+  background: -webkit-gradient(linear, left top, left bottom, from(#811111), to(rgba(59, 60, 58, 0.9)));
+  background: linear-gradient(180deg, #811111 0%, rgba(59, 60, 58, 0.9) 100%);
+}
+
+.contenedor-titulo-posiciones {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 103, 33, 0.7)), to(rgba(59, 60, 58, 0.9)));
+  background: linear-gradient(180deg, rgba(77, 103, 33, 0.7) 0%, rgba(59, 60, 58, 0.9) 100%);
+}
+
+.contenedor-titulo-jugador {
+  background: -webkit-gradient(linear, left top, left bottom, from(#555156), to(#380C52));
+  background: linear-gradient(180deg, #555156 0%, #380C52 100%);
+}
+/*# sourceMappingURL=TituloSeccion.css.map */

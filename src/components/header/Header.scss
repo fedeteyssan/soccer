@@ -1,9 +1,9 @@
 header{
-
-    background-image: url(../../Multimedia/estadio.png);
-    background-color: red;
-
+    background-image: url(../../Multimedia/fondoPelota.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
+   
 
     color: #FDF9F9;
 
@@ -21,7 +21,7 @@ header{
         line-height: 4.5rem;
         
         position: relative;
-        top:388px;
+        top:365px;
         left: 105px;
        
         span{
@@ -32,7 +32,7 @@ header{
 
     .header-cta{
         position: relative;
-        top:393px;
+        top:370px;
         left:110px;
 
         p{
@@ -66,9 +66,13 @@ header{
 
     }
 
-    .auxiliarScroll{
+    .ScrollToBottom{
+        $scroll:calc(100vh + 1rem);
+
         position: absolute;
-        top:100vh;
+        top: $scroll;
+
+        
     }
 
 }

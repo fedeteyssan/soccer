@@ -1,0 +1,34 @@
+.card-seleccion {
+  width: 15rem;
+  height: 22rem;
+  background-color: #f1f1f1;
+  border-radius: 28px;
+  -webkit-box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-seleccion .titulo-seleccion {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.75rem;
+  color: #413d3d;
+}
+
+.card-seleccion img {
+  width: 12.125rem;
+  height: 12.125rem;
+}
+/*# sourceMappingURL=CardSeleccion.css.map */

@@ -1,15 +1,13 @@
 
-import { Link } from "react-router-dom";
 import Header from "../header/Header";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
+import Carousel from "../carousel/Carousel";
 import "./Home.scss";
 
 
 const Home = (props) => {
 
-    const controlClicktoScroll = () => {
-    Home.current?.scrollIntoView({block:"start"});
-    };
+    
     
 
     return (
@@ -17,12 +15,18 @@ const Home = (props) => {
 
             <Header></Header>
             <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
-            <section  className="seccion-busqueda-selecciones"></section>
+            <section  className="seccion-busqueda-selecciones">
+
+                <h3>SELECCIONÁ UN PAIS</h3>
+
+                <Carousel></Carousel>
+
+                <h5 className="titulo-selector-grupos">
+                    GRUPOS QATAR 2022
+                </h5> 
+                
+            </section>
            
-            <button onClick={controlClicktoScroll}><Link to="/seleccion/Argentina">Argentina</Link></button>
-            <button><Link to="/seleccion/Alemania">Alemania</Link></button> 
-
-
             <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
             <section className="seccion-busqueda-estilos"></section>
       

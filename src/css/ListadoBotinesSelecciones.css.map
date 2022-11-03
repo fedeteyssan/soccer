@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAEI,+BAF2B,CAE3B,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;CACrB;;AAJL,AAMI,+BAN2B,CAM3B,iBAAiB,CAAA;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI;CAClB",
     "sources": [
         "../containers/ListadoBotinesSelecciones.scss"
     ],

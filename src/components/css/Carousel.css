@@ -1,0 +1,65 @@
+.carousel-indicators {
+  width: 62.5rem;
+  height: 8.25rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 88, 88, 0.48)), to(rgba(217, 217, 217, 0.24)));
+  background: linear-gradient(180deg, rgba(92, 88, 88, 0.48) 0%, rgba(217, 217, 217, 0.24) 100%);
+  border: 3px solid #be9324;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 400px;
+}
+
+.carousel-indicators button {
+  width: 65px !important;
+  height: 65px !important;
+  border-radius: 50%;
+  border-color: transparent !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D0CFD0), to(rgba(208, 207, 208, 0.59))) !important;
+  background: linear-gradient(180deg, #D0CFD0 0%, rgba(208, 207, 208, 0.59) 100%) !important;
+  color: black;
+  text-indent: 0 !important;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+}
+
+.carousel-indicators .active {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 200, 101, 0.85)), to(rgba(201, 147, 10, 0.7565))) !important;
+  background: linear-gradient(180deg, rgba(238, 200, 101, 0.85) 0%, rgba(201, 147, 10, 0.7565) 100%) !important;
+}
+
+.carousel-inner {
+  margin-top: 2rem;
+}
+
+.carousel-inner .carousel-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-inner .carousel-item .contenedor-cards-selecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-inner .carousel-item .contenedor-cards-selecciones a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Carousel.css.map */

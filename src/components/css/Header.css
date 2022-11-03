@@ -1,7 +1,9 @@
 header {
-  background-image: url(../../Multimedia/estadio.png);
-  background-color: red;
+  background-image: url(../../Multimedia/fondoPelota.png);
+  background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
+  bottom: 18px;
   color: #FDF9F9;
 }
 
@@ -18,7 +20,7 @@ header h1 {
   font-weight: 800;
   line-height: 4.5rem;
   position: relative;
-  top: 388px;
+  top: 365px;
   left: 105px;
 }
 
@@ -29,7 +31,7 @@ header h1 span {
 
 header .header-cta {
   position: relative;
-  top: 393px;
+  top: 370px;
   left: 110px;
 }
 
@@ -61,7 +63,7 @@ header .header-cta button:hover {
           transform: scale(1.25);
 }
 
-header .auxiliarScroll {
+header .ScrollToBottom {
   position: absolute;
   top: 100vh;
 }

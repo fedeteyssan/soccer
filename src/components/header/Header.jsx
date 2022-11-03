@@ -1,4 +1,4 @@
-import "../header/Header.scss";
+import "./Header.scss";
 import { useRef } from "react";
 
 const Header = () => {
@@ -11,7 +11,6 @@ const Header = () => {
 
     return (
         <header>
-
             <hr></hr>
             <h1>
                 <span>En este mundial</span><br/>
@@ -27,7 +26,7 @@ const Header = () => {
                 <button onClick={controlClicktoScroll}>EMPEZAR</button>
             </div>
 
-            <p ref={scrollJuego} className="auxiliarScroll"></p>
+            <p ref={scrollJuego} className="ScrollToBottom"></p>
            
         </header>
     )

@@ -1,8 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import ListadoBotinesSelecciones from './containers/ListadoBotinesSelecciones';
 import ScrollToTop from './components/ScrollToTop';
+
 
 
 const App = () => {

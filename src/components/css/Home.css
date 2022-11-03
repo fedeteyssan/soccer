@@ -1,8 +1,5 @@
 section {
   height: calc(100vh - 5rem);
-}
-
-section .contenedor-seccion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +9,7 @@ section .contenedor-seccion {
           flex-direction: column;
 }
 
-section .contenedor-seccion h3 {
+section h3 {
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 3.25rem;
@@ -27,7 +24,7 @@ section .contenedor-seccion h3 {
   position: relative;
 }
 
-section .contenedor-seccion h3::before {
+section h3::before {
   content: "";
   display: block;
   width: 31.25rem;
@@ -38,7 +35,7 @@ section .contenedor-seccion h3::before {
   top: 50%;
 }
 
-section .contenedor-seccion h3::after {
+section h3::after {
   content: "";
   display: block;
   width: 31.25rem;
@@ -47,6 +44,79 @@ section .contenedor-seccion h3::after {
   position: absolute;
   left: 27.4rem;
   top: 50%;
+}
+
+section .contenedor-slider {
+  margin-top: 2rem;
+}
+
+section .contenedor-slider .contenedor-card-seleccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section .contenedor-slider .contenedor-card-seleccion .card-seleccion {
+  width: 15rem;
+  height: 22rem;
+  background-color: #f1f1f1;
+  border-radius: 28px;
+  -webkit-box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .contenedor-slider .contenedor-card-seleccion .card-seleccion .titulo-card-seleccion {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.75rem;
+  color: #413d3d;
+}
+
+section .contenedor-slider .contenedor-card-seleccion .card-seleccion .escudo-card-seleccion {
+  width: 12.125rem;
+  height: 12.125rem;
+}
+
+section .contenedor-slider .contenedor-selector-grupos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.5rem;
+}
+
+section .titulo-selector-grupos {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #a98323;
+  width: 22.875rem;
+  height: 2.375rem;
+  background: #fffefe;
+  border: 1px solid #be9324;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 160px;
+  z-index: 2;
 }
 
 .seccion-busqueda-selecciones {

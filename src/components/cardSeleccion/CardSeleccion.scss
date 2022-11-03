@@ -1,0 +1,26 @@
+
+.card-seleccion{
+    width: 15rem ;
+    height:22rem;
+    background-color: #f1f1f1;
+    border-radius: 28px;
+    box-shadow: 0p 4px 4px rgba(0,0,0,0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titulo-seleccion{
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.75rem;
+        color: #413d3d;
+    }
+
+    img{
+        width:12.125rem;
+        height:12.125rem;
+    }
+
+}

@@ -32,13 +32,14 @@ const ListadoBotinesSelecciones = () => {
         .catch((err) => console.log(err));
     }, [seleccionID]);
 
+
     return (
         <Container fluid className="contenedor-botines-selecciones">
             <h3>Botines por selección {seleccionID}</h3>
             <div className="contenedor-cards">
                 {botines.length
                 ? botines.map((botin) => <Item item={botin}/>)
-                : <div className="loader"><p>...Buscando jugadores...</p></div>  
+                : <div><p>...No disponible...</p></div>  
                 }    
             </div>
            

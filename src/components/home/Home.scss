@@ -4,49 +4,110 @@ section{
 
     height: $alturaSeccion;
 
-    .contenedor-seccion{
-        display:flex;
-        flex-direction: column;
+    display:flex;
+    flex-direction: column;
 
-        h3{
-            font-weight: 600;
-            font-size: 1.8rem;
-            line-height: 3.25rem;
-            text-align: center;
-            color:#ffca43;
+    h3{
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 3.25rem;
+        text-align: center;
+        color:#ffca43;
 
-            background-color: rgba(179,163,122,0.7);
-            border: 3px solid #be9324;
-            border-radius: 28px;
+        background-color: rgba(179,163,122,0.7);
+        border: 3px solid #be9324;
+        border-radius: 28px;
 
-            width: 27.25rem;
-            padding: 0.5rem 0;
-            margin: 2rem auto 0 auto;
-            position: relative;
+        width: 27.25rem;
+        padding: 0.5rem 0;
+        margin: 2rem auto 0 auto;
+        position: relative;
 
-            &::before{
-                content:"";
-                display: block;
-                width: 31.25rem;
-                height: 2px;
-                background:#d0b160;
-                position: absolute;
-                left: -31.4rem;
-                top:50%
-            }
+        &::before{
+            content:"";
+            display: block;
+            width: 31.25rem;
+            height: 2px;
+            background:#d0b160;
+            position: absolute;
+            left: -31.4rem;
+            top:50%
+        }
 
-            &::after{
-                content:"";
-                display: block;
-                width: 31.25rem;
-                height: 2px;
-                background:#d0b160;
-                position: absolute;
-                left: 27.4rem;
-                top:50%
+        &::after{
+            content:"";
+            display: block;
+            width: 31.25rem;
+            height: 2px;
+            background:#d0b160;
+            position: absolute;
+            left: 27.4rem;
+            top:50%
+        }
+    }  
+    
+    .contenedor-slider{
+        margin-top: 2rem;
+
+        .contenedor-card-seleccion{
+
+            display: flex;
+            justify-content:space-evenly;
+
+            .card-seleccion{
+                width: 15rem ;
+                height:22rem;
+                background-color: #f1f1f1;
+                border-radius: 28px;
+                box-shadow: 0p 4px 4px rgba(0,0,0,0.25);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .titulo-card-seleccion{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 2.75rem;
+                    color: #413d3d;
+                }
+
+                .escudo-card-seleccion{
+                    width:12.125rem;
+                    height:12.125rem;
+                }
             }
         }
+
+        .contenedor-selector-grupos{
+
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+        }
+
+       
+    } 
+    .titulo-selector-grupos{
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #a98323;
+
+        width: 22.875rem;
+        height: 2.375rem;
+        background: rgba(255,254,254, 1);
+        border:1px solid #be9324;
+        border-radius: 30px;
+
+        margin: 0 auto;
+        position: relative;
+        top: 160px;
+        z-index: 2;
+
     }
+    
 }
 
 .seccion-busqueda-selecciones{

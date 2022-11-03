@@ -40,6 +40,7 @@ const Posiciones = () =>{
                 </div>
             </Link>
 
+            <Link to="/posicion/Defensor">
                 <div className="contenedor-posicion contenedor-ld">
                     <div className="contenedor-hover">
                         <p>LATERAL DERECHO</p>
@@ -48,8 +49,9 @@ const Posiciones = () =>{
                     </div>            
                     <button className="posicion">LD</button>
                 </div>
+            </Link>
 
-            <Link to="/posicion/Defensor">
+            <Link to="/posicion/Mediocampista">
                 <div className="contenedor-posicion contenedor-mcd">
                     <div className="contenedor-hover">
                         <p>MEDIOCAMPO DEFENSIVO</p>

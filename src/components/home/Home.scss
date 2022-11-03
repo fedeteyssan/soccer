@@ -2,7 +2,7 @@ section{
 
     $alturaSeccion:calc(100vh - 5rem);
 
-    height: $alturaSeccion;
+    height:810px;
 
     display:flex;
     flex-direction: column;
@@ -22,28 +22,6 @@ section{
         padding: 0.5rem 0;
         margin: 2rem auto 0 auto;
         position: relative;
-
-        &::before{
-            content:"";
-            display: block;
-            width: 31.25rem;
-            height: 2px;
-            background:#d0b160;
-            position: absolute;
-            left: -31.4rem;
-            top:50%
-        }
-
-        &::after{
-            content:"";
-            display: block;
-            width: 31.25rem;
-            height: 2px;
-            background:#d0b160;
-            position: absolute;
-            left: 27.4rem;
-            top:50%
-        }
     }  
     
     .contenedor-slider{

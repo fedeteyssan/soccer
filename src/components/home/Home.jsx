@@ -4,6 +4,7 @@ import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Posiciones from "../posiciones/Posiciones";
 import "./Home.scss";
+import { Container } from "react-bootstrap";
 
 
 const Home = (props) => {
@@ -12,7 +13,7 @@ const Home = (props) => {
     
 
     return (
-        <main className={props.className}>
+        <Container fluid className={props.className}>
 
             <Header></Header>
             <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
@@ -41,7 +42,7 @@ const Home = (props) => {
             <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
             <section className="seccion-busqueda-jugador"></section>
             
-        </main>
+        </Container>
     )
 }
 

@@ -2,7 +2,11 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    margin-left: 440px;
+
+    $margin-cancha:calc(100vw - 1030px);
+    margin-left: $margin-cancha;
+
+   
 
     a{
         text-decoration: none;
@@ -77,67 +81,67 @@
 
     .contenedor-arq{
         position: absolute;
-        left:414px;
+        left:424px;
         top: 575px;
     }
 
     .contenedor-li{
         position: absolute;
-        left:104px;
+        left:114px;
         top: 390px;
     }
 
     .contenedor-dfc{
         position: absolute;
-        left:414px;
+        left:424px;
         top: 440px;
     }
 
     .contenedor-ld{
         position: absolute;
-        left:724px;
+        left:734px;
         top: 390px;
     }
 
     .contenedor-mcd{
         position: absolute;
-        left:414px;
+        left:424px;
         top: 305px;
     }
 
     .contenedor-mi{
         position: absolute;
-        left:164px;
+        left:174px;
         top: 205px;
     }
 
     .contenedor-md{
         position: absolute;
-        left:664px;
+        left:674px;
         top: 205px;
     }
 
     .contenedor-mco{
         position: absolute;
-        left:414px;
+        left:424px;
         top: 165px;
     }
 
     .contenedor-ei{
         position: absolute;
-        left:174px;
+        left:184px;
         top:50px;
     }
 
     .contenedor-dc{
         position: absolute;
-        left:414px;
+        left:424px;
         top:20px;
     }
 
     .contenedor-ed{
         position: absolute;
-        left:654px;
+        left:664px;
         top:50px;
     }
     

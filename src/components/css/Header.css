@@ -2,7 +2,7 @@ header {
   background-image: url(../../Multimedia/fondoPelota.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 810px;
   color: #FDF9F9;
 }
 
@@ -64,6 +64,6 @@ header .header-cta button:hover {
 
 header .ScrollToBottom {
   position: absolute;
-  top: calc(100vh + 1rem);
+  top: 826px;
 }
 /*# sourceMappingURL=Header.css.map */

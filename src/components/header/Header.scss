@@ -2,7 +2,7 @@ header{
     background-image: url(../../Multimedia/fondoPelota.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 810px;
    
 
     color: #FDF9F9;
@@ -70,7 +70,7 @@ header{
         $scroll:calc(100vh + 1rem);
 
         position: absolute;
-        top: $scroll;
+        top: 826px;
 
         
     }

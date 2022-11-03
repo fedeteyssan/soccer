@@ -1,0 +1,153 @@
+.formacion {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 440px;
+}
+
+.formacion a {
+  text-decoration: none;
+  color: black;
+}
+
+.formacion .contenedor-cancha {
+  position: relative;
+  top: 2.5rem;
+}
+
+.formacion .contenedor-cancha img {
+  width: 63rem;
+  height: 45rem;
+}
+
+.formacion .contenedor-posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 142px;
+}
+
+.formacion .contenedor-posicion .contenedor-hover {
+  padding-bottom: 50px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.formacion .contenedor-posicion .contenedor-hover:hover {
+  opacity: 1;
+}
+
+.formacion .contenedor-posicion .contenedor-hover p {
+  text-align: center;
+  margin: auto;
+  background-color: #FFFFFF;
+  font-size: 0.7rem;
+}
+
+.formacion .contenedor-posicion .contenedor-hover img {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.formacion .contenedor-posicion .contenedor-hover .camiseta {
+  width: 50px;
+}
+
+.formacion .contenedor-posicion .contenedor-hover .cursor {
+  width: 15px;
+}
+
+.formacion .contenedor-posicion .posicion {
+  height: 30px;
+  width: 65px;
+  border-radius: 50%;
+  border: grey;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(202, 199, 199, 0.7)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  bottom: 60px;
+}
+
+.formacion .contenedor-arq {
+  position: absolute;
+  left: 414px;
+  top: 575px;
+}
+
+.formacion .contenedor-li {
+  position: absolute;
+  left: 104px;
+  top: 390px;
+}
+
+.formacion .contenedor-dfc {
+  position: absolute;
+  left: 414px;
+  top: 440px;
+}
+
+.formacion .contenedor-ld {
+  position: absolute;
+  left: 724px;
+  top: 390px;
+}
+
+.formacion .contenedor-mcd {
+  position: absolute;
+  left: 414px;
+  top: 305px;
+}
+
+.formacion .contenedor-mi {
+  position: absolute;
+  left: 164px;
+  top: 205px;
+}
+
+.formacion .contenedor-md {
+  position: absolute;
+  left: 664px;
+  top: 205px;
+}
+
+.formacion .contenedor-mco {
+  position: absolute;
+  left: 414px;
+  top: 165px;
+}
+
+.formacion .contenedor-ei {
+  position: absolute;
+  left: 174px;
+  top: 50px;
+}
+
+.formacion .contenedor-dc {
+  position: absolute;
+  left: 414px;
+  top: 20px;
+}
+
+.formacion .contenedor-ed {
+  position: absolute;
+  left: 654px;
+  top: 50px;
+}
+/*# sourceMappingURL=Posiciones.css.map */

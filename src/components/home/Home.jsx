@@ -2,6 +2,7 @@
 import Header from "../header/Header";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
+import Posiciones from "../posiciones/Posiciones";
 import "./Home.scss";
 
 
@@ -31,7 +32,11 @@ const Home = (props) => {
             <section className="seccion-busqueda-estilos"></section>
       
             <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
-            <section className="seccion-busqueda-posiciones"></section>
+            <section className="seccion-busqueda-posiciones">
+
+                <Posiciones></Posiciones>
+
+            </section>
       
             <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
             <section className="seccion-busqueda-jugador"></section>

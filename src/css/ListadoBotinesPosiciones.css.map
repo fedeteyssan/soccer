@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,8BAF0B,CAE1B,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;CACrB;;AAJL,AAMI,8BAN0B,CAM1B,iBAAiB,CAAA;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../containers/ListadoBotinesPosiciones.scss"
+    ],
+    "names": [],
+    "file": "ListadoBotinesPosiciones.css"
+}

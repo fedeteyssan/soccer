@@ -6,7 +6,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-left: calc(100vw - 1030px);
+  margin: 0 auto;
 }
 
 .formacion a {
@@ -87,67 +87,67 @@
 
 .formacion .contenedor-arq {
   position: absolute;
-  left: 424px;
+  left: 414px;
   top: 575px;
 }
 
 .formacion .contenedor-li {
   position: absolute;
-  left: 114px;
+  left: 104px;
   top: 390px;
 }
 
 .formacion .contenedor-dfc {
   position: absolute;
-  left: 424px;
+  left: 414px;
   top: 440px;
 }
 
 .formacion .contenedor-ld {
   position: absolute;
-  left: 734px;
+  left: 724px;
   top: 390px;
 }
 
 .formacion .contenedor-mcd {
   position: absolute;
-  left: 424px;
+  left: 414px;
   top: 305px;
 }
 
 .formacion .contenedor-mi {
   position: absolute;
-  left: 174px;
+  left: 164px;
   top: 205px;
 }
 
 .formacion .contenedor-md {
   position: absolute;
-  left: 674px;
+  left: 664px;
   top: 205px;
 }
 
 .formacion .contenedor-mco {
   position: absolute;
-  left: 424px;
+  left: 414px;
   top: 165px;
 }
 
 .formacion .contenedor-ei {
   position: absolute;
-  left: 184px;
+  left: 174px;
   top: 50px;
 }
 
 .formacion .contenedor-dc {
   position: absolute;
-  left: 424px;
+  left: 414px;
   top: 20px;
 }
 
 .formacion .contenedor-ed {
   position: absolute;
-  left: 664px;
+  left: 654px;
   top: 50px;
 }
 /*# sourceMappingURL=Posiciones.css.map */

@@ -2,9 +2,7 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-
-    $margin-cancha:calc(100vw - 1030px);
-    margin-left: $margin-cancha;
+    margin: 0 auto;
 
    
 
@@ -17,7 +15,6 @@
     
         position: relative;
         top: 2.5rem;
-        
     
         img{
             width: 63rem;
@@ -81,67 +78,67 @@
 
     .contenedor-arq{
         position: absolute;
-        left:424px;
+        left:414px;
         top: 575px;
     }
 
     .contenedor-li{
         position: absolute;
-        left:114px;
+        left:104px;
         top: 390px;
     }
 
     .contenedor-dfc{
         position: absolute;
-        left:424px;
+        left:414px;
         top: 440px;
     }
 
     .contenedor-ld{
         position: absolute;
-        left:734px;
+        left:724px;
         top: 390px;
     }
 
     .contenedor-mcd{
         position: absolute;
-        left:424px;
+        left:414px;
         top: 305px;
     }
 
     .contenedor-mi{
         position: absolute;
-        left:174px;
+        left:164px;
         top: 205px;
     }
 
     .contenedor-md{
         position: absolute;
-        left:674px;
+        left:664px;
         top: 205px;
     }
 
     .contenedor-mco{
         position: absolute;
-        left:424px;
+        left:414px;
         top: 165px;
     }
 
     .contenedor-ei{
         position: absolute;
-        left:184px;
+        left:174px;
         top:50px;
     }
 
     .contenedor-dc{
         position: absolute;
-        left:424px;
+        left:414px;
         top:20px;
     }
 
     .contenedor-ed{
         position: absolute;
-        left:664px;
+        left:654px;
         top:50px;
     }
     

@@ -4,13 +4,16 @@ import { useParams } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
+import { Link } from "react-router-dom";
 
 const ListadoBotinesSelecciones = () => {
 
-   
-    
     const{ seleccionID } = useParams();
+    const{ posicionID } = useParams();
+    
     const [botines, setBotines] = useState([]);
+    const[filteredBotines, setFilteredBotines]= useState([]);
+    
 
     const getbotines = (dataBase) => 
         new Promise((resolve, reject) => {
@@ -22,6 +25,7 @@ const ListadoBotinesSelecciones = () => {
             };
             
     });
+
     useEffect(() => {
         getbotines(baseBotines)
         .then((result) => {
@@ -32,13 +36,28 @@ const ListadoBotinesSelecciones = () => {
         .catch((err) => console.log(err));
     }, [seleccionID]);
 
+    useEffect(() => {
+        if (!botines) return;
+        if(posicionID){
+            const newFilteredProducts = botines.filter((product)=>product.posicion === posicionID);
+            setFilteredBotines(newFilteredProducts);
+        }
+        else{setFilteredBotines(botines)}
+        
+       },[botines,posicionID]);
+
 
     return (
         <Container fluid className="contenedor-botines-selecciones">
             <h3>Botines por selección {seleccionID}</h3>
+           <Link to={`/seleccion/${seleccionID}/Arquero`}><button >Arquero</button></Link>
+           <Link to={`/seleccion/${seleccionID}/Defensor`}><button >Defensor</button></Link> 
+           <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button >Mediocampista</button></Link> 
+           <Link to={`/seleccion/${seleccionID}/Delantero`}><button >Delantero</button></Link> 
+           
             <div className="contenedor-cards">
-                {botines.length
-                ? botines.map((botin) => <Item item={botin}/>)
+                {filteredBotines.length
+                ? filteredBotines.map((botin) => <Item item={botin}/>)
                 : <div><p>...No disponible...</p></div>  
                 }    
             </div>

@@ -1,6 +1,5 @@
 import "./Posiciones.scss";
 import { Link } from "react-router-dom";
-import { Container } from "react-bootstrap";
 
 const Posiciones = () =>{
 
@@ -129,9 +128,9 @@ const Posiciones = () =>{
                 </div>
             </Link>
 
-            <Container className="contenedor-cancha">
+            <div className="contenedor-cancha">
                 <img src= {require ("../../Multimedia/cancha.png")} alt="" />
-            </Container>            
+            </div>            
         </div>
     )
 

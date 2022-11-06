@@ -1,0 +1,33 @@
+
+
+.contenedor-cards-estilos{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 18rem;
+
+    .card-estilos{
+        width: 197px;
+        height: 200px;
+        border: 1px solid;
+        margin: 2rem 1rem;
+
+        background: linear-gradient(180deg, #930000 0%, #3F3634 100%);
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+    }
+}

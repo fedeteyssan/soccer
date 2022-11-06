@@ -20,12 +20,16 @@ section{
         border: 3px solid #be9324;
         border-radius: 28px;
 
-        width: 84rem;
+        width: 100%;
         padding: 0.5rem 0;
         margin: 1rem auto 0 auto;
         position: relative;
         z-index: 1;
     }  
+
+    .subtitulo-estilos{
+        background: linear-gradient(180deg, #771B1B 0%, #4B4140 100%);
+    }
     
     .contenedor-slider{
         margin-top: 2rem;
@@ -97,7 +101,7 @@ section{
 }
 
 .seccion-busqueda-estilos{
-    background: green;
+    background: white;
 }
 
 .seccion-busqueda-posiciones{

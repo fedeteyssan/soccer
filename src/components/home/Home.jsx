@@ -1,10 +1,11 @@
-
+import "./Home.scss";
 import Header from "../header/Header";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Posiciones from "../posiciones/Posiciones";
-import "./Home.scss";
+import Estilos from "../estilos/Estilos";
 import { Container } from "react-bootstrap";
+
 
 
 const Home = (props) => {
@@ -32,12 +33,18 @@ const Home = (props) => {
             </section>
            
             <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
-            <section className="seccion-busqueda-estilos"></section>
+            <section className="seccion-busqueda-estilos">
+
+                <h3 className="subtitulo-estilos">ELEGI TU ESTILO DE JUEGO</h3>
+
+                <Estilos></Estilos>
+
+            </section>
       
             <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
             <section className="seccion-busqueda-posiciones">
 
-                <h3>SELECCIONÁ UNA POSICIÓN EN LA CANCHA</h3>
+                <h3>SELECCIONÁ TU POSICIÓN EN LA CANCHA</h3>
 
                 <Posiciones></Posiciones>
 

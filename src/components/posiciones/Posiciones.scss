@@ -4,7 +4,6 @@
     align-items: flex-end;
     margin: 0 auto;
 
-   
 
     a{
         text-decoration: none;
@@ -14,11 +13,11 @@
     .contenedor-cancha{
     
         position: relative;
-        top: 2.5rem;
+        top: 2rem;
     
         img{
-            width: 63rem;
-            height: 45rem;
+            width: 58rem;
+            height: 38rem;
         }
     }
     
@@ -43,6 +42,8 @@
             p{
                 text-align: center;
                 margin: auto;
+                position: relative;
+                top: 5px;
                 background-color: #FFFFFF;
                 font-size: 0.7rem;
             }
@@ -53,7 +54,7 @@
             }
 
             .camiseta{
-                width: 50px;
+                width: 45px;
             }
 
             .cursor{
@@ -78,68 +79,68 @@
 
     .contenedor-arq{
         position: absolute;
-        left:414px;
-        top: 575px;
+        left:380px;
+        top: 510px;
     }
 
     .contenedor-li{
         position: absolute;
-        left:104px;
-        top: 390px;
+        left:90px;
+        top: 320px;
     }
 
     .contenedor-dfc{
         position: absolute;
-        left:414px;
-        top: 440px;
+        left:380px;
+        top: 380px;
     }
 
     .contenedor-ld{
         position: absolute;
-        left:724px;
-        top: 390px;
+        left:670px;
+        top: 320px;
     }
 
     .contenedor-mcd{
         position: absolute;
-        left:414px;
-        top: 305px;
+        left:380px;
+        top: 250px;
     }
 
     .contenedor-mi{
         position: absolute;
-        left:164px;
-        top: 205px;
+        left:130px;
+        top: 180px;
     }
 
     .contenedor-md{
         position: absolute;
-        left:664px;
-        top: 205px;
+        left:640px;
+        top: 180px;
     }
 
     .contenedor-mco{
         position: absolute;
-        left:414px;
-        top: 165px;
+        left:380px;
+        top: 130px;
     }
 
     .contenedor-ei{
         position: absolute;
-        left:174px;
-        top:50px;
+        left:140px;
+        top:20px;
     }
 
     .contenedor-dc{
         position: absolute;
-        left:414px;
-        top:20px;
+        left:380px;
+        top:5px;
     }
 
     .contenedor-ed{
         position: absolute;
-        left:654px;
-        top:50px;
+        left:620px;
+        top:20px;
     }
     
 }

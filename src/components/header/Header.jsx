@@ -19,8 +19,8 @@ const Header = () => {
 
             <div className="header-cta">
                 <p>
-                    Jugá con nuestro buscador y encontrá el arma<br/>
-                    secreta de las figuras de Qatar 2022
+                    Jugá con nuestro buscador y encontrá el par de botines<br/>
+                    que te hará brillar en tu próximo partido
                 </p>
 
                 <button onClick={controlClicktoScroll}>EMPEZAR</button>

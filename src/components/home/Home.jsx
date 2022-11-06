@@ -19,7 +19,7 @@ const Home = (props) => {
             <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
             <section  className="seccion-busqueda-selecciones">
 
-                
+
 
                 <h3>SELECCIONÁ UN PAIS</h3>
 
@@ -36,6 +36,8 @@ const Home = (props) => {
       
             <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
             <section className="seccion-busqueda-posiciones">
+
+                <h3>SELECCIONÁ UNA POSICIÓN EN LA CANCHA</h3>
 
                 <Posiciones></Posiciones>
 

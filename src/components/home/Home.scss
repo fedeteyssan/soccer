@@ -17,13 +17,12 @@ section{
         background: linear-gradient(180deg, #4F6238 0%, #464D43 100%);
         clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
 
-
         border: 3px solid #be9324;
         border-radius: 28px;
 
         width: 84rem;
         padding: 0.5rem 0;
-        margin: 2rem auto 0 auto;
+        margin: 1rem auto 0 auto;
         position: relative;
         z-index: 1;
     }  
@@ -102,7 +101,7 @@ section{
 }
 
 .seccion-busqueda-posiciones{
-    background: white;
+    background-image: url(../../Multimedia/seccionPosiciones-bg.png);
 }
 
 .seccion-busqueda-jugador{

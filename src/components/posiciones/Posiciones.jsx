@@ -129,7 +129,7 @@ const Posiciones = () =>{
             </Link>
 
             <div className="contenedor-cancha">
-                <img src= {require ("../../Multimedia/cancha.png")} alt="" />
+                <img src= {require ("../../Multimedia/cancha-tactica.png")} alt="" />
             </div>            
         </div>
     )

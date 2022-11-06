@@ -19,6 +19,8 @@ const Home = (props) => {
             <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
             <section  className="seccion-busqueda-selecciones">
 
+                
+
                 <h3>SELECCIONÁ UN PAIS</h3>
 
                 <Carousel></Carousel>

@@ -14,14 +14,18 @@ section{
         text-align: center;
         color:#ffca43;
 
-        background-color: rgba(179,163,122,0.7);
+        background: linear-gradient(180deg, #4F6238 0%, #464D43 100%);
+        clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
+
+
         border: 3px solid #be9324;
         border-radius: 28px;
 
-        width: 27.25rem;
+        width: 84rem;
         padding: 0.5rem 0;
         margin: 2rem auto 0 auto;
         position: relative;
+        z-index: 1;
     }  
     
     .contenedor-slider{
@@ -79,17 +83,18 @@ section{
         border:1px solid #be9324;
         border-radius: 30px;
 
+        padding-top: 0.25rem;
         margin: 0 auto;
         position: relative;
-        top: 160px;
-        z-index: 2;
+        bottom: 110px;
+        z-index: 3;
 
     }
     
 }
 
 .seccion-busqueda-selecciones{
-    background: rgba(217,217,217,0.69);
+    background-image: url(../../Multimedia/seccionPaises-bg.png);
 }
 
 .seccion-busqueda-estilos{
@@ -103,3 +108,4 @@ section{
 .seccion-busqueda-jugador{
     background: #04040D;
 }
+

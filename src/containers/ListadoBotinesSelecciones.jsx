@@ -14,6 +14,12 @@ const ListadoBotinesSelecciones = () => {
     
     const [botines, setBotines] = useState([]);
     const[filteredBotines, setFilteredBotines]= useState([]);
+
+    const [flag,setFlag]=useState(false)
+
+    const handleClick =() =>{
+        setFlag(true);
+    }
     
 
     const getbotines = (dataBase) => 
@@ -48,6 +54,8 @@ const ListadoBotinesSelecciones = () => {
 
 
 
+
+
     return (
         <Container fluid className="contenedor-botines-selecciones">
 
@@ -59,9 +67,14 @@ const ListadoBotinesSelecciones = () => {
 
                 <h4>FILTROS</h4>
 
-                <button className="filtros">POSICION</button>
+                <div className="filtros">
+                    <span>POSICION</span>
+                    <img onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                </div>
 
-                <div className="tactica-sidebar">
+                {flag && (<div className="tactica-sidebar">
+
+                    
                     <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
                     <Link to={`/seleccion/${seleccionID}/Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
@@ -78,12 +91,9 @@ const ListadoBotinesSelecciones = () => {
                     <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
                     <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
                 </div>
-
+                )}
 
             </aside>
-            
-           
-
 
            
             <div className="contenedor-cards">

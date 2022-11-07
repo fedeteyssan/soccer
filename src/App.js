@@ -30,6 +30,12 @@ const App = () => {
           <ListadoBotinesSelecciones/>
         </Route>
 
+        <Route exact path="/seleccion/:seleccionID/:estiloID">
+          <ScrollToTop/>
+          <ListadoBotinesSelecciones/>
+        </Route>
+        
+
         <Route exact path="/posicion/:posicionID">
           <ScrollToTop/>
           <ListadoBotinesPosiciones/>

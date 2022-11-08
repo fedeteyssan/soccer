@@ -6,6 +6,7 @@ import ListadoBotinesSelecciones from './containers/ListadoBotinesSelecciones';
 import ListadoBotinesPosiciones from './containers/ListadoBotinesPosiciones';
 import ListadoBotinesEstilos from './containers/ListadoBotinesEstilos';
 import ScrollToTop from './components/ScrollToTop';
+import ListadoBotinesJugador from './containers/ListadoBotinesJugador';
   
 
 const App = () => {
@@ -36,7 +37,6 @@ const App = () => {
           <ListadoBotinesSelecciones/>
         </Route>
         
-
         <Route exact path="/posicion/:posicionID">
           <ScrollToTop/>
           <ListadoBotinesPosiciones/>
@@ -65,6 +65,11 @@ const App = () => {
         <Route exact path="/estilo/:estiloID/:seleccionID">
           <ScrollToTop/>
           <ListadoBotinesEstilos/>
+        </Route>
+
+        <Route exact path="/jugador/:jugadorID/">
+          <ScrollToTop/>
+          <ListadoBotinesJugador/>
         </Route>
         
 

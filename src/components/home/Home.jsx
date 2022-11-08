@@ -5,6 +5,7 @@ import Carousel from "../carousel/Carousel";
 import Posiciones from "../posiciones/Posiciones";
 import Estilos from "../estilos/Estilos";
 import { Container } from "react-bootstrap";
+import ListadoBotinesJugador from "../../containers/ListadoBotinesJugador";
 
 
 
@@ -51,7 +52,10 @@ const Home = (props) => {
             </section>
       
             <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
-            <section className="seccion-busqueda-jugador"></section>
+            <section className="seccion-busqueda-jugador">
+
+                <ListadoBotinesJugador></ListadoBotinesJugador>
+            </section>
             
         </Container>
     )

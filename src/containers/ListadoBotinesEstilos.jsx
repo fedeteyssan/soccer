@@ -6,7 +6,7 @@ import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 import { Link } from "react-router-dom";
 
-const ListadoBotinesSelecciones = () => {
+const ListadoBotinesEsilos = () => {
 
     const{ estiloID } = useParams();
     const{ posicionID } = useParams();
@@ -80,4 +80,4 @@ const ListadoBotinesSelecciones = () => {
      );
  };
  
- export default ListadoBotinesSelecciones;
+ export default ListadoBotinesEsilos;

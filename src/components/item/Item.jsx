@@ -7,7 +7,7 @@ const Item = ({item}) =>{
         <div className="card-botines" >
 
             <div className="jugador-box">
-                <h3 className="nombre-jugador">{item.jugador}</h3>
+                <h4 className="nombre-jugador">{item.jugador}</h4>
                 
                 <h5 >{item.seleccion}</h5>
                 <h5 >{item.posicion}</h5>
@@ -17,7 +17,7 @@ const Item = ({item}) =>{
             <img className="botines-img" alt="" src={item.imagen} />
 
             <div className="botin-box">
-                <h3 className="nombre-botin">{item.botin}</h3>
+                <h4 className="nombre-botin">{item.botin}</h4>
 
                 <div className="skills">
                     <p>Skill 1</p>

@@ -29,13 +29,11 @@ const ListadoBotinesJugador = () => {
     }
 
     const filtrar = (terminoBusqueda) =>{
-        let resultadoBusqueda = tablaBotines.filter((elemento) => {
-            if(elemento.jugador.toString().toLowerCase().normalize('NFD')
+        let resultadoBusqueda = tablaBotines.filter((elemento) => 
+            elemento.jugador.toString().toLowerCase().normalize('NFD')
             .replace(/([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+/gi,"$1")
-            .normalize().includes(terminoBusqueda.toLowerCase().trim())){
-            return elemento;
-            }
-        });
+            .normalize().includes(terminoBusqueda.toLowerCase().trim())
+        );
         setBotines(resultadoBusqueda);
        
     }

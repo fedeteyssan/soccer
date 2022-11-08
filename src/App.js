@@ -47,22 +47,7 @@ const App = () => {
           <ListadoBotinesPosiciones/>
         </Route>
 
-        <Route exact path="/estilo/:estiloID">
-          <ScrollToTop/>
-          <ListadoBotinesEstilos/>
-        </Route>
-
-        <Route exact path="/estilo/:estiloID/:posicionID">
-          <ScrollToTop/>
-          <ListadoBotinesEstilos/>
-        </Route>
-
-        <Route exact path="/estilo/:estiloID/:posicionID/:seleccionID">
-          <ScrollToTop/>
-          <ListadoBotinesEstilos/>
-        </Route>
-
-        <Route exact path="/estilo/:estiloID/:seleccionID">
+        <Route exact path="/estilo">
           <ScrollToTop/>
           <ListadoBotinesEstilos/>
         </Route>

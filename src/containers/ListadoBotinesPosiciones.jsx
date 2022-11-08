@@ -16,7 +16,7 @@ const ListadoBotinesPosiciones = () => {
     const [flag,setFlag]=useState(false)
 
     const handleClick =() =>{
-        setFlag(true);
+        setFlag(flag?false:true);
     }
 
     let history = useHistory();
@@ -68,7 +68,7 @@ const ListadoBotinesPosiciones = () => {
 
                 <div className="filtros">
                     <span>SELECCION</span>
-                    <img onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                    <img className={flag?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                 </div>
 
                 {flag && (<div className="contenedor-selector-paises">

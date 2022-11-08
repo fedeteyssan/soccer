@@ -1,20 +1,21 @@
 import "./ListadoBotinesEstilos.scss";
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 import { Link } from "react-router-dom";
+import { useQuery } from "../hooks/useQuery";
 
 const ListadoBotinesEsilos = () => {
 
-    const{ estiloID } = useParams();
-    const{ posicionID } = useParams();
-    const{ seleccionID } = useParams();
+    const query = useQuery();
+
+    const estiloID = query.get("estilo");
+    const seleccionID = query.get("seleccion");
+    const posicionID = query.get("posicion");
     
     const [botines, setBotines] = useState([]);
-    const[filteredBotines1, setFilteredBotines1]= useState([]);
-    const[filteredBotines2, setFilteredBotines2]= useState([]);
+    const[filteredBotines, setFilteredBotines]= useState([]);
     
 
     const getbotines = (dataBase) => 
@@ -40,21 +41,18 @@ const ListadoBotinesEsilos = () => {
 
     useEffect(() => {
         if (!botines) return;
-        if(posicionID){
-            const FilteredProducts = botines.filter((product)=>product.posicion === posicionID);
-            setFilteredBotines1(FilteredProducts);
-        }
-        else {setFilteredBotines1(botines)}
-    },[botines,posicionID]);
+        let filteredProducts = botines;
 
-    useEffect(() => {
-        if (!filteredBotines1) return;
-        if(seleccionID){
-            const newFilteredProducts = filteredBotines1.filter((product)=>product.seleccion === seleccionID );
-            setFilteredBotines2(newFilteredProducts);
+        if(posicionID&&posicionID!=="null"){
+            filteredProducts = filteredProducts.filter((product)=>product.posicion === posicionID); 
         }
-        else {setFilteredBotines2(filteredBotines1)}
-    },[filteredBotines1, seleccionID]);
+
+        if(seleccionID&&seleccionID!=="null"){
+            filteredProducts = filteredProducts.filter((product)=>product.seleccion === seleccionID);   
+        }
+        setFilteredBotines(filteredProducts)
+        
+    },[botines,posicionID,seleccionID]);
 
 
 
@@ -65,13 +63,18 @@ const ListadoBotinesEsilos = () => {
                 <h3>Botines estilo {estiloID}</h3>
             </div>
 
-            <Link to={`/estilo/${estiloID}/Delantero`}><button>Delantero</button></Link>
-            <Link to={`/estilo/${estiloID}/${posicionID}/Argentina`}><button>Argentina</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=Argentina&posicion=${posicionID}`}><button>Argentina</button></Link>
+
+            <Link to={`/estilo?estilo=${estiloID}&posicion=Delantero&seleccion=${seleccionID}`}><button>Delantero</button></Link>
+
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=Argentina`}><button>Argentina</button></Link>
+
+            <Link to={`/estilo?estilo=${estiloID}&posicion=Delantero`}><button>Delantero</button></Link>
             
            
             <div className="contenedor-cards">
-                {filteredBotines2.length
-                ? filteredBotines2.map((botin) => <Item item={botin}/>)
+                {filteredBotines.length
+                ? filteredBotines.map((botin) => <Item item={botin}/>)
                 : <div><p>...No disponible...</p></div>  
                 }    
             </div>

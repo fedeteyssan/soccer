@@ -18,7 +18,7 @@ const ListadoBotinesSelecciones = () => {
     const [flag,setFlag]=useState(false)
 
     const handleClick =() =>{
-        setFlag(true);
+        setFlag(flag?false:true);
     }
     
 
@@ -69,7 +69,7 @@ const ListadoBotinesSelecciones = () => {
 
                 <div className="filtros">
                     <span>POSICION</span>
-                    <img onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                    <img className={flag?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                 </div>
 
                 {flag && (<div className="tactica-sidebar">

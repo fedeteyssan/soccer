@@ -59,6 +59,10 @@
 
             margin: 0 auto;
 
+            img.open{
+                transform: rotate(180deg);
+            }
+
             span{
                 margin-left: 1rem;
                 font-weight: 600;

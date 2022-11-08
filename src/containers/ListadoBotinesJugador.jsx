@@ -57,10 +57,10 @@ const ListadoBotinesJugador = () => {
 
             </div>
             
-        
+
             <div className="contenedor-cards">
                 {botines.length
-                ? botines.map((botin) => <Item item={botin}/>)
+                ? busqueda && botines.map((botin) => <Item item={botin}/>)
                 : <div><p>...No disponible...</p></div>  
                 }    
             </div>

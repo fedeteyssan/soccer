@@ -2,77 +2,69 @@ header{
     background-image: url(../../Multimedia/fondoPelota.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 810px;
-   
-
+    height: 822px;
     color: #FDF9F9;
 
-    hr{
-        border: 2px solid #d0b160;
-        box-shadow: 0px 4px 4px #ffca43;
 
+    .header-container{
+        height: fit-content;
         position: relative;
-        top:88px;
-    }
+        top:200px;
 
-    h1{
-        font-size: 3.125rem;
-        font-weight: 800;
-        line-height: 4.5rem;
-        
-        position: relative;
-        top:365px;
-        left: 105px;
-       
-        span{
-            font-style: italic;
-            font-weight: 600;
-        }
-    }
-
-    .header-cta{
-        position: relative;
-        top:370px;
-        left:110px;
-
-        p{
-            font-size: 1.5rem;
-            font-weight: 500;
-            line-height: 2.5rem; 
-        }
+        h1{
+            font-size: 3.125rem;
+            font-weight: 800;
+            line-height: 4.5rem;
     
-    
-        button{  
-            font-size: 1rem;
-            font-weight: 600;
-            line-height: 1.5rem; 
-            
-            color: #FDF9F9;
-            background-color:#d0b160;
-            border: 3px solid #d0b160;
-            border-radius: 33px;
-
-            padding: 10px 35px;
-
-            position: relative;
-            top:20px;
+            margin-left: 105px;
         
-
-            transition: transform .5s;
-            &:hover{
-                transform: scale(1.25);
+           
+            span{
+                font-style: italic;
+                font-weight: 600;
             }
         }
-
-    }
-
-    .ScrollToBottom{
-        $scroll:calc(100vh + 1rem);
-
-        position: absolute;
-        top: 826px;
-
+    
+        .header-cta{
+            
+            margin-left: 110px;
+    
+            p{
+                font-size: 1.5rem;
+                font-weight: 500;
+                line-height: 2.5rem; 
+            }
         
-    }
+        
+            button{  
+                font-size: 1rem;
+                font-weight: 600;
+                line-height: 1.5rem; 
+                
+                color: #FDF9F9;
+                background-color:#d0b160;
+                border: 3px solid #d0b160;
+                border-radius: 33px;
+    
+                padding: 10px 35px;
+            
+    
+                transition: transform .5s;
+                &:hover{
+                    transform: scale(1.25);
+                }
+            }
+    
+        }
+    
+        .ScrollToBottom{
+            $scroll:calc(100vh + 1rem);
+    
+            position: absolute;
+            top: 622px;
+    
+            
+        }
 
+    }
 }

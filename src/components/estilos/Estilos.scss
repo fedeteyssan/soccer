@@ -5,7 +5,11 @@
     display: flex;
     justify-content: center;
     position: relative;
-    left: 18rem;
+    margin-left: 18rem;
+
+    a{
+        text-decoration: none;
+    }
 
     .card-estilos{
         width: 197px;

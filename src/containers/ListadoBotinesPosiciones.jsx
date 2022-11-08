@@ -6,8 +6,6 @@ import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 
 const ListadoBotinesPosiciones = () => {
-
-   
     
     const{ posicionID } = useParams();
     const{ seleccionID } = useParams();

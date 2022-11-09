@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
-import { Link } from "react-router-dom";
+import { Link,useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
 
 const ListadoBotinesEsilos = () => {
@@ -16,6 +16,22 @@ const ListadoBotinesEsilos = () => {
     
     const [botines, setBotines] = useState([]);
     const[filteredBotines, setFilteredBotines]= useState([]);
+
+    const [flagPosicion,setFlagPosicion]=useState(false)
+    const handleClick =() =>{
+        setFlagPosicion(flagPosicion?false:true);
+    }
+
+    const [flagSeleccion,setFlagSeleccion]=useState(false)
+    const handleClick2 =() =>{
+        setFlagSeleccion(flagSeleccion?false:true);
+    }
+
+    let history = useHistory();
+
+    function handleChange(value) {
+    history.push(`/estilo?estilo=${estiloID}&posicion=${posicionID}&seleccion=${value}`);
+  }
     
 
     const getbotines = (dataBase) => 
@@ -63,14 +79,86 @@ const ListadoBotinesEsilos = () => {
                 <h3>Botines estilo {estiloID}</h3>
             </div>
 
-            <Link to={`/estilo?estilo=${estiloID}&seleccion=Argentina&posicion=${posicionID}`}><button>Argentina</button></Link>
+            <aside className="controlador">
 
-            <Link to={`/estilo?estilo=${estiloID}&posicion=Delantero&seleccion=${seleccionID}`}><button>Delantero</button></Link>
+                <h4>FILTROS</h4>
 
-            <Link to={`/estilo?estilo=${estiloID}&seleccion=Argentina`}><button>Argentina</button></Link>
+                <div className="filtro">
+                    <span>POSICION</span>
+                    <img className={flagPosicion?"open flecha":"close flecha"}  onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                </div>
 
-            <Link to={`/estilo?estilo=${estiloID}&posicion=Delantero`}><button>Delantero</button></Link>
-            
+                {flagPosicion && (<div className="contenedor-tactica">
+
+                    <div className="tactica-sidebar">
+                        <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
+
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
+
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-li">LI</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
+
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
+
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
+                    </div>
+
+                    <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`}><button className="reset">TODAS</button></Link>
+                    
+                </div>
+                )}
+
+                <div className="filtro">
+                    <span>SELECCION</span>
+                    <img className={flagSeleccion?"open":"close"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                </div>
+
+                {flagSeleccion && (<div className="contenedor-selector-paises">
+                <select size="32"onChange={event => handleChange(event.target.value)}>
+                    <option value="null">TODOS</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="ArabiaSaudita">Arabia Saudita</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Belgica">Bélgica</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Camerun">Camerún</option>
+                    <option value="Canada">Canadá</option>
+                    <option value="Corea">Corea</option>
+                    <option value="CostaRica">Costa Rica</option>
+                    <option value="Croacia">Croacia</option>
+                    <option value="Dinamarca">Dinamarca</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="España">España</option>
+                    <option value="EstadosUnidos">Estados Unidos</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Gales">Gales</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Holanda">Holanda</option>
+                    <option value="Inglaterra">Inglaterra</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Japon">Japón</option>
+                    <option value="Marruecos">Marruecos</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Polonia">Polonia</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Suiza">Suiza</option>
+                    <option value="Tunez">Tunez</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+                </div>
+                )}
+
+            </aside>
            
             <div className="contenedor-cards">
                 {filteredBotines.length

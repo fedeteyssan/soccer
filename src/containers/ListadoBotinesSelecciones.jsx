@@ -72,24 +72,29 @@ const ListadoBotinesSelecciones = () => {
                     <img className={flag?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                 </div>
 
-                {flag && (<div className="tactica-sidebar">
+                {flag && (<div className="contenedor-tactica">
 
+                    <div className="tactica-sidebar">
+                        <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
+
+                        <Link to={`/seleccion/${seleccionID}/Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
+
+                        <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-li">LI</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
+
+                        <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
+
+                        <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
+                        <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
+                    </div>
+
+                    <Link to={`/seleccion/${seleccionID}`}><button className="reset">TODAS</button></Link>
                     
-                    <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
-                    <Link to={`/seleccion/${seleccionID}/Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
-
-                    <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-li">LI</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
-
-                    <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
-
-                    <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
-                    <Link to={`/seleccion/${seleccionID}/Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
                 </div>
                 )}
 

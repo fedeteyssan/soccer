@@ -20,9 +20,9 @@ const Item = ({item}) =>{
                 <h4 className="nombre-botin">{item.botin}</h4>
 
                 <div className="skills">
-                    <p>Skill 1</p>
-                    <p>Skill 2</p>
-                    <p>Skill 3</p>
+                    <p>{item.skill1}</p>
+                    <p>{item.skill2}</p>
+                    <p>{item.skill3}</p>
                 </div>
 
                 <button>Ver colección</button>

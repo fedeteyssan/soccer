@@ -1,28 +1,38 @@
 import "./ListadoBotinesPosiciones.scss";
 import React, { useState, useEffect } from "react";
-import { useParams,useHistory } from "react-router-dom";
+import { useHistory, Link} from "react-router-dom";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
+import { useQuery } from "../hooks/useQuery";
+
 
 const ListadoBotinesPosiciones = () => {
     
-    const{ posicionID } = useParams();
-    const{ seleccionID } = useParams();
+    const query = useQuery();
+
+    const estiloID = query.get("estilo");
+    const seleccionID = query.get("seleccion");
+    const posicionID = query.get("posicion");
 
     const [botines, setBotines] = useState([]);
     const[filteredBotines, setFilteredBotines]= useState([]);
 
-    const [flag,setFlag]=useState(false)
+    const [flagSeleccion,setFlagSeleccion]=useState(false)
 
     const handleClick =() =>{
-        setFlag(flag?false:true);
+        setFlagSeleccion(flagSeleccion?false:true);
+    }
+
+    const [flagEstilo,setFlagEstilo]=useState(false)
+    const handleClick2 =() =>{
+        setFlagEstilo(flagEstilo?false:true);
     }
 
     let history = useHistory();
 
     function handleChange(value) {
-    history.push(`/posicion/${posicionID}/${value}`);
+    history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
   }
 
     const getbotines = (dataBase) => 
@@ -47,12 +57,18 @@ const ListadoBotinesPosiciones = () => {
 
     useEffect(() => {
         if (!botines) return;
-        if(seleccionID){
-            const newFilteredProducts = botines.filter((product)=>product.seleccion === seleccionID );
-            setFilteredBotines(newFilteredProducts);
+        let filteredProducts = botines;
+
+        if(estiloID&&estiloID!=="null"){
+            filteredProducts = filteredProducts.filter((product)=>product.estilo1 === estiloID || product.estilo2 === estiloID); 
         }
-        else {setFilteredBotines(botines)}
-    },[botines,seleccionID]);
+
+        if(seleccionID&&seleccionID!=="null"){
+            filteredProducts = filteredProducts.filter((product)=>product.seleccion === seleccionID);   
+        }
+        setFilteredBotines(filteredProducts)
+
+    },[botines,seleccionID,estiloID]);
 
 
     return (
@@ -66,14 +82,63 @@ const ListadoBotinesPosiciones = () => {
 
                 <h4>FILTROS</h4>
 
-                <div className="filtros">
-                    <span>SELECCION</span>
-                    <img className={flag?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                <div className="filtro">
+                    <span>ESTILO DE JUEGO</span>
+                    <img className={flagEstilo?"open flecha":"close flecha"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                 </div>
 
-                {flag && (<div className="contenedor-selector-paises">
+                {flagEstilo && (<div className="contenedor-estilos">
+
+                    <div className="contenedor-botones">
+                        <div className="botones-estilo">
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Elegante`}><input type="button" id="Elegante"></input></Link>
+                            <label for="Elegante">ELEGANTE</label>
+                        </div>
+        
+                        <div className="botones-estilo">
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Dominante`}><input type="button" id="Dominante"></input></Link>
+                            <label for="Dominante">DOMINANTE</label>
+                        </div>
+                        
+                        <div className="botones-estilo">
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Imparable`}><input type="button" id="Imparable"></input></Link>
+                            <label for="Imparable">IMPARABLE</label>
+                       </div>  
+                        
+                    </div>
+
+                    <div className="contenedor-botones">
+                        <div className="botones-estilo">
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Estratega`}><input type="button" id="Estratega"></input></Link>
+                            <label for="Estratega">ESTRATEGA</label>
+                        </div>
+        
+                        <div className="botones-estilo">
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Desafiante`}><input type="button" id="Desafiante"></input></Link>
+                            <label for="Desafiante">DESAFIANTE</label>
+                        </div>
+                        
+                        <div className="botones-estilo">
+                        <   Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Intuitivo`}><input type="button" id="Intuitivo"></input></Link>
+                            <label for="Intuitivo">INTUITIVO</label>
+                       </div>  
+                        
+                    </div>
+                    
+                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}`}><button className="reset">X</button></Link> 
+
+
+                </div>
+                )}
+
+                <div className="filtro">
+                    <span>SELECCION</span>
+                    <img className={flagSeleccion?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                </div>
+
+                {flagSeleccion && (<div className="contenedor-selector-paises">
                 <select size="32"onChange={event => handleChange(event.target.value)}>
-                    <option value="">TODOS</option>
+                    <option value="null">TODOS</option>
                     <option value="Alemania">Alemania</option>
                     <option value="ArabiaSaudita">Arabia Saudita</option>
                     <option value="Argentina">Argentina</option>

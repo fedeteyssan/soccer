@@ -49,7 +49,7 @@
             height: 3.5rem;
         }
 
-        .filtros{
+        .filtro{
             background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
             border: 1px solid #FFCA43;
             border-radius: 2px;
@@ -57,11 +57,7 @@
             width: 18.5rem;
             height: 2.5rem;
 
-            margin: 0 auto;
-
-            img.open{
-                transform: rotate(180deg);
-            }
+            margin: 0 auto 0.5rem auto;
 
             span{
                 margin-left: 1rem;
@@ -76,6 +72,73 @@
                 left: 160px;
                 width: 1.25rem;
             }
+
+            img.open{
+                transform: rotate(180deg);
+            }
+
+            .flecha{
+                left: 115px;
+            }
+        }
+       
+        .contenedor-estilos{
+
+            display: flex;
+            justify-content: space-around;
+            background: linear-gradient(180deg, #FDFDFD 0%, rgba(245, 245, 243, 0.59) 100%);
+            border-radius: 12px;
+            margin: 1rem 1.5rem;
+            padding-left: 1rem;
+
+            .contenedor-botones{
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 0;
+                
+
+                .botones-estilo{
+                    display: flex;
+                    align-items: center;
+                    margin: 0.5rem;
+
+                    input{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        border-radius: 50%;
+                        border: 1px solid;
+
+                        &:focus{
+                            background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                        }
+                    }
+
+                    label{
+                        margin-left:0.5rem;
+                        font-size: 0.875rem;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                }
+
+               
+
+            }
+
+            .reset{
+                padding: 5px 10px;
+                margin-bottom: 1rem;
+                border-radius : 25px 25px 25px 25px;
+                border: transparent;
+                background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+        
+                font-weight: 500;
+                font-size: 0.6785rem;
+        
+                text-align: center;
+                color: #000000;
+            }
+            
         }
 
         .contenedor-selector-paises{
@@ -83,7 +146,6 @@
             text-align: center;
 
             select{
-                margin-top: 1rem;
                 height: 200px;
                 width:80%;
                 text-align: center;
@@ -93,10 +155,6 @@
                     outline: gold;
                 }
             }
-        }
-       
-        button{
-            margin-top: 1rem;
         }
         
     }

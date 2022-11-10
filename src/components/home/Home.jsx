@@ -19,11 +19,11 @@ const Home = (props) => {
 
             <Header></Header>
             <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
-            <section  className="seccion-busqueda-selecciones">
+            <section  className="seccion-busqueda-selecciones" id="seleccion">
 
 
 
-                <h3>SELECCIONÁ UN PAIS</h3>
+                <h3>Elegí una selección nacional</h3>
 
                 <Carousel></Carousel>
 
@@ -36,7 +36,7 @@ const Home = (props) => {
             <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
             <section className="seccion-busqueda-estilos">
 
-                <h3 className="subtitulo-estilos">ELEGI TU ESTILO DE JUEGO</h3>
+                <h3 className="subtitulo-estilos">Elegí tu estilo para afrontar un partido</h3>
 
                 <Estilos></Estilos>
 
@@ -45,7 +45,7 @@ const Home = (props) => {
             <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
             <section className="seccion-busqueda-posiciones">
 
-                <h3>SELECCIONÁ TU POSICIÓN EN LA CANCHA</h3>
+                <h3>Elegí tu posición en la cancha</h3>
 
                 <Posiciones></Posiciones>
 

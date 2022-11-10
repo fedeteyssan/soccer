@@ -2,7 +2,7 @@
 
     height: 620px;
 
-    .fondo-carousel{
+    .fondo-blur{
         
         width: 95%;
         height: 42rem;
@@ -38,12 +38,12 @@
             border-bottom: none !important;
             opacity: 1 !important;
     
-            background-color: #D0CFD0 !important;
+            background: #464546;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
             border-radius: 100% ;
             
-            color: black ;
+            color: #ffff ;
             text-indent: 0 !important;
             text-align: center;
             font-weight: 600;

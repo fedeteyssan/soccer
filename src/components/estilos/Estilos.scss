@@ -1,37 +1,64 @@
-
-
-.contenedor-cards-estilos{
-    margin-top: 2.5rem;
+.contenedor-estilos{
     display: flex;
-    justify-content: center;
-    position: relative;
-    margin-left: 18rem;
 
-    a{
-        text-decoration: none;
+    .jugador{
+        position: relative;
+        bottom: 3rem;
     }
 
-    .card-estilos{
-        width: 197px;
-        height: 200px;
-        border: 1px solid;
-        margin: 2rem 1rem;
-
-        background: linear-gradient(180deg, #930000 0%, #3F3634 100%);
-        border-radius: 20px;
-
+    .contenedor-cards-estilos{
+        margin-top: 2.5rem;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
+        z-index: 1;
 
-        p{
-            font-weight: 700;
-            font-size: 1.5rem;
-            line-height: 2.25rem;
-            text-align: center;
-            color: #FFFFFF;
+        a{
+            text-decoration: none;
+            color: black;
         }
 
+        .card-estilos{
+            width: 197px;
+            height: 210px;
+            border: 1px solid;
+            margin: 2rem 1rem;
+
+            background: rgba(70, 59, 59, 0.8);
+            border-radius: 2px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                background: linear-gradient(180deg, rgba(79, 23, 23, 0.4524) 0%, rgba(12, 11, 11, 0.3306) 100%);
+                border: 8px solid #D0B160;
+                border-radius: 12px;   
+            }
+
+            img{
+                height: 125px;
+            }
+
+            p{
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 2.25rem;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+        }
+    }
+
+    .fondo-blur{
+        width: 95%;
+        height: 42rem;
+        position: relative;
+        bottom: 37rem;
+        margin: 0 auto;
+        background: rgba(115, 113, 113, 0.5);
+        opacity: 0.6;
     }
 }

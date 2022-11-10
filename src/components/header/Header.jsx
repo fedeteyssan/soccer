@@ -3,30 +3,43 @@ import { useRef } from "react";
 
 const Header = () => {
 
-    const scrollJuego = useRef();
+    const scrollSelecciones = useRef();
 
-    const controlClicktoScroll = () => {
-    scrollJuego.current?.scrollIntoView({behavior: 'smooth'});
+    const controlScroll1 = () => {
+    scrollSelecciones.current?.scrollIntoView({behavior: 'smooth'});
     };
+
+
 
     return (
         <header>
             <div className="header-container">
+
+                <div className="franja"></div>
+
                 <h1>
-                    <span>En este mundial</span><br/>
-                    Poné La Cancha a Tus Pies
+                    Cada jugador del mundial ya eligió<br/>
+                    su botin para potenciar su juego.<br/>
+                    <span> AHORA VOS ELEGÍ EL TUYO</span>
                 </h1>
+
+                <br/>
 
                 <div className="header-cta">
                     <p>
-                        Jugá con nuestro buscador y encontrá el par de botines<br/>
-                        que te hará brillar en tu próximo partido
+                       Elegí un camino para empezar tu búsqueda:
                     </p>
-
-                    <button onClick={controlClicktoScroll}>EMPEZAR</button>
                 </div>
 
-                <p ref={scrollJuego} className="ScrollToBottom"></p>
+                <div className="contenedor-imagenes">
+                    <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScroll1}/>
+                    <img src= {require ("../../Multimedia/inicio-estilos.png")} alt=""/>
+                    <img src= {require ("../../Multimedia/inicio-posiciones.png")} alt="" />
+                    <img src= {require ("../../Multimedia/inicio-jugador.png")} alt="" />
+                </div>
+
+                <p ref={scrollSelecciones} className="ScrollToSelecciones"></p>
+
             </div>
             
         </header>

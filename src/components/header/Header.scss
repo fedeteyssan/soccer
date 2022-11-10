@@ -1,7 +1,8 @@
 header{
-    background-image: url(../../Multimedia/fondoPelota.png);
+    background-image: url(../../Multimedia/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     height: 822px;
     color: #FDF9F9;
 
@@ -9,62 +10,57 @@ header{
     .header-container{
         height: fit-content;
         position: relative;
-        top:200px;
+        top:100px;
+
+        .franja{
+            width: 100%;
+            height: 90px;
+            background: #D0B160;
+            position: relative;
+            bottom:100px;
+        }
 
         h1{
-            font-size: 3.125rem;
-            font-weight: 800;
-            line-height: 4.5rem;
-    
-            margin-left: 105px;
-        
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 3rem;
            
-            span{
-                font-style: italic;
-                font-weight: 600;
-            }
+            width: 40%;
+            padding: 2rem 0.5rem;
+    
+            margin-left: 3rem;
         }
     
         .header-cta{
+            margin-top: 5rem;
+            margin-left: 2rem;
+            background: rgba(44, 38, 38, 0.42);
+            width: 40%;
+            padding: 0.5rem;
             
-            margin-left: 110px;
     
             p{
                 font-size: 1.5rem;
                 font-weight: 500;
                 line-height: 2.5rem; 
             }
-        
-        
-            button{  
-                font-size: 1rem;
-                font-weight: 600;
-                line-height: 1.5rem; 
-                
-                color: #FDF9F9;
-                background-color:#d0b160;
-                border: 3px solid #d0b160;
-                border-radius: 33px;
-    
-                padding: 10px 35px;
-            
-    
-                transition: transform .5s;
-                &:hover{
-                    transform: scale(1.25);
-                }
-            }
-    
-        }
-    
-        .ScrollToBottom{
-            $scroll:calc(100vh + 1rem);
-    
-            position: absolute;
-            top: 622px;
-    
             
         }
 
+        .contenedor-imagenes{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            
+            img{
+                width: 25%;
+            }
+        }
+
+        .ScrollToSelecciones{
+            height: 0;
+            position: absolute;
+            top: 722px;
+        }
     }
 }

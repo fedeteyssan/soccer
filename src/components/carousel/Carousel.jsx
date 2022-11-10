@@ -97,7 +97,7 @@ const Carousel = () => {
 
                 </div>
 
-                <div className="fondo-carousel"></div>
+                <div className="fondo-blur"></div>
             
             </div>
 

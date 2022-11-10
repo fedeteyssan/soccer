@@ -2,30 +2,15 @@
     background-image: url(../Multimedia/plp-bg.png);
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
 
-    .contenedor-titulo-plp{
-        display: flex;
-        justify-content: center;
-
-        h3{
-            display: inline-block;
-            position: relative;
-            top: 50px;
-            text-align: center;
-            color: #FFFF;
-            text-transform: uppercase;
-            font-weight: 800;
-            font-size: 2rem;
-            
-        }
-    }
 
     .container-input{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: flex-end;
         right: 0;
-        padding-bottom: 25px;
+        margin-top: 5rem;
 
         .input-buscar{
             width: 50%;
@@ -37,6 +22,11 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+
+        .error-msg{
+            color: white;
+            font-size: 1.5em;
+        }
     }
     
 }

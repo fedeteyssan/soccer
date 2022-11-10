@@ -76,7 +76,7 @@ const ListadoBotinesEsilos = () => {
         <Container fluid className="contenedor-botines-estilos">
 
             <div className="contenedor-titulo-plp">
-                <h3>Botines estilo {estiloID}</h3>
+                <h3>Botines de Jugadores con Estilo {estiloID}</h3>
             </div>
 
             <aside className="controlador">
@@ -163,7 +163,7 @@ const ListadoBotinesEsilos = () => {
             <div className="contenedor-cards">
                 {filteredBotines.length
                 ? filteredBotines.map((botin) => <Item item={botin}/>)
-                : <div><p>...No disponible...</p></div>  
+                : <div className="error-msg"><p>...No hay jugadores con la combinación elegida ...</p></div>  
                 }    
             </div>
            

@@ -52,16 +52,14 @@ const ListadoBotinesJugador = () => {
         <Container fluid className="contenedor-botines-jugadores">
 
             <div className="container-input">
-                <input className="form-control input-buscar" placeholder="Busqueda por nombre" onChange={handleChange} value={busqueda}/>
-                <button className="btn btn-success">Buscar</button>
-
+                <input className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
             </div>
             
 
             <div className="contenedor-cards">
                 {botines.length
                 ? busqueda && botines.map((botin) => <Item item={botin}/>)
-                : <div><p>...No disponible...</p></div>  
+                : <div className="error-msg"><p>...ESTE JUGADOR NO FUE CONVOCADO...</p></div>  
                 }    
             </div>
            

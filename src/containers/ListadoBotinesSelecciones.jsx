@@ -73,7 +73,7 @@ const ListadoBotinesSelecciones = () => {
         <Container fluid className="contenedor-botines-selecciones">
 
             <div className="contenedor-titulo-plp">
-                <h3>Botines Selección {seleccionID}</h3>
+                <h3>Botines de Jugadores Selección {seleccionID}</h3>
             </div>
 
             <aside className="controlador">
@@ -166,7 +166,7 @@ const ListadoBotinesSelecciones = () => {
             <div className="contenedor-cards">
                 {filteredBotines.length
                 ? filteredBotines.map((botin) => <Item item={botin}/>)
-                : <div><p>...No disponible...</p></div>  
+                : <div className="error-msg"><p>...No hay jugadores con la combinación elegida ...</p></div>  
                 }    
             </div>
            

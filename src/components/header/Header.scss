@@ -8,16 +8,12 @@ header{
 
 
     .header-container{
-        height: fit-content;
-        position: relative;
-        top:100px;
+        height: 100%;
 
         .franja{
             width: 100%;
             height: 90px;
             background: #D0B160;
-            position: relative;
-            bottom:100px;
         }
 
         h1{
@@ -27,17 +23,17 @@ header{
            
             width: 40%;
             padding: 2rem 0.5rem;
-    
+
+            margin-top: 3rem;
             margin-left: 3rem;
         }
     
         .header-cta{
-            margin-top: 5rem;
+            margin-top: 2rem;
             margin-left: 2rem;
             background: rgba(44, 38, 38, 0.42);
             width: 40%;
             padding: 0.5rem;
-            
     
             p{
                 font-size: 1.5rem;
@@ -47,20 +43,5 @@ header{
             
         }
 
-        .contenedor-imagenes{
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-            
-            img{
-                width: 25%;
-            }
-        }
-
-        .ScrollToSelecciones{
-            height: 0;
-            position: absolute;
-            top: 722px;
-        }
     }
 }

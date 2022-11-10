@@ -1,8 +1,22 @@
+
+header{
+    .contenedor-imagenes{
+        position: absolute;
+        top: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        
+        img{
+            width: 20%;
+        }
+    }
+}
+
 section{
 
     $alturaSeccion:calc(100vh - 5rem);
 
-    height:810px;
+    height:825px;
 
     display:flex;
     flex-direction: column;

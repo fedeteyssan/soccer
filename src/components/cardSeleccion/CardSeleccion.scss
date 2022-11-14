@@ -11,6 +11,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 0.5rem;
+
+    /*Desktop 1024*/
+    @media only screen and (min-width:769px) and (max-width: 1024px){
+        width: 11.25rem;
+        height: 16.5rem;
+    }
+
+    /*Tablet & Mobile*/
+    @media only screen and (max-width: 768px)  {
+        width: 7.5rem;
+        height: 11rem;
+        margin: 0.5rem 0.5rem;
+    }
 
     &:hover{
         background: linear-gradient(180deg, rgba(241, 241, 241, 0.4) 0%, rgba(255, 202, 67, 0.4) 100%);
@@ -24,11 +38,31 @@
         font-size: 1.6rem;
         line-height: 2.75rem;
         color: #413d3d;
+        text-align: center;
+        
+        /*Tablet & Mobile*/
+        @media only screen and (max-width: 768px)  {
+            font-size: 1rem;
+            line-height: 10px;
+        }
+        
     }
 
     img{
         width:12.125rem;
         height:12.125rem;
+
+        /*Desktop 1024*/
+        @media only screen and (min-width:769px) and (max-width: 1024px){
+            width: 9.09375rem;
+            height: 9.09375rem;
+        }
+
+        /*Tablet & Mobile*/
+        @media only screen and (max-width: 768px)  {
+            width: 6.0625rem;
+            height: 6.0625rem;
+        }
 
         &:hover,img{
             transform: scale(1.15);

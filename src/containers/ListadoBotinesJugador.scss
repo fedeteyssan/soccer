@@ -2,8 +2,12 @@
     background-image: url(../Multimedia/plp-bg.png);
     background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 822px;
 
+    /*Mobile & Tablet*/
+    @media only screen and (max-width: 768px)  {
+        min-height: 100vh;
+    }
 
     .container-input{
         display: flex;
@@ -14,6 +18,17 @@
 
         .input-buscar{
             width: 50%;
+            font-size: 1rem;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                font-size:0.8rem; 
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size:0.45rem; 
+            }
         }
     }
 
@@ -22,6 +37,16 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+    
+        /*Tablet*/
+        @media only screen and (min-width:426px) and (max-width: 768px)  {
+            margin-top: 1rem;
+        }
+
+        /*Mobile*/
+        @media only screen and (max-width: 425px)  {
+            margin-top: 1rem;
+        }
 
         .error-msg{
             color: white;

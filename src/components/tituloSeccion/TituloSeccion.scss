@@ -9,26 +9,75 @@
     display: flex;
     align-items: center;
 
+    /*Tablet*/
+     @media only screen and (min-width:426px) and (max-width: 768px)  {
+        height:3rem;  
+    }
+
+    /*Mobile*/
+    @media only screen and (max-width: 425px)  {
+        height:2rem;    
+    }
+
     h2{
         text-transform: uppercase;
         font-weight: 600;
         font-size: 2rem;
         color: #fffbfb;
+        margin:0;
+
+        /*Tablet*/
+         @media only screen and (min-width:426px) and (max-width: 768px)  {
+            font-size:1rem;  
+        }
+        
+        /*Mobile*/
+        @media only screen and (max-width: 425px)  {
+            font-size:0.8rem;    
+        }   
     }
 
     .arrows{
         display: flex;
         align-items: center;
 
+       
+
         .arrow1{
             position: relative;
             left:1.5rem;
             width: 2rem;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                width: 1rem; 
+                left: 0.75rem;
+            }
+        
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                width:0.8rem; 
+                left: 0.45rem;   
+            }   
         }
+
+        
 
         .arrow2{
             width: 3rem;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                width:1.5rem ;
+            }
+        
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                width:1rem;    
+            }  
         }
+
+         
     }
 }
 

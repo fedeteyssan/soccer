@@ -1,9 +1,15 @@
 .contenedor-estilos{
     display: flex;
+    justify-content: center;
 
     .jugador{
         position: relative;
         bottom: 3rem;
+        display: none;
+
+        @media only screen and (max-width:1024px) {
+            display: none;
+        }
     }
 
     .contenedor-cards-estilos{
@@ -12,9 +18,22 @@
         justify-content: center;
         z-index: 1;
 
+        /*Tablet & Mobile*/
+        @media only screen and (max-width: 768px)  {
+            margin-top: 1rem;
+            flex-direction: column;
+        }
+
         a{
             text-decoration: none;
             color: black;
+        }
+
+        .columna{
+            /*Tablet & Mobile*/
+            @media only screen and (max-width: 768px)  {
+                display: flex;
+            }
         }
 
         .card-estilos{
@@ -31,6 +50,13 @@
             align-items: center;
             justify-content: center;
 
+            /*Tablet & Mobile*/
+            @media only screen and (max-width: 768px)  {
+                margin: 0.5rem 0.75rem;
+                width:137.9px ;
+                height:147px ;
+            }
+
             &:hover{
                 background: linear-gradient(180deg, rgba(79, 23, 23, 0.4524) 0%, rgba(12, 11, 11, 0.3306) 100%);
                 border: 8px solid #D0B160;
@@ -39,6 +65,11 @@
 
             img{
                 height: 125px;
+
+                /*Tablet & Mobile*/
+                @media only screen and (max-width:768px)  {
+                    height:87.5px ;
+                }
             }
 
             p{
@@ -47,6 +78,13 @@
                 line-height: 2.25rem;
                 text-align: center;
                 color: #FFFFFF;
+
+                /*Tablet & Mobile*/
+                @media only screen and (max-width:768px)  {
+                    font-size:1rem ;
+                    margin-bottom: 0;
+                }
+
             }
 
         }

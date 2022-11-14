@@ -1,37 +1,32 @@
 import "./Home.scss";
-import Header from "../header/Header";
+import { Container } from "react-bootstrap";
+import { useRef } from "react";
+import ListadoBotinesJugador from "../../containers/ListadoBotinesJugador";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
-import Posiciones from "../posiciones/Posiciones";
 import Estilos from "../estilos/Estilos";
-import { Container } from "react-bootstrap";
-import ListadoBotinesJugador from "../../containers/ListadoBotinesJugador";
-import { useRef } from "react";
 
 
 
-const Home = (props) => {
+
+const Home = () => {
 
     const scrollSelecciones = useRef();
-
     const controlScrollSelecciones = () => {
     scrollSelecciones.current?.scrollIntoView({behavior: 'smooth'});
     };
 
     const scrollEstilos = useRef();
-
     const controlScrollEstilos = () => {
     scrollEstilos.current?.scrollIntoView({behavior: 'smooth'});
     };
 
     const scrollPosiciones = useRef();
-
     const controlScrollPosiciones = () => {
     scrollPosiciones.current?.scrollIntoView({behavior: 'smooth'});
     };
 
     const scrollJugador = useRef();
-
     const controlScrollJugador = () => {
     scrollJugador.current?.scrollIntoView({behavior: 'smooth'});
     };
@@ -41,11 +36,9 @@ const Home = (props) => {
     
 
     return (
-        <Container fluid className={props.className}>
+        <Container fluid className="home">
 
             <header>
-                <Header></Header>
-
                 <div className="contenedor-imagenes">
                     <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
                     <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
@@ -84,7 +77,7 @@ const Home = (props) => {
 
                 <h3>Elegí tu posición en la cancha</h3>
 
-                <Posiciones></Posiciones>
+                
 
             </section>
       

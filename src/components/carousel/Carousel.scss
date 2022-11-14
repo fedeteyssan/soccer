@@ -11,6 +11,24 @@
         margin: 0 auto;
         background: rgba(115, 113, 113, 0.5);
         opacity: 0.6;
+
+        /*Desktop 1024*/
+        @media only screen and (min-width:769px) and (max-width: 1024px){
+            bottom: 21rem;
+            height: 35rem;
+        }
+
+        /*Tablet*/
+        @media only screen and (min-width:526px) and (max-width: 768px)  {
+            bottom: 26rem;
+            height: 34rem;
+        }
+
+        /*Mobile*/
+        @media only screen and (max-width: 525px)  {
+            bottom: 26rem;
+            height: 33rem;
+        }
     }
     
     .carousel-indicators{
@@ -29,6 +47,32 @@
     
         margin:0 auto;
         padding-bottom: 20px;
+
+        /*Desktop 1024*/
+        @media only screen and (min-width:769px) and (max-width: 1024px){
+            width:46.875rem;
+            height: 6.1875rem;
+            top:300px;
+            padding-bottom: 10px;
+        }
+
+        /*Tablet*/
+        @media only screen and (min-width:526px) and (max-width: 768px)  {
+            width:31.25rem;
+            height: 5rem;
+            top:400px;
+            padding-bottom: 0.5rem;
+            justify-content: center;
+        }
+
+        /*Mobile*/
+        @media only screen and (max-width: 525px)  {
+            width:18rem;
+            height: 3rem;
+            top:400px;
+            padding:1rem;
+            justify-content: center;
+        }
     
     
         button{
@@ -49,6 +93,33 @@
             font-weight: 600;
             font-size: 1.875rem;
             line-height: 2.75rem;
+
+            /*Desktop 1024*/
+            @media only screen and (min-width:769px) and (max-width: 1024px){
+                width:52px !important;
+                height: 52px !important;
+                font-size: 1.5rem;
+                line-height: 0;
+                margin: auto 0;
+            }
+
+            /*Tablet*/
+            @media only screen and (min-width:526px) and (max-width: 768px)  {
+                width:48.75px !important;
+                height: 48.75px !important;
+                font-size: 1rem;
+                line-height: 0;
+                margin: 0 0.5rem;
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 525px)  {
+                width:30px !important;
+                height: 30px !important;
+                font-size: 0.8rem;
+                line-height: 0;
+                padding: 0 0.65rem;
+            }
         
         }
     
@@ -60,13 +131,23 @@
     .carousel-inner{
         margin-top: 2rem;
         z-index: 2;
+
+        /*Tablet & Mobile*/
+        @media only screen and (max-width: 768px)  {
+            margin-top: 1rem;
+        }
     
         .carousel-item{
             align-items: center;
              
              .contenedor-cards-selecciones{
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: center;
+
+                /*Tablet & Mobile*/
+                @media only screen and (max-width: 768px)  {
+                    flex-direction: column;
+                }
                 
                 margin: 0 auto;
                 align-items: center;

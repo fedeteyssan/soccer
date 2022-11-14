@@ -6,10 +6,6 @@ import Item from "../components/item/Item";
 
 const ListadoBotinesJugador = () => {
 
-    document.ontouchmove = function(event){
-        event.preventDefault();
-    }
-
     const [botines, setBotines] = useState([]);
 
     const [tablaBotines, setTablaBotines]= useState([]);

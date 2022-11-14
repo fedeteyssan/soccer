@@ -5,6 +5,7 @@ import ListadoBotinesJugador from "../../containers/ListadoBotinesJugador";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Estilos from "../estilos/Estilos";
+import Posiciones from "../posiciones/Posiciones";
 
 
 
@@ -77,7 +78,7 @@ const Home = () => {
 
                 <h3>Elegí tu posición en la cancha</h3>
 
-                
+                <Posiciones></Posiciones>
 
             </section>
       

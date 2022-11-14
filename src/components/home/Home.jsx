@@ -87,6 +87,8 @@ const Home = () => {
                 <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
                 <ListadoBotinesJugador></ListadoBotinesJugador>
+
+                
             </section>
             
         </Container>

@@ -6,18 +6,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
-        height: 822px;
+        min-height: 822px;
     
         /*Tablet*/
         @media only screen and (min-width:426px) and (max-width: 768px)  {
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: space-around;
         }
     
         /*Mobile*/
         @media only screen and (max-width: 425px)  {
-            height: 100vh;
+            min-height: 100vh;
         }
     
         .contenedor-imagenes{
@@ -64,14 +64,14 @@
     
         $alturaSeccion:calc(100vh - 5rem);
     
-        height:822px;
+        min-height:822px;
     
         display:flex;
         flex-direction: column;
     
         /*Mobile & Tablet*/
         @media only screen and (max-width: 768px)  {
-           height: 100vh;
+           min-height: 100vh;
         }
     
         h3{

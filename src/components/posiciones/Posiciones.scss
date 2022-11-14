@@ -2,7 +2,15 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    margin: 0 auto;
+    margin: 2rem auto;
+    
+    
+    /*Tablet*/
+    @media only screen and (max-width: 768px)  {
+       margin: 10rem auto ;
+    }
+
+
 
     a{
         text-decoration: none;
@@ -11,9 +19,7 @@
 
     .contenedor-cancha{
     
-        position: relative;
-        top: 2rem;
-    
+        position: relative;    
         img{
             width: 58rem;
             height: 38rem;
@@ -116,56 +122,56 @@
 
     .contenedor-arq{
         position: absolute;
-        left:398px;
-        top: 510px;
+        left:375px;
+        top: 460px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
-            left:303px;
-            top: 480px;
+            left:290px;
+            top: 430px;
         }
 
         /*Tablet*/
         @media only screen and (min-width:526px) and (max-width: 768px)  {
             left:175px;
-            top: 460px;
+            top: 428px;
         }
 
         /*Mobile*/
         @media only screen and (max-width: 525px)  {
             left:75px;
-            top: 390px;
+            top: 358px;
         }
     }
 
     .contenedor-li{
         position: absolute;
-        left:108px;
-        top: 320px;
+        left:110px;
+        top: 300px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
             left:38px;
-            top: 320px;
+            top: 258px;
         }
 
         /*Tablet*/
         @media only screen and (min-width:526px) and (max-width: 768px)  {
             left:5px;
-            top: 340px;
+            top: 278px;
         }
 
         /*Mobile*/
         @media only screen and (max-width: 525px)  {
             left:-20px;
-            top: 270px;
+            top: 230px;
         }
     }
 
     .contenedor-dfc{
         position: absolute;
-        left:398px;
-        top: 398px;
+        left:375px;
+        top: 340px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -188,8 +194,8 @@
 
     .contenedor-ld{
         position: absolute;
-        left:688px;
-        top: 320px;
+        left:650px;
+        top: 300px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -212,8 +218,8 @@
 
     .contenedor-mcd{
         position: absolute;
-        left:398px;
-        top: 250px;
+        left:375px;
+        top: 220px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -236,8 +242,8 @@
 
     .contenedor-mi{
         position: absolute;
-        left:148px;
-        top: 180px;
+        left:140px;
+        top: 140px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -260,8 +266,8 @@
 
     .contenedor-md{
         position: absolute;
-        left:658px;
-        top: 180px;
+        left:620px;
+        top: 140px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -284,8 +290,8 @@
 
     .contenedor-mco{
         position: absolute;
-        left:398px;
-        top: 130px;
+        left:375px;
+        top: 98px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -308,8 +314,8 @@
 
     .contenedor-ei{
         position: absolute;
-        left:158px;
-        top:20px;
+        left:180px;
+        top:10px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -330,8 +336,8 @@
 
     .contenedor-dc{
         position: absolute;
-        left:398px;
-        top:5px;
+        left:375px;
+        top:-30px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -352,8 +358,8 @@
 
     .contenedor-ed{
         position: absolute;
-        left:638px;
-        top:20px;
+        left:590px;
+        top:10px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:769px) and (max-width: 1024px){

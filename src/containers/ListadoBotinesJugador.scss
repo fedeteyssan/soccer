@@ -6,7 +6,7 @@
 
     /*Mobile & Tablet*/
     @media only screen and (max-width: 768px)  {
-        min-height: 100vh;
+        min-height: 200vh;
     }
 
     .container-input{
@@ -15,6 +15,11 @@
         align-items: flex-end;
         right: 0;
         margin-top: 5rem;
+
+        /*Mobile*/
+        @media only screen and (max-width: 768px)  {
+            margin-top: 3rem;
+        }
 
         .input-buscar{
             width: 50%;

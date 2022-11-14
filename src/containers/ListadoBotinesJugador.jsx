@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
+import ScrolltoTop from "../components/ScrollToTop";
 
 const ListadoBotinesJugador = () => {
 
@@ -50,6 +51,8 @@ const ListadoBotinesJugador = () => {
 
     return (
         <Container fluid className="contenedor-botines-jugadores">
+
+            <ScrolltoTop />
 
             <div className="container-input">
                 <input className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>

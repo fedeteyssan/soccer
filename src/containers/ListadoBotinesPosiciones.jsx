@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 import { useQuery } from "../hooks/useQuery";
+import ScrolltoTop from "../components/ScrollToTop";
 
 
 const ListadoBotinesPosiciones = () => {
@@ -73,6 +74,8 @@ const ListadoBotinesPosiciones = () => {
 
     return (
         <Container fluid className="contenedor-botines-posiciones">
+
+            <ScrolltoTop />
 
             <div className="contenedor-titulo-plp">
                 <h3>Botines de Jugadores con Posición {posicionID}</h3>

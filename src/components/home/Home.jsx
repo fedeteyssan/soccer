@@ -9,7 +9,6 @@ import Posiciones from "../posiciones/Posiciones";
 
 
 
-
 const Home = () => {
 
     const scrollSelecciones = useRef();
@@ -53,10 +52,10 @@ const Home = () => {
             <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
                 <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
 
-
                 <h3>Elegí una selección nacional</h3>
 
                 <Carousel></Carousel>
+                
 
                 <h5 className="titulo-selector-grupos">
                     GRUPOS QATAR 2022

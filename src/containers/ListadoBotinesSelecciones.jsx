@@ -5,6 +5,7 @@ import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 import { Link } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
+import ScrolltoTop from "../components/ScrollToTop";
 
 const ListadoBotinesSelecciones = () => {
 
@@ -71,6 +72,8 @@ const ListadoBotinesSelecciones = () => {
 
     return (
         <Container fluid className="contenedor-botines-selecciones">
+
+            <ScrolltoTop />
 
             <div className="contenedor-titulo-plp">
                 <h3>Botines de Jugadores Selección {seleccionID}</h3>

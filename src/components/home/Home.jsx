@@ -39,6 +39,17 @@ const Home = () => {
         <Container fluid className="home">
 
             <header>
+
+                <div className="contenedor-banner">
+                    <div className="banner"></div>
+                    <img className="logo" src= {require ("../../Multimedia/logo.png")} alt="" />
+                </div>
+
+                <div className="cta">
+                    <h1>BIENVENIDO A NUESTRO BUSCADOR</h1>
+                    <p>Elegí un camino para empezar </p>
+                </div>
+
                 <div className="contenedor-imagenes">
                     <div className="grupos-imagenes grupo-1">
                         <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>

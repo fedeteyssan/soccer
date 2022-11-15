@@ -4,11 +4,23 @@ import { Link } from "react-router-dom";
 
 const Cover = () => {
 
-
     return (
-        <Link to="/home"><div className="cover-container"> 
+        <div className="cover-container"> 
 
-        </div></Link>
+            <div className="contenedor-banner">
+                <div className="banner"></div>
+                <img className="logo" src= {require ("../../Multimedia/logo.png")} alt="" />
+            </div>
+
+            <div className="cta">
+                <h1>JUGÁ <br/> MUNDIAL</h1>
+                <p>Cada figura de la Copa del Mundo ya eligió <br/> los botines que potencian su juego</p>
+                <h2>Ahora buscá vos tu par</h2>
+                <Link to="/home"><button>EMPEZAR</button></Link>
+            </div>
+            
+
+        </div>
     )
 }
 

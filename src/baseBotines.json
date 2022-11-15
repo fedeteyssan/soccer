@@ -2668,8 +2668,8 @@
      "seleccion": "Holanda",
      "posicion": "Defensor",
      "jugador": "Jurrien Timber",
-     "club": "#REF!",
-     "botin": "#REF!",
+     "club": "Ajax",
+     "botin": "adidas Copa Sense+",
      "estilo1": "Elegante",
      "estilo2": "Estratega",
      "skill1": "Pase",
@@ -4488,7 +4488,7 @@
      "seleccion": "Serbia",
      "posicion": "Defensor",
      "jugador": "Strahinja Pavlovic",
-     "club": "#REF!",
+     "club": "Red Bull Salzburg",
      "botin": "Puma Ultra Ultimate",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -4501,7 +4501,7 @@
      "seleccion": "Serbia",
      "posicion": "Defensor",
      "jugador": "Srdjan Babic",
-     "club": "#REF!",
+     "club": "UD Almería",
      "botin": "Nike Tiempo Legend 9 Elite Q",
      "estilo1": "Elegante",
      "estilo2": "Estratega",
@@ -4514,7 +4514,7 @@
      "seleccion": "Serbia",
      "posicion": "Defensor",
      "jugador": "Milos Veljkovic",
-     "club": "#REF!",
+     "club": "Werder Bremen",
      "botin": "Nike Tiempo Legend 9 Elite Q",
      "estilo1": "Elegante",
      "estilo2": "Estratega",
@@ -4540,7 +4540,7 @@
      "seleccion": "Serbia",
      "posicion": "Defensor",
      "jugador": "Strahinja Erakovic",
-     "club": "#REF!",
+     "club": "Red Star Belgrade",
      "botin": "Nike Zoom Mercurial Vapor 15 Elite",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -4553,7 +4553,7 @@
      "seleccion": "Serbia",
      "posicion": "Defensor",
      "jugador": "Erhan Masovic",
-     "club": "#REF!",
+     "club": "VfL Bochum",
      "botin": "Nike Tiempo Legend 9 Elite Q",
      "estilo1": "Elegante",
      "estilo2": "Estratega",
@@ -4566,7 +4566,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Filip Mladenovic",
-     "club": "#REF!",
+     "club": "Legia Warsaw",
      "botin": "Puma Future Z 1.4",
      "estilo1": "Dominante",
      "estilo2": "Desafiante",
@@ -4618,7 +4618,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Ivan Ilic",
-     "club": "#REF!",
+     "club": "Hellas Verona",
      "botin": "Nike Zoom Mercurial Vapor 15 Elite",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -4644,7 +4644,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Dusan Tadić",
-     "club": "#REF!",
+     "club": "Ajax",
      "botin": "Nike Tiempo Legend 9 Elite Q",
      "estilo1": "Elegante",
      "estilo2": "Estratega",
@@ -4657,7 +4657,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Andrija Zivkovic",
-     "club": "#REF!",
+     "club": "PAOK Salonica",
      "botin": "Nike Phantom GT2 Elite Q",
      "estilo1": "Dominante",
      "estilo2": "Desafiante",
@@ -4683,7 +4683,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Filip Kostic",
-     "club": "#REF!",
+     "club": "Juventus",
      "botin": "Nike Zoom Mercurial Vapor 15 Elite",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -4722,7 +4722,7 @@
      "seleccion": "Serbia",
      "posicion": "Mediocampista",
      "jugador": "Filip Djuricic",
-     "club": "#REF!",
+     "club": "UC Sampdoria",
      "botin": "adidas X Speedportal.1",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -5034,7 +5034,7 @@
      "seleccion": "Suiza",
      "posicion": "Mediocampista",
      "jugador": "Rubén Vargas",
-     "club": "#REF!",
+     "club": "FC Augsburg",
      "botin": "Nike Zoom Mercurial Vapor 15 Elite",
      "estilo1": "Imparable",
      "estilo2": "Intuitivo",
@@ -6552,7 +6552,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Arquero",
      "jugador": "Alireza Beiranvand",
      "club": "-",
@@ -6565,7 +6565,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Arquero",
      "jugador": "Payam Niazmand",
      "club": "-",
@@ -6578,7 +6578,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Arquero",
      "jugador": "Amir Abedzadeh",
      "club": "-",
@@ -6591,7 +6591,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Arquero",
      "jugador": "Hossein Hosseini",
      "club": "-",
@@ -6604,7 +6604,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Sadegh Moharrami",
      "club": "Dinamo Zagreb",
@@ -6617,7 +6617,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Shoja Khalilzadeh",
      "club": "-",
@@ -6630,7 +6630,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Milad Mohammadi Keshmarzi",
      "club": "-",
@@ -6643,7 +6643,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Morteza Pouraliganji",
      "club": "-",
@@ -6656,7 +6656,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Mohammad Hossein Kanani Zadegan",
      "club": "-",
@@ -6669,7 +6669,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Saleh Hardani",
      "club": "-",
@@ -6682,7 +6682,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Majid Hosseini",
      "club": "-",
@@ -6695,7 +6695,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Ramin Rezaeian",
      "club": "-",
@@ -6708,7 +6708,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Defensor",
      "jugador": "Abolfazl Jalali",
      "club": "-",
@@ -6721,7 +6721,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Seyed Mehdi Hosseini",
      "club": "-",
@@ -6734,7 +6734,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Ehsan Hajsafi",
      "club": "AEK Athens",
@@ -6747,7 +6747,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Saeid Ezatolahi",
      "club": "-",
@@ -6760,7 +6760,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Alireza Jahanbakhsh",
      "club": "Feyenoord",
@@ -6773,7 +6773,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Saman Ghoddos",
      "club": "Brentford FC",
@@ -6786,7 +6786,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Ali Gholizadeh",
      "club": "-",
@@ -6799,7 +6799,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Milad Sarlak",
      "club": "-",
@@ -6812,7 +6812,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Sardar Azmoun",
      "club": "Bayer 04 Leverkusen",
@@ -6825,7 +6825,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Omid Noorafkan",
      "club": "-",
@@ -6838,7 +6838,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Ahmad Noorollahi",
      "club": "-",
@@ -6851,7 +6851,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Mediocampista",
      "jugador": "Omid Ebrahimi",
      "club": "-",
@@ -6864,7 +6864,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Delantero",
      "jugador": "Mehdi Taremi",
      "club": "Porto",
@@ -6877,7 +6877,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Delantero",
      "jugador": "Karim Ansarifard",
      "club": "-",
@@ -6890,7 +6890,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Delantero",
      "jugador": "Vahid Amiri",
      "club": "-",
@@ -6903,7 +6903,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Iran",
+     "seleccion": "Irán",
      "posicion": "Delantero",
      "jugador": "Mehdi Torabi",
      "club": "-",
@@ -6916,7 +6916,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Arquero",
      "jugador": "Matt Turner",
      "club": "New England Revolution",
@@ -6929,7 +6929,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Tiempo-Legend-9-Elite-Q.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Arquero",
      "jugador": "Ethan Horvath",
      "club": "-",
@@ -6942,7 +6942,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Arquero",
      "jugador": "Sean Johnson",
      "club": "-",
@@ -6955,7 +6955,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Sergiño Dest",
      "club": "AC Milan",
@@ -6968,7 +6968,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Walker Zimmerman",
      "club": "-",
@@ -6981,7 +6981,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Aaron Long",
      "club": "-",
@@ -6994,7 +6994,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Sam Vines",
      "club": "-",
@@ -7007,7 +7007,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Erik Palmer-Brown",
      "club": "Estac Troyes",
@@ -7020,7 +7020,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Tiempo-Legend-9-Elite-Q.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Mark McKenzie",
      "club": "-",
@@ -7033,7 +7033,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Reggie Cannon",
      "club": "-",
@@ -7046,7 +7046,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "DeAndre Yedlin",
      "club": "-",
@@ -7059,7 +7059,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Defensor",
      "jugador": "Joseph Scally",
      "club": "-",
@@ -7072,7 +7072,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Tyler Adams",
      "club": "Leeds United",
@@ -7085,7 +7085,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Tiempo-Legend-9-Elite-Q.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Paul Arriola",
      "club": "-",
@@ -7098,7 +7098,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Weston McKennie",
      "club": "Juventus",
@@ -7111,7 +7111,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge.1-low.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Lucas de la Torre",
      "club": "-",
@@ -7124,7 +7124,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Johnny Cardoso",
      "club": "-",
@@ -7137,7 +7137,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Mediocampista",
      "jugador": "Kellyn Acosta",
      "club": "-",
@@ -7150,7 +7150,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Jesús Ferreira",
      "club": "-",
@@ -7163,7 +7163,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Christian Pulisic",
      "club": "Chelsea",
@@ -7176,7 +7176,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Brenden Aaronson",
      "club": "Leeds United",
@@ -7189,7 +7189,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Jordan Morris",
      "club": "-",
@@ -7202,7 +7202,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Malik Tillman",
      "club": "Rangers FC",
@@ -7215,7 +7215,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Ricardo Pepi",
      "club": "-",
@@ -7228,7 +7228,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Giovanni Reyna",
      "club": "Borussia Dortmund",
@@ -7241,7 +7241,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Estados Unidos",
+     "seleccion": "Estados-Unidos",
      "posicion": "Delantero",
      "jugador": "Joshua Sargent",
      "club": "-",
@@ -7618,7 +7618,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Arquero",
      "jugador": "Mohammed Al-Rubaie",
      "club": "-",
@@ -7631,7 +7631,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Arquero",
      "jugador": "Mohammed Al-Owais",
      "club": "-",
@@ -7644,7 +7644,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Arquero",
      "jugador": "Fawaz Al-Qarni",
      "club": "-",
@@ -7657,7 +7657,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Arquero",
      "jugador": "Amin Mohammedsaleh Ahmed Jan Al Bukhari",
      "club": "-",
@@ -7670,7 +7670,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Arquero",
      "jugador": "Nawaf Dhahi Faisal Al Suweiti Al Aqidi",
      "club": "-",
@@ -7683,7 +7683,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Sultan Al-Ghannam",
      "club": "-",
@@ -7696,7 +7696,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Abdullah Mohammed Musa Madu",
      "club": "-",
@@ -7709,7 +7709,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Abdulelah Al-Amri",
      "club": "-",
@@ -7722,7 +7722,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Ali Al-Bulaihi",
      "club": "-",
@@ -7735,7 +7735,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Mohammed Al-Burayk",
      "club": "-",
@@ -7748,7 +7748,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Saud Abdullah Salim Abdulhamid",
      "club": "-",
@@ -7761,7 +7761,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Yasser Al-Shahrani",
      "club": "-",
@@ -7774,7 +7774,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Hassan Al-Tambakti",
      "club": "-",
@@ -7787,7 +7787,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Defensor",
      "jugador": "Ahmed Mohammed Bamasud",
      "club": "-",
@@ -7800,7 +7800,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Salman Al-Faraj",
      "club": "-",
@@ -7813,7 +7813,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Abdulelah Saad Hameed Al Malki",
      "club": "-",
@@ -7826,7 +7826,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Abdullah Otayf",
      "club": "-",
@@ -7839,7 +7839,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Ali Al-Hassan",
      "club": "-",
@@ -7852,7 +7852,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Nawaf Shaker Al Abid",
      "club": "-",
@@ -7865,7 +7865,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Abdullah Al-Hamdan",
      "club": "-",
@@ -7878,7 +7878,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Nasser Al-Dawsari",
      "club": "-",
@@ -7891,7 +7891,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Ayman Yahya Salem Ahmed",
      "club": "-",
@@ -7904,7 +7904,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Mohammed Kanno",
      "club": "-",
@@ -7917,7 +7917,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Mediocampista",
      "jugador": "Riyadh Mohammed Sharahili",
      "club": "-",
@@ -7930,7 +7930,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Firas Al-Buraikan",
      "club": "-",
@@ -7943,7 +7943,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Salem Al-Dawsari",
      "club": "-",
@@ -7956,7 +7956,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Saleh Al-Shehri",
      "club": "-",
@@ -7969,7 +7969,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Sami Al-Najei",
      "club": "-",
@@ -7982,7 +7982,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Fahad Mosaed Al Muwallad Al Harbi",
      "club": "-",
@@ -7995,7 +7995,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Abdulrahman Al-Aboud",
      "club": "-",
@@ -8008,7 +8008,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Hattan Bahebri",
      "club": "-",
@@ -8021,7 +8021,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Haitham Mohammed Asiri",
      "club": "-",
@@ -8034,7 +8034,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Arabia Saudita",
+     "seleccion": "Arabia-Saudita",
      "posicion": "Delantero",
      "jugador": "Abdullah Hadi Radif",
      "club": "-",
@@ -8047,7 +8047,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Arquero",
      "jugador": "Alfredo Talavera Díaz",
      "club": "-",
@@ -8060,7 +8060,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Arquero",
      "jugador": "Rodolfo Cota Robles",
      "club": "-",
@@ -8073,7 +8073,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Arquero",
      "jugador": "Francisco Guillermo Ochoa Magaña",
      "club": "-",
@@ -8086,7 +8086,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Néstor Araújo",
      "club": "-",
@@ -8099,7 +8099,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "César Montes",
      "club": "-",
@@ -8112,7 +8112,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Johan Vásquez",
      "club": "Cremonese",
@@ -8125,7 +8125,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Tiempo-Legend-9-Elite-Q.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Gerardo Daniel Arteaga Zamora",
      "club": "-",
@@ -8138,7 +8138,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Héctor Alfredo Moreno Herrera",
      "club": "-",
@@ -8151,7 +8151,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Jesús Gallardo",
      "club": "-",
@@ -8164,7 +8164,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Jesús Angulo",
      "club": "-",
@@ -8177,7 +8177,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Defensor",
      "jugador": "Kevin Álvarez",
      "club": "-",
@@ -8190,7 +8190,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Edson Álvarez",
      "club": "Ajax",
@@ -8203,7 +8203,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense%2B.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Carlos Rodríguez",
      "club": "-",
@@ -8216,7 +8216,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Marcelo Flores",
      "club": "-",
@@ -8229,7 +8229,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Érick Gutiérrez",
      "club": "PSV Eindhoven",
@@ -8242,7 +8242,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense.1.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Luis Chávez",
      "club": "-",
@@ -8255,7 +8255,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Andrés Guardado",
      "club": "Real Betis",
@@ -8268,7 +8268,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge%2B.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Diego Lainez",
      "club": "SC Braga",
@@ -8281,7 +8281,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Fernando Beltrán",
      "club": "-",
@@ -8294,7 +8294,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Érick Sánchez",
      "club": "-",
@@ -8307,7 +8307,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Mediocampista",
      "jugador": "Orbelín Pineda",
      "club": "AEK Athens",
@@ -8320,7 +8320,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Alexis Vega",
      "club": "-",
@@ -8333,7 +8333,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Henry Josué Martín Mex",
      "club": "-",
@@ -8346,7 +8346,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Hirving Lozano",
      "club": "SSC Napoli",
@@ -8359,7 +8359,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Uriel Antuna",
      "club": "-",
@@ -8372,7 +8372,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Roberto Alvarado",
      "club": "-",
@@ -8385,7 +8385,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Mexico",
+     "seleccion": "México",
      "posicion": "Delantero",
      "jugador": "Santiago Tomás Giménez",
      "club": "-",
@@ -8801,7 +8801,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Arquero",
      "jugador": "Mohamed Sedki Debchi",
      "club": "-",
@@ -8814,7 +8814,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Arquero",
      "jugador": "Aymen Dahmen",
      "club": "-",
@@ -8827,7 +8827,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Arquero",
      "jugador": "Bechir Ben Saïd",
      "club": "-",
@@ -8840,7 +8840,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Bilel Ifa",
      "club": "-",
@@ -8853,7 +8853,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Montassar Talbi",
      "club": "FC Lorient",
@@ -8866,7 +8866,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense.1.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Ali El Abdi",
      "club": "-",
@@ -8879,7 +8879,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Dylan Bronn",
      "club": "Salernitana",
@@ -8892,7 +8892,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense.1.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Ahmed Mortadha Ben Ouannes",
      "club": "-",
@@ -8905,7 +8905,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Ali Maâloul",
      "club": "-",
@@ -8918,7 +8918,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Omar Rekik",
      "club": "-",
@@ -8931,7 +8931,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Mohamed Dräger",
      "club": "-",
@@ -8944,7 +8944,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Hamza Mathlouthi",
      "club": "-",
@@ -8957,7 +8957,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Rami Kaib",
      "club": "-",
@@ -8970,7 +8970,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Defensor",
      "jugador": "Yan Valery",
      "club": "Angers SCO",
@@ -8983,7 +8983,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Nader Ghandri",
      "club": "-",
@@ -8996,7 +8996,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Saîf-Eddine Khaoui",
      "club": "Clermont Foot",
@@ -9009,7 +9009,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense.1.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Ferjani Sassi",
      "club": "-",
@@ -9022,7 +9022,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Hannibal Mejbri",
      "club": "-",
@@ -9035,7 +9035,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Ellyes Skhiri",
      "club": "1. FC Köln",
@@ -9048,7 +9048,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Copa-Sense.1.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Ghaylène Chaalali",
      "club": "-",
@@ -9061,7 +9061,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Naïm Sliti",
      "club": "-",
@@ -9074,7 +9074,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Chaïm El Djebali",
      "club": "-",
@@ -9087,7 +9087,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Aïssa Laïdouni",
      "club": "Ferencváros",
@@ -9100,7 +9100,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Mediocampista",
      "jugador": "Sayfallah Ltaief",
      "club": "-",
@@ -9113,7 +9113,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Youssef Msakni",
      "club": "-",
@@ -9126,7 +9126,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Wahbi Khazri",
      "club": "Montpellier HSC",
@@ -9139,7 +9139,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Taha Yassine Khenissi",
      "club": "-",
@@ -9152,7 +9152,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Seifeddine Jaziri",
      "club": "-",
@@ -9165,7 +9165,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Anis Ben Slimane",
      "club": "-",
@@ -9178,7 +9178,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Tunez",
+     "seleccion": "Túnez",
      "posicion": "Delantero",
      "jugador": "Issam Jebali",
      "club": "-",
@@ -9191,7 +9191,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Arquero",
      "jugador": "Esteban Alvarado",
      "club": "-",
@@ -9204,7 +9204,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Arquero",
      "jugador": "Aarón Cruz",
      "club": "-",
@@ -9217,7 +9217,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Arquero",
      "jugador": "Patrick Sequeira",
      "club": "-",
@@ -9230,7 +9230,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Juan Pablo Vargas",
      "club": "-",
@@ -9243,7 +9243,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Óscar Duarte",
      "club": "-",
@@ -9256,7 +9256,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Bryan Oviedo",
      "club": "-",
@@ -9269,7 +9269,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Orlando Galo",
      "club": "-",
@@ -9282,7 +9282,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Francisco Calvo",
      "club": "-",
@@ -9295,7 +9295,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Kendall Waston",
      "club": "-",
@@ -9308,7 +9308,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Defensor",
      "jugador": "Carlos Martínez",
      "club": "-",
@@ -9321,7 +9321,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Daniel Chacón",
      "club": "-",
@@ -9334,7 +9334,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Celso Borges",
      "club": "-",
@@ -9347,7 +9347,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Jewison Bennette",
      "club": "-",
@@ -9360,7 +9360,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Joel Campbell",
      "club": "-",
@@ -9373,7 +9373,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Gerson Torres",
      "club": "-",
@@ -9386,7 +9386,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Brandon Aguilera",
      "club": "-",
@@ -9399,7 +9399,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Carlos Mora",
      "club": "-",
@@ -9412,7 +9412,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Douglas Andrey López Araya",
      "club": "-",
@@ -9425,7 +9425,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Mediocampista",
      "jugador": "Alvaro José Zamora Mata",
      "club": "-",
@@ -9438,7 +9438,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Keysher Fuller",
      "club": "-",
@@ -9451,7 +9451,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Anthony Contreras",
      "club": "-",
@@ -9464,7 +9464,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Bryan Ruíz",
      "club": "-",
@@ -9477,7 +9477,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Johan Venegas",
      "club": "-",
@@ -9490,7 +9490,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Aarón Suárez",
      "club": "-",
@@ -9503,7 +9503,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Roan Roberto Wilson Gordon",
      "club": "-",
@@ -9516,7 +9516,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Costa Rica",
+     "seleccion": "Costa-Rica",
      "posicion": "Delantero",
      "jugador": "Anthony William Hernández González",
      "club": "-",
@@ -9529,7 +9529,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Arquero",
      "jugador": "Eiji Kawashima",
      "club": "RC Strasbourg Alsace",
@@ -9542,7 +9542,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Arquero",
      "jugador": "Daniel Yuji Yabuki Schmidt",
      "club": "-",
@@ -9555,7 +9555,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Arquero",
      "jugador": "Kosei Tani",
      "club": "-",
@@ -9568,7 +9568,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Miki Yamane",
      "club": "-",
@@ -9581,7 +9581,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Shogo Taniguchi",
      "club": "-",
@@ -9594,7 +9594,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Yuto Nagatomo",
      "club": "-",
@@ -9607,7 +9607,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Takehiro Tomiyasu",
      "club": "Arsenal",
@@ -9620,7 +9620,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Hiroki Sakai",
      "club": "-",
@@ -9633,7 +9633,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Yūta Nakayama",
      "club": "-",
@@ -9646,7 +9646,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Ayumu Seko",
      "club": "-",
@@ -9659,7 +9659,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Maya Yoshida",
      "club": "Schalke 04",
@@ -9672,7 +9672,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Mizuno-Rebula-Cup.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Defensor",
      "jugador": "Hiroki Ito",
      "club": "VfB Stuttgart",
@@ -9685,7 +9685,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Tiempo-Legend-9-Elite-Q.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Wataru Endo",
      "club": "VfB Stuttgart",
@@ -9698,7 +9698,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Future-Z-14.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Gaku Shibasaki",
      "club": "CD Leganés",
@@ -9711,7 +9711,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Umbro-Accelerator-U-by-G.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Genki Haraguchi",
      "club": "Union Berlin",
@@ -9724,7 +9724,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge.1-low.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Takumi Minamino",
      "club": "AS Monaco",
@@ -9737,7 +9737,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge.1-low.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Take Kubo",
      "club": "-",
@@ -9750,7 +9750,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Hidemasa Morita",
      "club": "Sporting",
@@ -9763,7 +9763,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Mizuno-Morelia-Neo-III-Beta.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Junya Ito",
      "club": "Stade de Reims",
@@ -9776,7 +9776,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Ao Tanaka",
      "club": "-",
@@ -9789,7 +9789,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Kaoru Mitoma",
      "club": "Brighton & Hove Albion",
@@ -9802,7 +9802,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Ritsu Dōan",
      "club": "-",
@@ -9815,7 +9815,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Mediocampista",
      "jugador": "Reo Hatate",
      "club": "Celtic",
@@ -9828,7 +9828,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Mizuno-Morelia-Neo-III-Beta.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Kyogo Furuhashi",
      "club": "Celtic",
@@ -9841,7 +9841,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Daichi Kamada",
      "club": "Eintracht Frankfurt",
@@ -9854,7 +9854,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Phantom-GT2-Elite-Q.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Daizen Maeda",
      "club": "Celtic",
@@ -9867,7 +9867,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Ayase Ueda",
      "club": "-",
@@ -9880,7 +9880,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Yuki Soma",
      "club": "-",
@@ -9893,7 +9893,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Japon",
+     "seleccion": "Japón",
      "posicion": "Delantero",
      "jugador": "Shuto Machino",
      "club": "-",
@@ -9906,7 +9906,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Arquero",
      "jugador": "Dayne St. Clair",
      "club": "-",
@@ -9919,7 +9919,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Arquero",
      "jugador": "Maxime Crépeau",
      "club": "-",
@@ -9932,7 +9932,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Arquero",
      "jugador": "Milan Borjan",
      "club": "-",
@@ -9945,7 +9945,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Alistair Johnston",
      "club": "-",
@@ -9958,7 +9958,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Kamal Miller",
      "club": "-",
@@ -9971,7 +9971,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Steven Vitória",
      "club": "-",
@@ -9984,7 +9984,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Derek Cornelius",
      "club": "-",
@@ -9997,7 +9997,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Scott Kennedy",
      "club": "-",
@@ -10010,7 +10010,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Defensor",
      "jugador": "Joel Robert Waterman",
      "club": "-",
@@ -10023,7 +10023,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Samuel Adekugbe",
      "club": "-",
@@ -10036,7 +10036,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Samuel Piette",
      "club": "-",
@@ -10049,7 +10049,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Stephen Eustáquio",
      "club": "-",
@@ -10062,7 +10062,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Ismaël Kenneth Jordan Koné",
      "club": "-",
@@ -10075,7 +10075,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Junior Hoilett",
      "club": "-",
@@ -10088,7 +10088,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Mark-Anthony Kaye",
      "club": "-",
@@ -10101,7 +10101,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Alphonso Davies",
      "club": "-",
@@ -10114,7 +10114,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Richie Laryea",
      "club": "-",
@@ -10127,7 +10127,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Mediocampista",
      "jugador": "Luca Warrick Daeovie Koleosho",
      "club": "-",
@@ -10140,7 +10140,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Lucas Cavallini",
      "club": "-",
@@ -10153,7 +10153,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Tajon Buchanan",
      "club": "-",
@@ -10166,7 +10166,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Ike Ugbo",
      "club": "-",
@@ -10179,7 +10179,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Charles-Andreas Brym",
      "club": "-",
@@ -10192,7 +10192,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Cyle Larin",
      "club": "-",
@@ -10205,7 +10205,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Jonathan David",
      "club": "-",
@@ -10218,7 +10218,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Liam Alan Millar",
      "club": "-",
@@ -10231,7 +10231,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Canada",
+     "seleccion": "Canadá",
      "posicion": "Delantero",
      "jugador": "Theodor Corbeanu",
      "club": "-",
@@ -10504,7 +10504,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Arquero",
      "jugador": "Simon Ngapandouetnbu",
      "club": "Olympique de Marseille",
@@ -10517,7 +10517,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Arquero",
      "jugador": "Devis Epassy",
      "club": "-",
@@ -10530,7 +10530,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Arquero",
      "jugador": "André Onana",
      "club": "Inter",
@@ -10543,7 +10543,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge%2B.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Darlin Yongwa",
      "club": "FC Lorient",
@@ -10556,7 +10556,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Nicolas N'Koulou",
      "club": "-",
@@ -10569,7 +10569,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Christopher Wooh",
      "club": "Stade Rennais",
@@ -10582,7 +10582,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Oumar Gonzalez",
      "club": "Ajaccio",
@@ -10595,7 +10595,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Michael Ngadeu",
      "club": "KAA Gent",
@@ -10608,7 +10608,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Nouhou Tolo",
      "club": "-",
@@ -10621,7 +10621,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Olivier Mbaizo",
      "club": "-",
@@ -10634,7 +10634,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Collins Fai",
      "club": "-",
@@ -10647,7 +10647,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Jean-Charles Castelletto",
      "club": "FC Nantes",
@@ -10660,7 +10660,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Defensor",
      "jugador": "Enzo Ebosse",
      "club": "Udinese Calcio",
@@ -10673,7 +10673,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal.1.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Georges-Kévin Nkoudou Mbida",
      "club": "-",
@@ -10686,7 +10686,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Olivier Ntcham",
      "club": "Swansea City",
@@ -10699,7 +10699,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Puma-Ultra-Ultimate.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Georges Constant Mandjeck",
      "club": "-",
@@ -10712,7 +10712,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Pierre Kunde",
      "club": "Olympiacos",
@@ -10725,7 +10725,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Phantom-GT2-Elite-Q.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Martin Hongla",
      "club": "Hellas Verona",
@@ -10738,7 +10738,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Samuel Oum Gouet",
      "club": "-",
@@ -10751,7 +10751,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Gaël Ondoua",
      "club": "-",
@@ -10764,7 +10764,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Mediocampista",
      "jugador": "Jean Onana",
      "club": "RC Lens",
@@ -10777,7 +10777,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-Predator-Edge.1-low.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Nicolas Ngamaleu",
      "club": "-",
@@ -10790,7 +10790,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Léandre Tawamba",
      "club": "-",
@@ -10803,7 +10803,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Vincent Aboubakar",
      "club": "-",
@@ -10816,7 +10816,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Karl Toko-Ekambi",
      "club": "-",
@@ -10829,7 +10829,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Jean-Pierre Nsame",
      "club": "BSC Young Boys",
@@ -10842,7 +10842,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Phantom-GT2-Elite-Q.webp"
     },
     {
-     "seleccion": "Camerun",
+     "seleccion": "Camerún",
      "posicion": "Delantero",
      "jugador": "Bryan Mbeumo",
      "club": "Brentford FC",
@@ -11232,7 +11232,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Arquero",
      "jugador": "Seung-Gyu Kim",
      "club": "-",
@@ -11245,7 +11245,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Arquero",
      "jugador": "Bum-Keun Song",
      "club": "-",
@@ -11258,7 +11258,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Arquero",
      "jugador": "Sung-Yun Gu",
      "club": "-",
@@ -11271,7 +11271,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Arquero",
      "jugador": "Hyeon-Woo Jo",
      "club": "-",
@@ -11284,7 +11284,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Tae-Hwan Kim",
      "club": "-",
@@ -11297,7 +11297,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Jin-Su Kim",
      "club": "-",
@@ -11310,7 +11310,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Chul Hong",
      "club": "-",
@@ -11323,7 +11323,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Ji-Soo Park",
      "club": "-",
@@ -11336,7 +11336,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Young-Gwon Kim",
      "club": "-",
@@ -11349,7 +11349,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Kyung-Won Kwon",
      "club": "-",
@@ -11362,7 +11362,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Moon-Hwan Kim",
      "club": "-",
@@ -11375,7 +11375,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Jong-Gyu Yoon",
      "club": "-",
@@ -11388,7 +11388,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Defensor",
      "jugador": "Min-Gyu Park",
      "club": "-",
@@ -11401,7 +11401,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Woo-Young Jung",
      "club": "-",
@@ -11414,7 +11414,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Seung-Ho Paik",
      "club": "-",
@@ -11427,7 +11427,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Jun-Ho Son",
      "club": "-",
@@ -11440,7 +11440,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Min-Kyu Song",
      "club": "-",
@@ -11453,7 +11453,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Yu-Min Cho",
      "club": "-",
@@ -11466,7 +11466,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Sang-Ho Na",
      "club": "-",
@@ -11479,7 +11479,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Hyun-Jun Yang",
      "club": "-",
@@ -11492,7 +11492,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Jin-Kyu Kim",
      "club": "-",
@@ -11505,7 +11505,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Chang-Hoon Kwon",
      "club": "-",
@@ -11518,7 +11518,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Seung-Beom Ko",
      "club": "-",
@@ -11531,7 +11531,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "Won-Sang Um",
      "club": "-",
@@ -11544,7 +11544,7 @@
      "imagen": "-"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Mediocampista",
      "jugador": "HEUNG-MIN SON",
      "club": "Tottenham Hotspur",
@@ -11557,7 +11557,7 @@
      "imagen": "https:\/\/raw.githubusercontent.com\/fedeteyssan\/world-cup\/master\/public\/Images\/adidas-X-Speedportal%2B.webp"
     },
     {
-     "seleccion": "Korea",
+     "seleccion": "Corea",
      "posicion": "Delantero",
      "jugador": "Gue-Sung Cho",
      "club": "-",

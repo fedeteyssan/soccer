@@ -42,25 +42,24 @@
     .jugador-box{
         position: relative;
         top:2rem;
-        left: 2rem;
+        left: 1rem;
         margin-bottom: 1rem;
         transform: skew(5deg, 0deg);
 
         /*Tablet*/
         @media only screen and (min-width:426px) and (max-width: 768px)  {
             margin-bottom: 0.5rem;
-            left: 1rem;
         }
 
         /*Mobile*/
         @media only screen and (max-width: 425px)  {
             margin-bottom: 0.25rem;
+            left: 0.5rem;
             top: 0.5rem;
-            left: 1rem;
         }
 
         .nombre-jugador{
-            font-size: 1.25rem;
+            font-size: 1rem;
             text-transform: uppercase;
             font-weight: 600;
             line-height: 2rem;

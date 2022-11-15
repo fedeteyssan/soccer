@@ -42,7 +42,7 @@ const Carousel = () => {
                         <div className="contenedor-cards-selecciones">
                             <div className="d-flex">
                                 <Link to="/seleccion?seleccion=Inglaterra"><CardSeleccion text="Inglaterra" img ={require("../../Multimedia/inglaterra.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Iran"><CardSeleccion text="Irán" img ={require("../../Multimedia/iran.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Irán"><CardSeleccion text="Irán" img ={require("../../Multimedia/iran.png")}></CardSeleccion></Link>
                             </div>
                             <div className="d-flex">
                                 <Link to="/seleccion?seleccion=Estados-Unidos"><CardSeleccion text="Estados Unidos" img ={require("../../Multimedia/estadosUnidos.png")}></CardSeleccion></Link>
@@ -58,7 +58,7 @@ const Carousel = () => {
                                 <Link to="/seleccion?seleccion=Arabia-Saudita"><CardSeleccion text="Arabia Saudita" img ={require("../../Multimedia/arabiaSaudita.png")}></CardSeleccion></Link>
                             </div>
                             <div className="d-flex">
-                                <Link to="/seleccion?seleccion=Mexico"><CardSeleccion text="México" img ={require("../../Multimedia/mexico.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=México"><CardSeleccion text="México" img ={require("../../Multimedia/mexico.png")}></CardSeleccion></Link>
                                 <Link to="/seleccion?seleccion=Polonia"><CardSeleccion text="Polonia" img ={require("../../Multimedia/polonia.png")}></CardSeleccion></Link>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Carousel = () => {
                             </div>
                             <div className="d-flex">
                             <Link to="/seleccion?seleccion=Dinamarca"><CardSeleccion text="Dinamarca" img ={require("../../Multimedia/dinamarca.png")}></CardSeleccion></Link>
-                            <Link to="/seleccion?seleccion=Tunez"><CardSeleccion text="Túnez" img ={require("../../Multimedia/tunez.png")}></CardSeleccion></Link>
+                            <Link to="/seleccion?seleccion=Túnez"><CardSeleccion text="Túnez" img ={require("../../Multimedia/tunez.png")}></CardSeleccion></Link>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ const Carousel = () => {
                             </div>
                             <div className="d-flex">
                                 <Link to="/seleccion?seleccion=Alemania"><CardSeleccion text="Alemania" img ={require("../../Multimedia/alemania.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Japon"><CardSeleccion text="Japón" img ={require("../../Multimedia/japon.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Japón"><CardSeleccion text="Japón" img ={require("../../Multimedia/japon.png")}></CardSeleccion></Link>
                             </div>
                         </div>
                     </div>
@@ -93,8 +93,8 @@ const Carousel = () => {
                     <div className="carousel-item">
                         <div className="contenedor-cards-selecciones">
                             <div className="d-flex">    
-                                <Link to="/seleccion?seleccion=Belgica"><CardSeleccion text="Bélgica" img ={require("../../Multimedia/belgica.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Canada"><CardSeleccion text="Canadá" img ={require("../../Multimedia/canada.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Bélgica"><CardSeleccion text="Bélgica" img ={require("../../Multimedia/belgica.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Canadá"><CardSeleccion text="Canadá" img ={require("../../Multimedia/canada.png")}></CardSeleccion></Link>
                             </div>
                             <div className="d-flex">   
                                 <Link to="/seleccion?seleccion=Marruecos"><CardSeleccion text="Marruecos" img ={require("../../Multimedia/marruecos.png")}></CardSeleccion></Link>
@@ -111,7 +111,7 @@ const Carousel = () => {
                             </div>
                             <div className="d-flex">
                                 <Link to="/seleccion?seleccion=Suiza"><CardSeleccion text="Suiza" img ={require("../../Multimedia/suiza.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Camerun"><CardSeleccion text="Camerún" img ={require("../../Multimedia/camerun.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Camerún"><CardSeleccion text="Camerún" img ={require("../../Multimedia/camerun.png")}></CardSeleccion></Link>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const Carousel = () => {
                             </div>
                             <div className="d-flex"> 
                                 <Link to="/seleccion?seleccion=Uruguay"> <CardSeleccion text="Uruguay" img ={require("../../Multimedia/uruguay.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Corea-del-Sur"><CardSeleccion text="Corea del Sur" img ={require("../../Multimedia/corea.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Corea"><CardSeleccion text="Corea" img ={require("../../Multimedia/corea.png")}></CardSeleccion></Link>
                             </div>
                         </div>
                     </div>

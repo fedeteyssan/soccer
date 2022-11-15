@@ -29,6 +29,10 @@ const ListadoBotinesJugador = () => {
         filtrar(e.target.value);
     }
 
+    const handleScroll = e =>{
+        e.preventDefault();
+    }
+
     const filtrar = (terminoBusqueda) =>{
         let resultadoBusqueda = tablaBotines.filter((elemento) => 
             elemento.jugador.toString().toLowerCase().normalize('NFD')
@@ -55,7 +59,7 @@ const ListadoBotinesJugador = () => {
             <ScrolltoTop />
 
             <div className="container-input">
-                <input className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
+                <input className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} onFocus={handleScroll} value={busqueda}/>
             </div>
             
 

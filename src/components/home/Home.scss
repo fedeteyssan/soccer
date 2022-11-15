@@ -21,15 +21,15 @@
         }
     
         .contenedor-imagenes{
-            position: relative;
-            top: 5rem;
+            width: 100%;
+            margin: 0 0.5rem;
             display: flex;
             justify-content: space-evenly;
     
     
             /*Tablet & Mobile*/
             @media only screen and (max-width: 768px){
-                top:0;
+                top: 0;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;    
@@ -37,26 +37,48 @@
     
             /*Mobile*/
             @media only screen and (max-width: 425px)  {
-                top: 0;
+                top:0;
             }
-    
-      
+
+            .grupos-imagenes{
+                width: 100%;
+                margin-top: 30rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                
+                /*Tablet & Mobile*/
+                    @media only screen and (max-width: 768px){
+                        margin-top:0;
+                    }
+
+                img{
+                    width: 45%;
+        
+                    /*Tablet*/
+                    @media only screen and (min-width:426px) and (max-width: 768px)  {
+                        width: 230px;
+                        padding: 0.25rem 0;
+                        position: relative;
+                        top: 100%;
+                    }
+        
+                    /*Mobile*/
+                    @media only screen and (max-width: 425px)  {
+                        width: 220px;
+                        padding: 0.5rem 0;
+                    }
+                }
+            }
+
+            .grupo-1{
+                margin-top: 8rem;
+            }
+
+            .grupo-2{
+                margin-top: 2rem;
+            }
             
-            img{
-                width: 20%;
-    
-                /*Tablet*/
-                @media only screen and (min-width:426px) and (max-width: 768px)  {
-                    width: 230px;
-                    padding: 0.25rem 0;
-                }
-    
-                /*Mobile*/
-                @media only screen and (max-width: 425px)  {
-                    width: 220px;
-                    padding: 0.5rem 0;
-                }
-            }
         }
     }
     

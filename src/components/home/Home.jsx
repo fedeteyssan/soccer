@@ -40,10 +40,16 @@ const Home = () => {
 
             <header>
                 <div className="contenedor-imagenes">
-                    <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
-                    <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
-                    <img src= {require ("../../Multimedia/inicio-posiciones.png")} alt="" onClick={controlScrollPosiciones}/>
-                    <img src= {require ("../../Multimedia/inicio-jugador.png")} alt="" onClick={controlScrollJugador}/>
+                    <div className="grupos-imagenes grupo-1">
+                        <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
+                        <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
+                    </div>
+                    
+                    <div className="grupos-imagenes grupo-2">
+                        <img src= {require ("../../Multimedia/inicio-posiciones.png")} alt="" onClick={controlScrollPosiciones}/>
+                        <img src= {require ("../../Multimedia/inicio-jugador.png")} alt="" onClick={controlScrollJugador}/>
+                    </div>
+                    
                 </div>
 
             </header>

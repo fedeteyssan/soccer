@@ -31,10 +31,9 @@ const ListadoBotinesPosiciones = () => {
     }
 
     let history = useHistory();
-
     function handleChange(value) {
     history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
-  }
+    }
 
     const getbotines = (dataBase) => 
         new Promise((resolve, reject) => {

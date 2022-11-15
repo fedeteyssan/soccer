@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
 import ScrolltoTop from "../components/ScrollToTop";
 
@@ -29,9 +29,14 @@ const ListadoBotinesSelecciones = () => {
         setFlagEstilo(flagEstilo?false:true);
     }
 
-    const [showDrawer,setShowDrawer]=useState(false)
-    const handleDrawer =() =>{
-        setShowDrawer(showDrawer?false:true);
+    let history = useHistory();
+
+    function handleChangePosicion(value) {
+    history.push(`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=${value}`);
+    }
+
+    function handleChangeEstilo(value) {
+        history.push(`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=${value}`);
     }
 
 
@@ -78,12 +83,47 @@ const ListadoBotinesSelecciones = () => {
             <ScrolltoTop />
 
             <div className="contenedor-titulo-plp">
+                <div className="banner"></div>
                 <h3>Botines de Jugadores Selección {seleccionID}</h3>
+                <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
             </div>
 
-            <button className="activar-drawer" onClick={handleDrawer}>FILTROS</button>
+                
+            <div className="drawer">
 
-            {showDrawer && (<div>Funciona</div>)}
+                <h4>FILTROS</h4>
+
+                <div className="contenedor-selectores">
+
+                    
+                        <select onChange={event => handleChangePosicion(event.target.value)}>
+                            <option value="null">POSICION</option>
+                            <option value="Arquero">Arquero</option>
+                            <option value="Defensor">Defensor</option>
+                            <option value="Mediocampista">Mediocampista</option>
+                            <option value="Delantero">Delantero</option>
+                        </select>
+                  
+
+                        <select onChange={event => handleChangeEstilo(event.target.value)}>
+                            <option value="null">ESTILO</option>
+                            <option value="Elegante">Elegante</option>
+                            <option value="Dominate">Dominante</option>
+                            <option value="Imparable">Imparable</option>
+                            <option value="Estratega">Estratega</option>
+                            <option value="Desafiante">Desafiante</option>
+                            <option value="Intuitivo">Intuitivo</option>
+                        </select>
+                    
+
+                </div>
+
+                
+
+
+            
+
+            </div>
 
             <aside className="controlador">
 

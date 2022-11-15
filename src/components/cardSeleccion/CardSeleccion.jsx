@@ -8,7 +8,5 @@ const CardSeleccion = (props) =>{
             <img src={props.img} className="d-block " alt="..." />
         </div>
     )
-
 }
-
 export default CardSeleccion;

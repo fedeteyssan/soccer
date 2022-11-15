@@ -14,11 +14,29 @@
 
     margin:1rem 0;
 
+    /*Tablet*/
+    @media only screen and (min-width:426px) and (max-width: 768px)  {
+        width: 13.5rem;
+        height: 20.25rem;
+    }
+
+    /*Mobile*/
+    @media only screen and (max-width: 425px)  {
+        width: 12.015rem;
+        height: 18.225rem;
+    }
+
     .botines-img{
         margin-top: 2rem;
         margin-left: 2.5rem;
         width: 70%;
         transform: skew(5deg, 0deg);
+
+        /*Mobile*/
+        @media only screen and (max-width: 425px)  {
+            margin-top: 0.5rem;
+            margin-left: 1.25rem;
+    }
     }
 
     .jugador-box{
@@ -28,13 +46,36 @@
         margin-bottom: 1rem;
         transform: skew(5deg, 0deg);
 
+        /*Tablet*/
+        @media only screen and (min-width:426px) and (max-width: 768px)  {
+            margin-bottom: 0.5rem;
+            left: 1rem;
+        }
+
+        /*Mobile*/
+        @media only screen and (max-width: 425px)  {
+            margin-bottom: 0.25rem;
+            top: 0.5rem;
+            left: 1rem;
+        }
+
         .nombre-jugador{
-            font-size: 1.125rem;
+            font-size: 1.25rem;
             text-transform: uppercase;
             font-weight: 600;
             line-height: 2rem;
             text-align: center;
             color: #53514C;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                font-size: 1rem;
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size: 0.875rem;
+            }
         }
 
         h5{
@@ -42,6 +83,12 @@
             font-weight: 400;
             color: #4D4B49;
             margin-bottom: 0;
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size: 0.75rem;
+
+            }
         }
     }
 
@@ -56,11 +103,34 @@
         flex-direction: column;
         justify-content: center;
 
+        /*Tablet*/
+        @media only screen and (min-width:426px) and (max-width: 768px)  {
+            top: 0.6rem;
+            height: 103px;
+        }
+
+        /*Mobile*/
+        @media only screen and (max-width: 425px)  {
+            top: 0.6rem;
+            height: 112px;
+        }
+
         .nombre-botin{
             font-size: 1.1rem;
             transform: skew(5deg, 0deg);
             padding-top: 1rem;
             margin-left: 0.5rem;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                font-size: 0.875rem;
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size: 0.875rem;
+                height: 49px;
+            }
         }
 
         .skills{
@@ -71,6 +141,16 @@
             font-weight: 500;
             line-height: 24px;
             color: #BE9324; 
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                font-size: 0.8125rem;
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size: 0.75rem;
+            }
         }
 
         button{
@@ -83,6 +163,21 @@
             color: #FFFBFB;
             padding: 0.5rem 2rem;
             border: transparent;
+            position: relative;
+
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width: 768px)  {
+                font-size: 0.875rem;
+                padding: 0.25rem 1rem ;
+                bottom: 10px;
+            }
+
+            /*Mobile*/
+            @media only screen and (max-width: 425px)  {
+                font-size: 0.75rem;
+                padding: 0.125rem 0.5rem;
+                bottom: 10px;
+            }
         }
 
         

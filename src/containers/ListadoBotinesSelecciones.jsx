@@ -29,6 +29,11 @@ const ListadoBotinesSelecciones = () => {
         setFlagEstilo(flagEstilo?false:true);
     }
 
+    const [showDrawer,setShowDrawer]=useState(false)
+    const handleDrawer =() =>{
+        setShowDrawer(showDrawer?false:true);
+    }
+
 
     const getbotines = (dataBase) => 
         new Promise((resolve, reject) => {
@@ -67,9 +72,6 @@ const ListadoBotinesSelecciones = () => {
     },[botines,posicionID, estiloID]);
 
 
-
-
-
     return (
         <Container fluid className="contenedor-botines-selecciones">
 
@@ -78,6 +80,10 @@ const ListadoBotinesSelecciones = () => {
             <div className="contenedor-titulo-plp">
                 <h3>Botines de Jugadores Selección {seleccionID}</h3>
             </div>
+
+            <button className="activar-drawer" onClick={handleDrawer}>FILTROS</button>
+
+            {showDrawer && (<div>Funciona</div>)}
 
             <aside className="controlador">
 

@@ -30,7 +30,7 @@ const ListadoBotinesJugador = () => {
     }
 
     const handleScroll = e =>{
-        e.preventDefault();
+        e.preventScroll(true);
     }
 
     const filtrar = (terminoBusqueda) =>{

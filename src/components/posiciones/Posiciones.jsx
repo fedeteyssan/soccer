@@ -14,7 +14,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion arq">ARQ</button>
+                <button className="boton-posicion">ARQ</button>
             </div>
         </Link>
 
@@ -25,7 +25,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">LI</button>
+                <button className="boton-posicion">LI</button>
                 </div>
         </Link>
 
@@ -36,7 +36,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">DFC</button>
+                <button className="boton-posicion">DFC</button>
             </div>
         </Link>
 
@@ -47,7 +47,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>            
-                <button className="posicion">LD</button>
+                <button className="boton-posicion">LD</button>
             </div>
         </Link>
 
@@ -58,7 +58,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>              
-                <button className="posicion">MCD</button>
+                <button className="boton-posicion">MCD</button>
             </div>
         </Link>
 
@@ -69,7 +69,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">MI</button>
+                <button className="boton-posicion">MI</button>
             </div>
         </Link>
 
@@ -80,7 +80,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">MD</button>
+                <button className="boton-posicion">MD</button>
             </div>
         </Link>
 
@@ -91,7 +91,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">MCO</button>
+                <button className="boton-posicion">MCO</button>
             </div>
         </Link>
 
@@ -102,7 +102,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">EI</button>
+                <button className="boton-posicion">EI</button>
             </div>
         </Link>
 
@@ -113,7 +113,7 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">DC</button>
+                <button className="boton-posicion">DC</button>
             </div>
         </Link>
 
@@ -124,12 +124,13 @@ const Posiciones = () =>{
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="posicion">ED</button>
+                <button className="boton-posicion">ED</button>
             </div>
         </Link>
 
         <div className="contenedor-cancha">
-            <img src= {require ("../../Multimedia/cancha-tactica2.png")} alt="" />
+            <img className="cancha-desktop" src= {require ("../../Multimedia/cancha-desktop.png")} alt="" />
+            <img className="cancha-mobile" src= {require ("../../Multimedia/cancha-mobile.png")} alt="" />
         </div>            
     </div>
     )

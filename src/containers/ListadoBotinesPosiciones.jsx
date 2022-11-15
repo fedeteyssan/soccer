@@ -35,6 +35,14 @@ const ListadoBotinesPosiciones = () => {
     history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
     }
 
+    function handleChangeSeleccion(value) {
+    history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
+    }
+
+    function handleChangeEstilo(value) {
+        history.push(`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${value}`);
+    }
+
     const getbotines = (dataBase) => 
         new Promise((resolve, reject) => {
            
@@ -77,7 +85,64 @@ const ListadoBotinesPosiciones = () => {
             <ScrolltoTop />
 
             <div className="contenedor-titulo-plp">
-                <h3>Botines de Jugadores con Posición {posicionID}</h3>
+                <div className="banner"></div>
+                <h3>Botines de Jugadores con Posicion {posicionID}</h3>
+                <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
+            </div>
+
+            <div className="drawer">
+
+                <h4>FILTROS</h4>
+
+                <div className="contenedor-selectores">
+
+                    <select onChange={event => handleChangeSeleccion(event.target.value)}>
+                        <option value="null">SELECCION</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="ArabiaSaudita">Arabia Saudita</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Belgica">Bélgica</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Camerun">Camerún</option>
+                        <option value="Canada">Canadá</option>
+                        <option value="Corea">Corea</option>
+                        <option value="CostaRica">Costa Rica</option>
+                        <option value="Croacia">Croacia</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="España">España</option>
+                        <option value="EstadosUnidos">Estados Unidos</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Gales">Gales</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Holanda">Holanda</option>
+                        <option value="Inglaterra">Inglaterra</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Japon">Japón</option>
+                        <option value="Marruecos">Marruecos</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Polonia">Polonia</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Suiza">Suiza</option>
+                        <option value="Tunez">Tunez</option>
+                        <option value="Uruguay">Uruguay</option>
+                    </select>  
+
+                    <select onChange={event => handleChangeEstilo(event.target.value)}>
+                        <option value="null">ESTILO</option>
+                        <option value="Elegante">Elegante</option>
+                        <option value="Dominate">Dominante</option>
+                        <option value="Imparable">Imparable</option>
+                        <option value="Estratega">Estratega</option>
+                        <option value="Desafiante">Desafiante</option>
+                        <option value="Intuitivo">Intuitivo</option>
+                    </select>
+
+                </div>
             </div>
 
             <aside className="controlador">

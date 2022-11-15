@@ -87,42 +87,33 @@ const ListadoBotinesSelecciones = () => {
                 <h3>Botines de Jugadores Selección {seleccionID}</h3>
                 <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
             </div>
-
-                
+    
             <div className="drawer">
 
                 <h4>FILTROS</h4>
 
                 <div className="contenedor-selectores">
 
-                    
-                        <select onChange={event => handleChangePosicion(event.target.value)}>
-                            <option value="null">POSICION</option>
-                            <option value="Arquero">Arquero</option>
-                            <option value="Defensor">Defensor</option>
-                            <option value="Mediocampista">Mediocampista</option>
-                            <option value="Delantero">Delantero</option>
-                        </select>
+                    <select onChange={event => handleChangePosicion(event.target.value)}>
+                        <option value="null">POSICION</option>
+                        <option value="Arquero">Arquero</option>
+                        <option value="Defensor">Defensor</option>
+                        <option value="Mediocampista">Mediocampista</option>
+                        <option value="Delantero">Delantero</option>
+                    </select>
                   
 
-                        <select onChange={event => handleChangeEstilo(event.target.value)}>
-                            <option value="null">ESTILO</option>
-                            <option value="Elegante">Elegante</option>
-                            <option value="Dominate">Dominante</option>
-                            <option value="Imparable">Imparable</option>
-                            <option value="Estratega">Estratega</option>
-                            <option value="Desafiante">Desafiante</option>
-                            <option value="Intuitivo">Intuitivo</option>
-                        </select>
-                    
+                    <select onChange={event => handleChangeEstilo(event.target.value)}>
+                        <option value="null">ESTILO</option>
+                        <option value="Elegante">Elegante</option>
+                        <option value="Dominate">Dominante</option>
+                        <option value="Imparable">Imparable</option>
+                        <option value="Estratega">Estratega</option>
+                        <option value="Desafiante">Desafiante</option>
+                        <option value="Intuitivo">Intuitivo</option>
+                    </select>  
 
                 </div>
-
-                
-
-
-            
-
             </div>
 
             <aside className="controlador">
@@ -136,7 +127,7 @@ const ListadoBotinesSelecciones = () => {
 
                 {flagPosicion && (<div className="contenedor-tactica">
 
-                <div className="tactica-sidebar">
+                    <div className="tactica-sidebar">
                         <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
                         <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}`}><button className="reset">X</button></Link> 

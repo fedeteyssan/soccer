@@ -32,7 +32,16 @@ const ListadoBotinesEsilos = () => {
 
     function handleChange(value) {
     history.push(`/estilo?estilo=${estiloID}&posicion=${posicionID}&seleccion=${value}`);
-  }
+    }
+
+    function handleChangeSeleccion(value) {
+        history.push(`/estilo?estilo=${estiloID}&posicion=${posicionID}&seleccion=${value}`);
+    }
+    function handleChangePosicion(value) {
+        history.push(`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${value}`);
+    }
+    
+    
     
 
     const getbotines = (dataBase) => 
@@ -79,7 +88,62 @@ const ListadoBotinesEsilos = () => {
             <ScrolltoTop />
 
             <div className="contenedor-titulo-plp">
+                <div className="banner"></div>
                 <h3>Botines de Jugadores con Estilo {estiloID}</h3>
+                <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
+            </div>
+
+            <div className="drawer">
+
+                <h4>FILTROS</h4>
+
+                <div className="contenedor-selectores">
+
+                    <select onChange={event => handleChangeSeleccion(event.target.value)}>
+                        <option value="null">SELECCION</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="ArabiaSaudita">Arabia Saudita</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Belgica">Bélgica</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Camerun">Camerún</option>
+                        <option value="Canada">Canadá</option>
+                        <option value="Corea">Corea</option>
+                        <option value="CostaRica">Costa Rica</option>
+                        <option value="Croacia">Croacia</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="España">España</option>
+                        <option value="EstadosUnidos">Estados Unidos</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Gales">Gales</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Holanda">Holanda</option>
+                        <option value="Inglaterra">Inglaterra</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Japon">Japón</option>
+                        <option value="Marruecos">Marruecos</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Polonia">Polonia</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Suiza">Suiza</option>
+                        <option value="Tunez">Tunez</option>
+                        <option value="Uruguay">Uruguay</option>
+                    </select>  
+
+                    <select onChange={event => handleChangePosicion(event.target.value)}>
+                        <option value="null">POSICION</option>
+                        <option value="Arquero">Arquero</option>
+                        <option value="Defensor">Defensor</option>
+                        <option value="Mediocampista">Mediocampista</option>
+                        <option value="Delantero">Delantero</option>
+                    </select>
+
+                </div>
             </div>
 
             <aside className="controlador">

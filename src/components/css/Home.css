@@ -6,7 +6,13 @@
   background-image: url(../../Multimedia/header-bg-1920x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
   min-height: 100vh;
 }
 
@@ -15,7 +21,13 @@
     background-image: url(../../Multimedia/header-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
   }
 }
 

@@ -1,6 +1,13 @@
 .contenedor-botines-estilos {
   background-image: url(../Multimedia/plp-bg.png);
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
   min-height: 100vh;
   padding: 0;
 }

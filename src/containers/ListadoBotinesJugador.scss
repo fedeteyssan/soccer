@@ -40,19 +40,19 @@
     }
 
     .contenedor-cards{
-        margin-top: 10rem;
+        padding-top: 10rem;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
     
         /*Tablet*/
         @media only screen and (min-width:426px) and (max-width: 768px)  {
-            margin-top: 1rem;
+            padding-top: 1rem;
         }
 
         /*Mobile*/
         @media only screen and (max-width: 425px)  {
-            margin-top: 1rem;
+            padding-top: 1rem;
         }
 
         .error-msg{

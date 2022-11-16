@@ -4,6 +4,11 @@
     align-items: flex-end;
     margin: 2rem auto;
 
+    /*Mobile*/
+    @media only screen and (max-width:375px) {
+        margin: 2rem 0 0 1rem;
+    }
+    
     a{
         text-decoration: none;
         color: black;
@@ -40,10 +45,16 @@
                 display: none;
             }
 
-            /*Mmobile*/
-            @media only screen and (max-width:525px) {
-                width: 341.6px;
+            /*Mobile*/
+            @media only screen and (min-width:376px) and (max-width:525px) {
+                width: 360px;
                 height: 553px;
+            }
+
+            /*Mobile2*/
+            @media only screen and (max-width:375px) {
+                width: 310px;
+                height: 490px;
             }
         }
 
@@ -59,6 +70,11 @@
         height: fit-content;
         width: 142px;
 
+        /*Mobile*/
+        @media only screen and (max-width: 375px){
+            width: 10px;
+        }
+
         .contenedor-hover{
             padding-bottom: 50px;
             opacity: 0;
@@ -70,6 +86,11 @@
                 &:hover{
                     opacity: 1;
                 }
+            }
+
+            /*Mobile2*/
+            @media only screen and (max-width: 375px){
+               width: 0;
             }
 
             p{
@@ -86,6 +107,11 @@
                 box-shadow: 5px 8px 18px rgba(0, 0, 0, 0.5);
                 border-radius: 25px;
 
+                /*Mobile2*/
+                @media only screen and (max-width: 375px){
+                    width: 0;
+                }
+
             }
             
             img{
@@ -95,6 +121,11 @@
 
             .camiseta{
                 width: 45px;
+
+                /*Mobile2*/
+                @media only screen and (max-width: 375px){
+                    width: 0;
+                }
             }
 
             .cursor{
@@ -142,8 +173,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:100px;
+            top: 390px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:150px;
             top: 390px;
         }
     }
@@ -166,8 +203,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:-15px;
+            top: 270px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:35px;
             top: 270px;
         }
     }
@@ -190,8 +233,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:100px;
+            top: 310px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:150px;
             top: 310px;
         }
     }
@@ -214,8 +263,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:220px;
+            top: 270px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:270px;
             top: 270px;
         }
     }
@@ -238,8 +293,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:100px;
+            top: 200px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:150px;
             top: 200px;
         }
     }
@@ -262,8 +323,14 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:-10px;
+            top: 130px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:40px;
             top: 130px;
         }
     }
@@ -286,10 +353,16 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:215px;
             top: 130px;
         }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:265px;
+            top: 130px;
+        }  
     }
 
     .contenedor-mco{
@@ -310,10 +383,16 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:100px;
             top: 70px;
         }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:150px;
+            top: 70px;
+        }  
     }
 
     .contenedor-ei{
@@ -334,10 +413,16 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left: -5px;
             top:10px;
         }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left: 45px;
+            top:10px;
+        }  
     }
 
     .contenedor-dc{
@@ -358,10 +443,16 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:100px;
             top:-40px;
         }   
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:150px;
+            top:-40px;
+        }  
     }
 
     .contenedor-ed{
@@ -382,10 +473,16 @@
         }
 
         /*Mobile*/
-        @media only screen and (max-width: 525px)  {
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:210px;
             top:10px;
         }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:260px;
+            top:10px;
+        }    
     }
     
 }

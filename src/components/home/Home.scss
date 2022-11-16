@@ -40,22 +40,22 @@
     
             .logo{
                 position: fixed;
-                $left:calc(100vw - 10rem);
+                $left:calc(100vw - 7.5rem);
                 left: $left;
                 z-index: 10;
                 width: 100px;
     
-                @media only screen and (max-width:769px) {
+                @media only screen and (min-width:526px) and (max-width:769px) {
                     width: 75px;
                     top: 15px;
-                    $left:calc(100vw - 7.5rem);
+                    $left:calc(100vw - 5rem);
                     left: $left;
                 }
-
-                @media only screen and (max-width:425px) {
+    
+                @media only screen and (max-width:525px) {
                     width: 50px;
                     top: 12.5px;
-                    $left:calc(100vw - 3.75rem);
+                    $left:calc(100vw - 3.5rem);
                     left: $left;
                 }
             }

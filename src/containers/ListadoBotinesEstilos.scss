@@ -356,14 +356,14 @@
     }
 
     .contenedor-cards{
-        padding-top: 10rem;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding: 10rem 1rem 0 1rem;
 
         /*Tablet & Mobile*/
         @media only screen and (max-width:768px) {
-            padding-top:6.5rem;
+            padding: 6.5rem 2rem 0 2rem;
         }
 
         .error-msg{

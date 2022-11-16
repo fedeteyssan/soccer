@@ -83,158 +83,163 @@ const ListadoBotinesEsilos = () => {
 
 
     return (
-        <Container fluid className="contenedor-botines-estilos">
+        <div>
 
-            <ScrolltoTop />
+            <div className="fondo"></div>
+                 <Container fluid className="contenedor-botines-estilos">
 
-            <div className="contenedor-titulo-plp">
-                <div className="banner"></div>
-                <h3>Botines de Jugadores con Estilo {estiloID}</h3>
-                <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
-            </div>
+<ScrolltoTop />
 
-            <div className="drawer">
+<div className="contenedor-titulo-plp">
+    <div className="banner"></div>
+    <h3>Botines de Jugadores con Estilo {estiloID}</h3>
+    <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
+</div>
 
-                <h4>FILTROS</h4>
+<div className="drawer">
 
-                <div className="contenedor-selectores">
+    <h4>FILTROS</h4>
 
-                    <select onChange={event => handleChangeSeleccion(event.target.value)}>
-                        <option value="null">SELECCION</option>
-                        <option value="Alemania">Alemania</option>
-                        <option value="Arabia-Saudita">Arabia Saudita</option>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Bélgica">Bélgica</option>
-                        <option value="Brasil">Brasil</option>
-                        <option value="Camerún">Camerún</option>
-                        <option value="Canadá">Canadá</option>
-                        <option value="Corea">Corea</option>
-                        <option value="Costa-Rica">Costa Rica</option>
-                        <option value="Croacia">Croacia</option>
-                        <option value="Dinamarca">Dinamarca</option>
-                        <option value="Ecuador">Ecuador</option>
-                        <option value="España">España</option>
-                        <option value="Estados-Unidos">Estados Unidos</option>
-                        <option value="Francia">Francia</option>
-                        <option value="Gales">Gales</option>
-                        <option value="Ghana">Ghana</option>
-                        <option value="Holanda">Holanda</option>
-                        <option value="Inglaterra">Inglaterra</option>
-                        <option value="Irán">Irán</option>
-                        <option value="Japón">Japón</option>
-                        <option value="Marruecos">Marruecos</option>
-                        <option value="México">México</option>
-                        <option value="Polonia">Polonia</option>
-                        <option value="Portugal">Portugal</option>
-                        <option value="Qatar">Qatar</option>
-                        <option value="Senegal">Senegal</option>
-                        <option value="Serbia">Serbia</option>
-                        <option value="Suiza">Suiza</option>
-                        <option value="Túnez">Túnez</option>
-                        <option value="Uruguay">Uruguay</option>
-                    </select>  
+    <div className="contenedor-selectores">
 
-                    <select onChange={event => handleChangePosicion(event.target.value)}>
-                        <option value="null">POSICION</option>
-                        <option value="Arquero">Arquero</option>
-                        <option value="Defensor">Defensor</option>
-                        <option value="Mediocampista">Mediocampista</option>
-                        <option value="Delantero">Delantero</option>
-                    </select>
+        <select onChange={event => handleChangeSeleccion(event.target.value)}>
+            <option value="null">SELECCION</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Arabia-Saudita">Arabia Saudita</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Australia">Australia</option>
+            <option value="Bélgica">Bélgica</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Camerún">Camerún</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Corea">Corea</option>
+            <option value="Costa-Rica">Costa Rica</option>
+            <option value="Croacia">Croacia</option>
+            <option value="Dinamarca">Dinamarca</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="España">España</option>
+            <option value="Estados-Unidos">Estados Unidos</option>
+            <option value="Francia">Francia</option>
+            <option value="Gales">Gales</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Holanda">Holanda</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Irán">Irán</option>
+            <option value="Japón">Japón</option>
+            <option value="Marruecos">Marruecos</option>
+            <option value="México">México</option>
+            <option value="Polonia">Polonia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Qatar">Qatar</option>
+            <option value="Senegal">Senegal</option>
+            <option value="Serbia">Serbia</option>
+            <option value="Suiza">Suiza</option>
+            <option value="Túnez">Túnez</option>
+            <option value="Uruguay">Uruguay</option>
+        </select>  
 
-                </div>
-            </div>
+        <select onChange={event => handleChangePosicion(event.target.value)}>
+            <option value="null">POSICION</option>
+            <option value="Arquero">Arquero</option>
+            <option value="Defensor">Defensor</option>
+            <option value="Mediocampista">Mediocampista</option>
+            <option value="Delantero">Delantero</option>
+        </select>
 
-            <aside className="controlador">
+    </div>
+</div>
 
-                <h4>FILTROS</h4>
+<aside className="controlador">
 
-                <div className="filtro">
-                    <span>POSICION</span>
-                    <img className={flagPosicion?"open flecha":"close flecha"}  onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
-                </div>
+    <h4>FILTROS</h4>
 
-                {flagPosicion && (<div className="contenedor-tactica">
+    <div className="filtro">
+        <span>POSICION</span>
+        <img className={flagPosicion?"open flecha":"close flecha"}  onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+    </div>
 
-                    <div className="tactica-sidebar">
-                        <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
+    {flagPosicion && (<div className="contenedor-tactica">
 
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`}><button className="reset">X</button></Link> 
+        <div className="tactica-sidebar">
+            <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`}><button className="reset">X</button></Link> 
 
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-li">LI</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-li">LI</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
 
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
-                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
-                    </div>
-                    
-                </div>
-                )}
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
 
-                <div className="filtro">
-                    <span>SELECCION</span>
-                    <img className={flagSeleccion?"open":"close"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
-                </div>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
+            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
+        </div>
+        
+    </div>
+    )}
 
-                {flagSeleccion && (<div className="contenedor-selector-paises">
-                <select size="32"onChange={event => handleChange(event.target.value)}>
-                    <option value="null">TODOS</option>
-                    <option value="Alemania">Alemania</option>
-                    <option value="Arabia-Saudita">Arabia Saudita</option>
-                    <option value="Argentina">Argentina</option>
-                    <option value="Australia">Australia</option>
-                    <option value="Bélgica">Bélgica</option>
-                    <option value="Brasil">Brasil</option>
-                    <option value="Camerún">Camerún</option>
-                    <option value="Canadá">Canadá</option>
-                    <option value="Corea">Corea</option>
-                    <option value="Costa-Rica">Costa Rica</option>
-                    <option value="Croacia">Croacia</option>
-                    <option value="Dinamarca">Dinamarca</option>
-                    <option value="Ecuador">Ecuador</option>
-                    <option value="España">España</option>
-                    <option value="Estados-Unidos">Estados Unidos</option>
-                    <option value="Francia">Francia</option>
-                    <option value="Gales">Gales</option>
-                    <option value="Ghana">Ghana</option>
-                    <option value="Holanda">Holanda</option>
-                    <option value="Inglaterra">Inglaterra</option>
-                    <option value="Irán">Irán</option>
-                    <option value="Japón">Japón</option>
-                    <option value="Marruecos">Marruecos</option>
-                    <option value="México">México</option>
-                    <option value="Polonia">Polonia</option>
-                    <option value="Portugal">Portugal</option>
-                    <option value="Qatar">Qatar</option>
-                    <option value="Senegal">Senegal</option>
-                    <option value="Serbia">Serbia</option>
-                    <option value="Suiza">Suiza</option>
-                    <option value="Túnez">Túnez</option>
-                    <option value="Uruguay">Uruguay</option>
-                </select>
-                </div>
-                )}
+    <div className="filtro">
+        <span>SELECCION</span>
+        <img className={flagSeleccion?"open":"close"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+    </div>
 
-            </aside>
-           
-            <div className="contenedor-cards">
-                {filteredBotines.length
-                ? filteredBotines.map((botin) => <Item item={botin}/>)
-                : <div className="error-msg"><p>...No hay jugadores con la combinación elegida ...</p></div>  
-                }    
-            </div>
-           
-         </Container>
+    {flagSeleccion && (<div className="contenedor-selector-paises">
+    <select size="32"onChange={event => handleChange(event.target.value)}>
+        <option value="null">TODOS</option>
+        <option value="Alemania">Alemania</option>
+        <option value="Arabia-Saudita">Arabia Saudita</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Australia">Australia</option>
+        <option value="Bélgica">Bélgica</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Camerún">Camerún</option>
+        <option value="Canadá">Canadá</option>
+        <option value="Corea">Corea</option>
+        <option value="Costa-Rica">Costa Rica</option>
+        <option value="Croacia">Croacia</option>
+        <option value="Dinamarca">Dinamarca</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="España">España</option>
+        <option value="Estados-Unidos">Estados Unidos</option>
+        <option value="Francia">Francia</option>
+        <option value="Gales">Gales</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Holanda">Holanda</option>
+        <option value="Inglaterra">Inglaterra</option>
+        <option value="Irán">Irán</option>
+        <option value="Japón">Japón</option>
+        <option value="Marruecos">Marruecos</option>
+        <option value="México">México</option>
+        <option value="Polonia">Polonia</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Qatar">Qatar</option>
+        <option value="Senegal">Senegal</option>
+        <option value="Serbia">Serbia</option>
+        <option value="Suiza">Suiza</option>
+        <option value="Túnez">Túnez</option>
+        <option value="Uruguay">Uruguay</option>
+    </select>
+    </div>
+    )}
+
+</aside>
+
+<div className="contenedor-cards">
+    {filteredBotines.length
+    ? filteredBotines.map((botin) => <Item item={botin}/>)
+    : <div className="error-msg"><p>...No hay jugadores con la combinación elegida ...</p></div>  
+    }    
+</div>
+
+</Container>
+        </div>
+       
      );
  };
  

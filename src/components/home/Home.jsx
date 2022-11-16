@@ -83,7 +83,7 @@ const Home = () => {
             <section className="seccion-busqueda-estilos" ref={scrollEstilos}>
                 <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
 
-                <h3 className="subtitulo-estilos">Elegí tu estilo para afrontar un partido</h3>
+                <h3 className="subtitulo-estilos">Elegí tu estilo de juego</h3>
 
                 <Estilos></Estilos>
 

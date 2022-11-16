@@ -1,0 +1,200 @@
+.cover-container {
+  background-image: url(../../Multimedia/cover-bg-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .cover-container {
+    background-image: url(../../Multimedia/cover-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.cover-container .contenedor-banner {
+  width: 100%;
+  height: 3.5rem;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .contenedor-banner {
+    height: 2.5rem;
+  }
+}
+
+.cover-container .contenedor-banner .banner {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 3.5rem;
+  background: #C2CD4D;
+}
+
+@media only screen and (max-width: 525px) {
+  .cover-container .contenedor-banner .banner {
+    height: 2.5rem;
+  }
+}
+
+.cover-container .contenedor-banner .logo {
+  position: fixed;
+  left: calc(100vw - 7.5rem);
+  z-index: 10;
+  width: 100px;
+}
+
+@media only screen and (min-width: 526px) and (max-width: 769px) {
+  .cover-container .contenedor-banner .logo {
+    width: 75px;
+    top: 15px;
+    left: calc(100vw - 5rem);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .cover-container .contenedor-banner .logo {
+    width: 50px;
+    top: 12.5px;
+    left: calc(100vw - 3.5rem);
+  }
+}
+
+.cover-container .cta {
+  margin: 3rem 0 0 3rem;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .cover-container .cta {
+    margin: 2rem 0 0 0rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .cta {
+    margin: 1.5rem 0 0 0rem;
+    text-align: center;
+  }
+}
+
+.cover-container .cta h1 {
+  font-family: 'Permanent Marker';
+  font-size: 7.5rem;
+  line-height: 6.5rem;
+  text-transform: uppercase;
+  color: #C2CD4D;
+  -webkit-text-stroke-color: #666161;
+  -webkit-text-stroke-width: 1px;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .cover-container .cta h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .cta h1 {
+    font-size: 3.75rem;
+    line-height: 3.25rem;
+  }
+}
+
+.cover-container .cta p {
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  color: #FFF3F3;
+  margin-top: 2rem;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .cover-container .cta p {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .cta p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+}
+
+.cover-container .cta h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  color: #C2CD4D;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .cover-container .cta h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .cta h2 {
+    font-size: 1.25rem;
+  }
+}
+
+.cover-container .cta button {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF5F5;
+  width: 16.5rem;
+  height: 3rem;
+  background: #C2CD4D;
+  -webkit-box-shadow: 9px 10px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 9px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border-color: transparent;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .cover-container .cta button {
+    margin-top: 30%;
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover-container .cta button {
+    margin-top: 50%;
+    margin-left: 0rem;
+  }
+}
+/*# sourceMappingURL=Cover.css.map */

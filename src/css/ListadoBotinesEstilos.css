@@ -1,0 +1,392 @@
+.contenedor-botines-estilos {
+  background-image: url(../Multimedia/plp-bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp {
+  width: 100%;
+  z-index: 10;
+  height: 7rem;
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp {
+    height: 5rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp .banner {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 3.5rem;
+  background: #C2CD4D;
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .banner {
+    height: 2.5rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp h3 {
+  position: fixed;
+  z-index: 10;
+  top: 3.5rem;
+  width: 100%;
+  height: 3.5rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #FFFF;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.5rem;
+  background: #393737;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #D0B160;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
+    top: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp .logo {
+  position: fixed;
+  left: calc(100vw - 7.5rem);
+  z-index: 10;
+  width: 100px;
+}
+
+@media only screen and (min-width: 526px) and (max-width: 769px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
+    width: 75px;
+    top: 15px;
+    left: calc(100vw - 5rem);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
+    width: 50px;
+    top: 12.5px;
+    left: calc(100vw - 3.5rem);
+  }
+}
+
+.contenedor-botines-estilos .drawer {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 769px) {
+  .contenedor-botines-estilos .drawer {
+    display: none;
+  }
+}
+
+.contenedor-botines-estilos .drawer h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F1F1F1;
+  background: black;
+  border-bottom: 1px solid #D0B160;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 8px 8px 0px;
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0;
+}
+
+.contenedor-botines-estilos .drawer .contenedor-selectores {
+  background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(#817b7b));
+  background: linear-gradient(180deg, #D9D9D9 0%, #817b7b 100%);
+  border-top: 1px solid #FFCA43;
+  border-bottom: 1px solid #FFCA43;
+  height: 3.375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedor-botines-estilos .drawer .contenedor-selectores select {
+  height: 2rem;
+  width: 10rem;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
+  background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+  border: 1px solid #FFCA43;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFCFC;
+}
+
+.contenedor-botines-estilos .drawer .contenedor-selectores select:focus {
+  outline: gold;
+}
+
+.contenedor-botines-estilos .controlador {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 22.75rem;
+  min-height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 154px;
+  left: 0.6rem;
+  margin-left: 1.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(rgba(129, 123, 123, 0.49)));
+  background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 0.49) 100%);
+  border: 1px solid #FFCA43;
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor-botines-estilos .controlador {
+    display: none;
+  }
+}
+
+.contenedor-botines-estilos .controlador h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F1F1F1;
+  position: relative;
+  bottom: 43px;
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #D0B160;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 8px 8px 0px;
+}
+
+.contenedor-botines-estilos .controlador .filtro {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
+  background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+  border: 1px solid #FFCA43;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  width: 18.5rem;
+  height: 2.5rem;
+  margin: 0 auto 0.5rem auto;
+}
+
+.contenedor-botines-estilos .controlador .filtro span {
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #FFFCFC;
+  text-shadow: 2px 2px 10px #D0B160;
+  text-transform: uppercase;
+}
+
+.contenedor-botines-estilos .controlador .filtro img {
+  position: relative;
+  left: 160px;
+  top: 5px;
+  width: 1.25rem;
+}
+
+.contenedor-botines-estilos .controlador .filtro img.open {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.contenedor-botines-estilos .controlador .filtro .flecha {
+  left: 170px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .reset {
+  position: absolute;
+  left: 19rem;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  border-radius: 25px 25px 25px 25px;
+  border: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(202, 199, 199, 0.7)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  font-size: 0.6785rem;
+  text-align: center;
+  color: #000000;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar img {
+  margin-top: 1rem;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos {
+  width: 2.375rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(202, 199, 199, 0.7)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  font-size: 0.6785rem;
+  text-align: center;
+  color: #000000;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
+  background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-arq {
+  position: absolute;
+  left: 162px;
+  top: 340px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-li {
+  position: absolute;
+  left: 80px;
+  top: 290px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dfc {
+  position: absolute;
+  left: 162px;
+  top: 300px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ld {
+  position: absolute;
+  left: 250px;
+  top: 290px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mcd {
+  position: absolute;
+  left: 163px;
+  top: 250px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mi {
+  position: absolute;
+  left: 100px;
+  top: 210px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-md {
+  position: absolute;
+  left: 230px;
+  top: 210px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mco {
+  position: absolute;
+  left: 162px;
+  top: 195px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ei {
+  position: absolute;
+  left: 99px;
+  top: 155px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dc {
+  position: absolute;
+  left: 162px;
+  top: 135px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ed {
+  position: absolute;
+  left: 235px;
+  top: 155px;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-selector-paises {
+  text-align: center;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-selector-paises select {
+  height: 150px;
+  width: 80%;
+  text-align: center;
+  border: 1px solid gold;
+}
+
+.contenedor-botines-estilos .controlador .contenedor-selector-paises select:focus {
+  outline: gold;
+}
+
+.contenedor-botines-estilos .contenedor-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10rem 1rem 0 1rem;
+  /*Tablet & Mobile*/
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor-botines-estilos .contenedor-cards {
+    padding: 6.5rem 2rem 0 2rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-cards .error-msg {
+  color: white;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=ListadoBotinesEstilos.css.map */

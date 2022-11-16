@@ -1,49 +1,176 @@
-section {
-  height: 810px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.home {
+  padding: 0;
 }
 
-section h3 {
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 3.25rem;
+.home header {
+  background-image: url(../../Multimedia/header-bg-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .home header {
+    background-image: url(../../Multimedia/header-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.home header .contenedor-banner {
+  width: 100%;
+  height: 3.5rem;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 425px) {
+  .home header .contenedor-banner {
+    height: 2.5rem;
+  }
+}
+
+.home header .contenedor-banner .banner {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 3.5rem;
+  background: #C2CD4D;
+}
+
+@media only screen and (max-width: 525px) {
+  .home header .contenedor-banner .banner {
+    height: 2.5rem;
+  }
+}
+
+.home header .contenedor-banner .logo {
+  position: fixed;
+  left: calc(100vw - 7.5rem);
+  z-index: 10;
+  width: 100px;
+}
+
+@media only screen and (min-width: 526px) and (max-width: 769px) {
+  .home header .contenedor-banner .logo {
+    width: 75px;
+    top: 15px;
+    left: calc(100vw - 5rem);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .home header .contenedor-banner .logo {
+    width: 50px;
+    top: 12.5px;
+    left: calc(100vw - 3.5rem);
+  }
+}
+
+.home header .cta {
+  margin: 10rem 0 5rem 0;
   text-align: center;
-  color: #ffca43;
-  background-color: rgba(179, 163, 122, 0.7);
-  border: 3px solid #be9324;
-  border-radius: 28px;
-  width: 27.25rem;
-  padding: 0.5rem 0;
-  margin: 2rem auto 0 auto;
-  position: relative;
 }
 
-section .contenedor-slider {
+@media only screen and (max-width: 425px) {
+  .home header .cta {
+    margin: 5rem 0 2.5rem 0;
+  }
+}
+
+.home header .cta h1 {
+  font-family: 'Permanent Marker';
+  font-size: 2.875rem;
+  text-transform: uppercase;
+  color: #C2CD4D;
+  -webkit-text-stroke-color: #666161;
+  -webkit-text-stroke-width: 1px;
+  padding: 0 0.125rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .home header .cta h1 {
+    font-size: 2rem;
+    line-height: 3.25rem;
+  }
+}
+
+.home header .cta p {
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  color: #FFF3F3;
   margin-top: 2rem;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  padding: 0 0.25rem;
 }
 
-section .contenedor-slider .contenedor-card-seleccion {
+@media only screen and (max-width: 425px) {
+  .home header .cta p {
+    font-size: 1.5rem;
+  }
+}
+
+.home header .contenedor-imagenes {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  /*Desktop 1440*/
+  /*Tablet*/
+  /*Mobile*/
 }
 
-section .contenedor-slider .contenedor-card-seleccion .card-seleccion {
-  width: 15rem;
-  height: 22rem;
-  background-color: #f1f1f1;
-  border-radius: 28px;
-  -webkit-box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
+@media only screen and (max-width: 425px) {
+  .home header .contenedor-imagenes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.home header .contenedor-imagenes .grupos-imagenes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*Mobile*/
+}
+
+@media only screen and (max-width: 425px) {
+  .home header .contenedor-imagenes .grupos-imagenes {
+    margin-bottom: 2rem;
+  }
+}
+
+.home header .contenedor-imagenes .grupos-imagenes img {
+  width: 40%;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+.home header .contenedor-imagenes .grupo-1 {
+  /*Tablet & Mobile*/
+}
+
+.home header .contenedor-imagenes .grupo-2 {
+  /*Tablet & Mobile*/
+}
+
+.home section {
+  min-height: 100vh;
+  scroll-margin: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,37 +178,73 @@ section .contenedor-slider .contenedor-card-seleccion .card-seleccion {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /*Mobile & Tablet*/
+  /*Mobile*/
+  /*Mobile2*/
 }
 
-section .contenedor-slider .contenedor-card-seleccion .card-seleccion .titulo-card-seleccion {
+@media only screen and (max-width: 768px) {
+  .home section {
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 525px) {
+  .home section {
+    scroll-margin: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .home section {
+    scroll-margin: 1.5rem;
+  }
+}
+
+.home section h3 {
   font-weight: 600;
-  font-size: 1.6rem;
-  line-height: 2.75rem;
-  color: #413d3d;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffca43;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4F6238), to(#464D43));
+  background: linear-gradient(180deg, #4F6238 0%, #464D43 100%);
+  -webkit-clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
+          clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
+  border: 3px solid #be9324;
+  border-radius: 28px;
+  width: 70%;
+  padding: 0.5rem 0;
+  margin: 1rem auto 0 auto;
+  position: relative;
+  z-index: 2;
+  /*Tablet*/
+  /*Mobile*/
 }
 
-section .contenedor-slider .contenedor-card-seleccion .card-seleccion .escudo-card-seleccion {
-  width: 12.125rem;
-  height: 12.125rem;
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .home section h3 {
+    font-size: 0.9rem;
+    height: 2rem;
+    padding: 0;
+    line-height: 1.5rem;
+  }
 }
 
-section .contenedor-slider .contenedor-selector-grupos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 2.5rem;
+@media only screen and (max-width: 425px) {
+  .home section h3 {
+    font-size: 0.75rem;
+    padding: 0;
+    line-height: 1.5rem;
+  }
 }
 
-section .titulo-selector-grupos {
+.home section .subtitulo-estilos {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 117, 117, 0.8)), to(rgba(61, 52, 51, 0.8)));
+  background: linear-gradient(180deg, rgba(146, 117, 117, 0.8) 0%, rgba(61, 52, 51, 0.8) 100%);
+}
+
+.home section .titulo-selector-grupos {
   font-weight: 600;
   font-size: 1.5rem;
   text-align: center;
@@ -91,25 +254,61 @@ section .titulo-selector-grupos {
   background: #fffefe;
   border: 1px solid #be9324;
   border-radius: 30px;
+  padding-top: 0.25rem;
   margin: 0 auto;
   position: relative;
-  top: 160px;
-  z-index: 2;
+  bottom: 110px;
+  z-index: 4;
+  /*Desktop 1024*/
+  /*Tablet*/
+  /*Mobile*/
 }
 
-.seccion-busqueda-selecciones {
-  background: rgba(217, 217, 217, 0.69);
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .home section .titulo-selector-grupos {
+    bottom: 240px;
+  }
 }
 
-.seccion-busqueda-estilos {
-  background: green;
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  .home section .titulo-selector-grupos {
+    bottom: 150px;
+    font-size: 1rem;
+    width: 15rem;
+    line-height: 1.5rem;
+  }
 }
 
-.seccion-busqueda-posiciones {
-  background: white;
+@media only screen and (max-width: 525px) {
+  .home section .titulo-selector-grupos {
+    bottom: 180px;
+    font-size: 0.75rem;
+    width: 10rem;
+    height: 1.5rem;
+    line-height: 1rem;
+  }
 }
 
-.seccion-busqueda-jugador {
+.home .seccion-busqueda-selecciones {
+  background-image: url(../../Multimedia/seccionSelecciones-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home .seccion-busqueda-estilos {
+  background-image: url(../../Multimedia/seccionEstilos-bg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.home .seccion-busqueda-posiciones {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3D4038), to(#212D0D));
+  background: linear-gradient(180deg, #3D4038 0%, #212D0D 100%);
+}
+
+.home .seccion-busqueda-jugador {
   background: #04040D;
 }
 /*# sourceMappingURL=Home.css.map */

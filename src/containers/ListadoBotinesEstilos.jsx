@@ -160,7 +160,7 @@ const ListadoBotinesEsilos = () => {
                     <div className="tactica-sidebar">
                         <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
-                        <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}`}><button className="reset">X</button></Link> 
+                        <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`}><button className="reset">X</button></Link> 
 
                         <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 

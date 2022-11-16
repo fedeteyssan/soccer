@@ -1,10 +1,10 @@
 .card-seleccion {
   width: 15rem;
   height: 22rem;
-  background-color: #f1f1f1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F1F1F1), to(rgba(164, 160, 160, 0.5)));
+  background: linear-gradient(180deg, #F1F1F1 0%, rgba(164, 160, 160, 0.5) 100%);
+  border: 1px solid #D0B160;
   border-radius: 28px;
-  -webkit-box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0p 4px 4px rgba(0, 0, 0, 0.25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,6 +18,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 0.5rem;
+  /*Desktop 1024*/
+  /*Tablet & Mobile*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .card-seleccion {
+    width: 11.25rem;
+    height: 16.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-seleccion {
+    width: 7.5rem;
+    height: 11rem;
+    margin: 0.5rem 0.5rem;
+  }
+}
+
+.card-seleccion:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 241, 241, 0.4)), to(rgba(255, 202, 67, 0.4)));
+  background: linear-gradient(180deg, rgba(241, 241, 241, 0.4) 0%, rgba(255, 202, 67, 0.4) 100%);
+  border: 8px solid #D0B160;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
 }
 
 .card-seleccion .titulo-seleccion {
@@ -25,10 +52,40 @@
   font-size: 1.6rem;
   line-height: 2.75rem;
   color: #413d3d;
+  text-align: center;
+  /*Tablet & Mobile*/
+}
+
+@media only screen and (max-width: 768px) {
+  .card-seleccion .titulo-seleccion {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }
 
 .card-seleccion img {
   width: 12.125rem;
   height: 12.125rem;
+  /*Desktop 1024*/
+  /*Tablet & Mobile*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .card-seleccion img {
+    width: 9.09375rem;
+    height: 9.09375rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-seleccion img {
+    width: 6.0625rem;
+    height: 6.0625rem;
+  }
+}
+
+.card-seleccion img:hover, .card-seleccion img img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 /*# sourceMappingURL=CardSeleccion.css.map */

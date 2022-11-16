@@ -1,0 +1,87 @@
+.contenedor-botines-jugadores {
+  background-image: url(../Multimedia/plp-bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 822px;
+  /*Mobile & Tablet*/
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor-botines-jugadores {
+    min-height: 100vh;
+  }
+}
+
+.contenedor-botines-jugadores .container-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  right: 0;
+  margin-top: 5rem;
+  /*Mobile*/
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor-botines-jugadores .container-input {
+    margin-top: 6rem;
+  }
+}
+
+.contenedor-botines-jugadores .container-input .input-buscar {
+  width: 50%;
+  font-size: 1.5rem;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .contenedor-botines-jugadores .container-input .input-buscar {
+    width: 70%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .contenedor-botines-jugadores .container-input .input-buscar {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+.contenedor-botines-jugadores .contenedor-cards {
+  padding-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .contenedor-botines-jugadores .contenedor-cards {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .contenedor-botines-jugadores .contenedor-cards {
+    padding-top: 1rem;
+  }
+}
+
+.contenedor-botines-jugadores .contenedor-cards .error-msg {
+  color: white;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=ListadoBotinesJugador.css.map */

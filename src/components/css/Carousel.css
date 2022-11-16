@@ -1,8 +1,47 @@
-.carousel-indicators {
+#carouselGrupos {
+  height: 620px;
+}
+
+#carouselGrupos .fondo-blur {
+  width: 95%;
+  height: 42rem;
+  position: relative;
+  bottom: 26.25rem;
+  margin: 0 auto;
+  background: rgba(115, 113, 113, 0.5);
+  opacity: 0.6;
+  /*Desktop 1024*/
+  /*Tablet*/
+  /*Mobile*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #carouselGrupos .fondo-blur {
+    bottom: 21rem;
+    height: 35rem;
+  }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  #carouselGrupos .fondo-blur {
+    bottom: 26rem;
+    height: 34rem;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #carouselGrupos .fondo-blur {
+    bottom: 26rem;
+    height: 33rem;
+  }
+}
+
+#carouselGrupos .carousel-indicators {
   width: 62.5rem;
   height: 8.25rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 88, 88, 0.48)), to(rgba(217, 217, 217, 0.24)));
   background: linear-gradient(180deg, rgba(92, 88, 88, 0.48) 0%, rgba(217, 217, 217, 0.24) 100%);
+  background-image: url(../../Multimedia/carousel-bg.png);
   border: 3px solid #be9324;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,52 +54,142 @@
   position: absolute;
   top: 400px;
   margin: 0 auto;
+  padding-bottom: 20px;
+  /*Desktop 1024*/
+  /*Tablet*/
+  /*Mobile*/
 }
 
-.carousel-indicators button {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #carouselGrupos .carousel-indicators {
+    width: 46.875rem;
+    height: 6.1875rem;
+    top: 300px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  #carouselGrupos .carousel-indicators {
+    width: 31.25rem;
+    height: 5rem;
+    top: 400px;
+    padding-bottom: 0.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #carouselGrupos .carousel-indicators {
+    width: 18rem;
+    height: 3rem;
+    top: 395px;
+    padding: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#carouselGrupos .carousel-indicators button {
   width: 65px !important;
   height: 65px !important;
-  border-radius: 50%;
-  border-color: transparent !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(#D0CFD0), to(rgba(208, 207, 208, 0.59))) !important;
-  background: linear-gradient(180deg, #D0CFD0 0%, rgba(208, 207, 208, 0.59) 100%) !important;
-  color: black;
+  border-top: none !important;
+  border-bottom: none !important;
+  opacity: 1 !important;
+  background: #464546;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  color: #ffff;
   text-indent: 0 !important;
   text-align: center;
   font-weight: 600;
   font-size: 1.875rem;
   line-height: 2.75rem;
+  /*Desktop 1024*/
+  /*Tablet*/
+  /*Mobile*/
 }
 
-.carousel-indicators .active {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 200, 101, 0.85)), to(rgba(201, 147, 10, 0.7565))) !important;
-  background: linear-gradient(180deg, rgba(238, 200, 101, 0.85) 0%, rgba(201, 147, 10, 0.7565) 100%) !important;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #carouselGrupos .carousel-indicators button {
+    width: 52px !important;
+    height: 52px !important;
+    font-size: 1.5rem;
+    line-height: 0;
+    margin: auto 0;
+  }
 }
 
-.carousel-inner {
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  #carouselGrupos .carousel-indicators button {
+    width: 48.75px !important;
+    height: 48.75px !important;
+    font-size: 1rem;
+    line-height: 0;
+    margin: 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #carouselGrupos .carousel-indicators button {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 0.8rem;
+    line-height: 0;
+    padding: 0 0.65rem;
+  }
+}
+
+#carouselGrupos .carousel-indicators .active {
+  background: #BE9324 !important;
+}
+
+#carouselGrupos .carousel-inner {
   margin-top: 2rem;
+  z-index: 2;
+  /*Tablet & Mobile*/
 }
 
-.carousel-inner .carousel-item {
+@media only screen and (max-width: 768px) {
+  #carouselGrupos .carousel-inner {
+    margin-top: 1rem;
+  }
+}
+
+#carouselGrupos .carousel-inner .carousel-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.carousel-inner .carousel-item .contenedor-cards-selecciones {
+#carouselGrupos .carousel-inner .carousel-item .contenedor-cards-selecciones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*Tablet & Mobile*/
   margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.carousel-inner .carousel-item .contenedor-cards-selecciones a {
+@media only screen and (max-width: 768px) {
+  #carouselGrupos .carousel-inner .carousel-item .contenedor-cards-selecciones {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#carouselGrupos .carousel-inner .carousel-item .contenedor-cards-selecciones a {
   text-decoration: none;
 }
 /*# sourceMappingURL=Carousel.css.map */

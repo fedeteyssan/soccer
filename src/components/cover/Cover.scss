@@ -3,7 +3,9 @@
     background-image: url(../../Multimedia/cover-bg-1920x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:822px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     min-height: 100vh;
 
     @media only screen and (max-width:768px) {
@@ -157,20 +159,20 @@
             border-radius: 30px;
             border-color: transparent;
 
-            position: relative;
-            top:6rem;
-            left: 2rem;
+            
+            margin-top:6rem;
+            margin-left: 2rem;
 
             /*Tablet*/
             @media only screen and (min-width:426px) and (max-width:768px) {
-                left: 0;
-                top:16rem;  
+                margin-top:30%;
+                margin-left: 0rem;
             }
 
             /*Mobile*/
             @media only screen and (max-width:425px) {
-                left: 0;
-                top:16rem;   
+                margin-top:50%;
+                margin-left: 0rem;
             }
         }  
     }

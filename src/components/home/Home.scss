@@ -6,7 +6,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height:822px;
         min-height: 100vh;  
     
         @media only screen and (max-width:768px) {
@@ -36,7 +35,6 @@
                     height:2.5rem;
                 }
             }  
-    
     
             .logo{
                 position: fixed;
@@ -77,6 +75,8 @@
                 color: #C2CD4D;
                 -webkit-text-stroke-color: #666161;
                 -webkit-text-stroke-width: 1px;
+
+                padding: 0 0.125rem;
     
                 @media only screen and (max-width:425px) {
                     font-size: 2rem;
@@ -92,6 +92,8 @@
                 margin-top: 2rem;
                 -webkit-text-stroke-color: black;
                 -webkit-text-stroke-width: 1px;
+
+                padding: 0 0.25rem;
     
                 @media only screen and (max-width:425px) {
                     font-size: 1.5rem;
@@ -161,7 +163,7 @@
     }
     
     section{
-        min-height:822px;
+        min-height:100vh;
         scroll-margin: 3.5rem;
     
         display:flex;

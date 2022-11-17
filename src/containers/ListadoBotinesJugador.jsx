@@ -55,7 +55,7 @@ const ListadoBotinesJugador = () => {
             <ScrolltoTop />
 
             <div className="container-input">
-                <input type="search" className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
+                <input  type="search" className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
             </div>
 
             <div className="contenedor-cards">

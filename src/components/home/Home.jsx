@@ -61,9 +61,9 @@ const Home = () => {
 
             </header>
             
-            
+            <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
             <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
-                <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
+                
 
                 <h3>Elegí una selección nacional</h3>
 

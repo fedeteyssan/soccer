@@ -2,8 +2,7 @@
 
     height: 620px;
 
-    .fondo-blur{
-        
+    .fondo-blur{   
         width: 95%;
         height: 42rem;
         position: relative;
@@ -13,13 +12,13 @@
         opacity: 0.6;
 
         /*Desktop 1024*/
-        @media only screen and (min-width:769px) and (max-width: 1024px){
+        @media only screen and (min-width:801px) and (max-width: 1024px){
             bottom: 21rem;
             height: 35rem;
         }
 
         /*Tablet*/
-        @media only screen and (min-width:526px) and (max-width: 768px)  {
+        @media only screen and (min-width:526px) and (max-width: 800px)  {
             bottom: 26rem;
             height: 34rem;
         }
@@ -58,8 +57,8 @@
 
         /*Tablet*/
         @media only screen and (min-width:526px) and (max-width: 800px)  {
-            width:31.25rem;
-            height: 5rem;
+            width:37.5rem;
+            height: 4.95rem;
             top:400px;
             padding-bottom: 0.5rem;
             justify-content: center;

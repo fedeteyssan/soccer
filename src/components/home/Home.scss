@@ -188,7 +188,7 @@
     
     section{
         min-height:100vh;
-        scroll-margin: 3.5rem;
+        scroll-margin: 6.5rem;
     
         display:flex;
         flex-direction: column;
@@ -200,12 +200,12 @@
 
         /*Mobile*/
         @media only screen and (min-width:366px) and (max-width:525px) {
-            scroll-margin: 2.5rem;
+            scroll-margin: 5.5rem;
         } 
 
         /*Mobile2*/
         @media only screen and (max-width:365px) {
-            scroll-margin: 1.5rem;
+            scroll-margin: 4.5rem;
         } 
 
         h3{

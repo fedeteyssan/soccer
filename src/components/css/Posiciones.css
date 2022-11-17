@@ -13,6 +13,7 @@
 @media only screen and (max-width: 375px) {
   .formacion {
     margin: 2rem 0 0 1rem;
+    display: none;
   }
 }
 

@@ -8,7 +8,6 @@ import Estilos from "../estilos/Estilos";
 import Posiciones from "../posiciones/Posiciones";
 
 
-
 const Home = () => {
 
     const scrollSelecciones = useRef();
@@ -31,9 +30,6 @@ const Home = () => {
     scrollJugador.current?.scrollIntoView({behavior: 'smooth'});
     };
 
-
-    
-    
 
     return (
         <Container fluid className="home">
@@ -103,6 +99,7 @@ const Home = () => {
                 <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
                 <ListadoBotinesJugador></ListadoBotinesJugador>
+
 
                 
             </section>

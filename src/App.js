@@ -38,7 +38,7 @@ const App = () => {
           <ListadoBotinesEstilos/>
         </Route>
 
-        <Route exact path="/jugador/:jugadorID/">
+        <Route exact path="/jugador">
           <ListadoBotinesJugador/>
         </Route>
         

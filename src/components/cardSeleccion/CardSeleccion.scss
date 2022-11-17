@@ -1,7 +1,7 @@
 
 .card-seleccion{
     width: 15rem ;
-    height:20rem;
+    height:22rem;
 
     background: linear-gradient(180deg, #F1F1F1 0%, rgba(164, 160, 160, 0.5) 100%);
     border: 1px solid #D0B160;
@@ -21,8 +21,8 @@
 
     /*Tablet & Mobile*/
     @media only screen and (max-width: 768px)  {
-        width: 7.5rem;
-        height: 11rem;
+        width: 6.5rem;
+        height: 9rem;
         margin: 0.5rem 0.5rem;
     }
 

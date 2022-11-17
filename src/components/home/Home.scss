@@ -323,7 +323,10 @@
     }
     
     .seccion-busqueda-jugador{
-        background: #04040D;
+        background-image: url(../../Multimedia/plp-bg.png);
+        background-size: cover;
+        background-position:bottom;
+        background-repeat: no-repeat;
     }
 
 }

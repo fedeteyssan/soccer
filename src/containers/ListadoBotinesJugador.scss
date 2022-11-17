@@ -10,12 +10,6 @@
 .contenedor-botines-jugadores{
     position: absolute;
     min-height: 100vh;
-    padding: 0;
-
-    /*Mobile & Tablet*/
-    @media only screen and (max-width: 800px)  {
-        min-height: 100vh;
-    }
 
     .container-input{
         display: flex;

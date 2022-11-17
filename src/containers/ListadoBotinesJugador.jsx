@@ -55,7 +55,7 @@ const ListadoBotinesJugador = () => {
 
             <ScrolltoTop />
 
-            <div className="fondo"></div>
+           
 
             <Container fluid className="contenedor-botines-jugadores">
 

@@ -59,6 +59,11 @@ const ListadoBotinesJugador = () => {
 
             <Container fluid className="contenedor-botines-jugadores">
 
+                <div className="contenedor-titulo-plp">
+                    <div className="banner"></div>
+                    <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
+                </div>
+
                 <div className="container-input">
                     <input  type="search" className="form-control input-buscar" placeholder="nombre jugador" autofocus onChange={handleChange} value={busqueda}/>
                 </div>

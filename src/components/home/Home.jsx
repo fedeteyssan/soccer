@@ -1,5 +1,5 @@
 import "./Home.scss";
-import { Container,Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useRef } from "react";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
@@ -98,7 +98,11 @@ const Home = () => {
             <section className="seccion-busqueda-jugador" ref={scrollJugador}>
                 <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
-               <Link to="/jugador"><Button>Ingresá el nombre de tu jugador</Button></Link> 
+                <div className="box-búsqueda">
+                    <label>Buscá los botines de tu jugador favorito </label>
+                    <Link to="/jugador"><button>Click para ingresar nombre</button></Link> 
+                </div>
+                
 
 
                 

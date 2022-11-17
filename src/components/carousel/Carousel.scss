@@ -49,7 +49,7 @@
         padding-bottom: 20px;
 
         /*Desktop 1024*/
-        @media only screen and (min-width:769px) and (max-width: 1024px){
+        @media only screen and (min-width:801px) and (max-width: 1024px){
             width:46.875rem;
             height: 6.1875rem;
             top:300px;
@@ -57,7 +57,7 @@
         }
 
         /*Tablet*/
-        @media only screen and (min-width:526px) and (max-width: 768px)  {
+        @media only screen and (min-width:526px) and (max-width: 800px)  {
             width:31.25rem;
             height: 5rem;
             top:400px;
@@ -104,7 +104,7 @@
             line-height: 2.75rem;
 
             /*Desktop 1024*/
-            @media only screen and (min-width:769px) and (max-width: 1024px){
+            @media only screen and (min-width:801px) and (max-width: 1024px){
                 width:52px !important;
                 height: 52px !important;
                 font-size: 1.5rem;
@@ -113,7 +113,7 @@
             }
 
             /*Tablet*/
-            @media only screen and (min-width:526px) and (max-width: 768px)  {
+            @media only screen and (min-width:526px) and (max-width: 800px)  {
                 width:48.75px !important;
                 height: 48.75px !important;
                 font-size: 1rem;
@@ -142,7 +142,7 @@
         z-index: 2;
 
         /*Tablet & Mobile*/
-        @media only screen and (max-width: 768px)  {
+        @media only screen and (max-width: 800px)  {
             margin-top: 1rem;
         }
     
@@ -154,7 +154,7 @@
                 justify-content: center;
 
                 /*Tablet & Mobile*/
-                @media only screen and (max-width: 768px)  {
+                @media only screen and (max-width: 800px)  {
                     flex-direction: column;
                 }
                 

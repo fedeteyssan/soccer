@@ -8,6 +8,7 @@
         -o-background-size: cover;
     min-height: 100vh;
 
+    /*Tablet & Mobile*/
     @media only screen and (max-width:800px) {
         background-image: url(../../Multimedia/cover-bg-mobile.jpg);
         background-repeat: no-repeat;
@@ -47,7 +48,7 @@
             z-index: 10;
             width: 100px;
 
-            @media only screen and (min-width:526px) and (max-width:769px) {
+            @media only screen and (min-width:526px) and (max-width:800px) {
                 width: 75px;
                 top: 15px;
                 $left:calc(100vw - 5rem);
@@ -67,7 +68,7 @@
         margin: 3rem 0 0 3rem;
 
         /*Tablet*/
-         @media only screen and (min-width:426px) and (max-width:768px) {
+         @media only screen and (min-width:426px) and (max-width:800px) {
             margin: 2rem 0 0 0rem;
             text-align: center;
         }
@@ -89,7 +90,7 @@
             -webkit-text-stroke-width: 1px;
 
             /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width:768px) {
+            @media only screen and (min-width:426px) and (max-width:800px) {
                 font-size: 5rem;
                 line-height: 5rem;
             }
@@ -111,7 +112,7 @@
             -webkit-text-stroke-width: 1px;
 
             /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width:768px) {
+            @media only screen and (min-width:426px) and (max-width:800px) {
                 font-size: 1.15rem;
                 line-height: 1.25rem;
                 margin: 1rem 0 0.5rem 0;
@@ -135,7 +136,7 @@
             -webkit-text-stroke-width: 1px;
 
             /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width:768px) {
+            @media only screen and (min-width:426px) and (max-width:800px) {
                 font-size: 1.3rem;
             }
 

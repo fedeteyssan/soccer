@@ -19,7 +19,7 @@
         z-index: 1;
 
         /*Tablet & Mobile*/
-        @media only screen and (max-width: 768px)  {
+        @media only screen and (max-width: 800px)  {
             margin-top: 1rem;
             flex-direction: column;
         }
@@ -31,7 +31,7 @@
 
         .columna{
             /*Tablet & Mobile*/
-            @media only screen and (max-width: 768px)  {
+            @media only screen and (max-width: 800px)  {
                 display: flex;
             }
         }
@@ -51,7 +51,7 @@
             justify-content: center;
 
             /*Tablet & Mobile*/
-            @media only screen and (max-width: 768px)  {
+            @media only screen and (max-width: 800px)  {
                 margin: 0.5rem 0.75rem;
                 width:137.9px ;
                 height:147px ;
@@ -67,7 +67,7 @@
                 height: 125px;
 
                 /*Tablet & Mobile*/
-                @media only screen and (max-width:768px)  {
+                @media only screen and (max-width:800px)  {
                     height:87.5px ;
                 }
             }
@@ -80,7 +80,7 @@
                 color: #FFFFFF;
 
                 /*Tablet & Mobile*/
-                @media only screen and (max-width:768px)  {
+                @media only screen and (max-width:800px)  {
                     font-size:1rem ;
                     margin-bottom: 0;
                 }

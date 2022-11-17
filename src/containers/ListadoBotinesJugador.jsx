@@ -50,22 +50,32 @@ const ListadoBotinesJugador = () => {
 
 
     return (
-        <Container fluid className="contenedor-botines-jugadores">
 
-            <ScrolltoTop />
+        <div>
 
-            <div className="container-input">
-                <input  type="search" className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
-            </div>
+            <div className="fondo"></div>
 
-            <div className="contenedor-cards">
-                {botines.length
-                ? busqueda && botines.map((botin) => <Item item={botin}/>)
-                : <div className="error-msg"><p>...ESTE JUGADOR NO FUE CONVOCADO...</p></div>  
-                }    
-            </div>
-           
-         </Container>
+            <Container fluid className="contenedor-botines-jugadores">
+
+                <ScrolltoTop />
+
+                <div className="container-input">
+                    <input  type="search" className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
+                </div>
+
+                <div className="contenedor-cards">
+                    {botines.length
+                    ? busqueda && botines.map((botin) => <Item item={botin}/>)
+                    : <div className="error-msg"><p>...ESTE JUGADOR NO FUE CONVOCADO...</p></div>  
+                    }    
+                </div>
+
+            </Container>
+
+
+        </div>
+
+       
      );
  };
  

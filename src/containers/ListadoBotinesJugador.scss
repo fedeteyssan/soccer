@@ -1,17 +1,19 @@
-.contenedor-botines-jugadores{
+.fondo{
     background-image: url(../Multimedia/plp-bg.png);
     background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    background-attachment: fixed;
-        -webkit-background-attachment: fixed;
-        -moz-background-attachment: fixed;
-        -o-background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.contenedor-botines-jugadores{
+    position: absolute;
     min-height: 100vh;
+    padding: 0;
 
     /*Mobile & Tablet*/
-    @media only screen and (max-width: 768px)  {
+    @media only screen and (max-width: 800px)  {
         min-height: 100vh;
     }
 
@@ -23,7 +25,7 @@
         margin-top: 5rem;
 
         /*Mobile*/
-        @media only screen and (max-width: 768px)  {
+        @media only screen and (max-width: 800px)  {
             margin-top: 6rem;
         }
 
@@ -32,7 +34,7 @@
             font-size: 1.5rem;
 
             /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width: 768px)  {
+            @media only screen and (min-width:426px) and (max-width: 800px)  {
                 width: 70%;
                 font-size:1rem; 
             }
@@ -52,7 +54,7 @@
         flex-wrap: wrap;
     
         /*Tablet*/
-        @media only screen and (min-width:426px) and (max-width: 768px)  {
+        @media only screen and (min-width:426px) and (max-width: 800px)  {
             padding-top: 1rem;
         }
 

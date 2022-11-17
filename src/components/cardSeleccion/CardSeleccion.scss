@@ -14,13 +14,13 @@
     margin: 0 0.5rem;
 
     /*Desktop 1024*/
-    @media only screen and (min-width:769px) and (max-width: 1024px){
+    @media only screen and (min-width:801px) and (max-width: 1024px){
         width: 11.25rem;
         height: 16.5rem;
     }
 
     /*Tablet & Mobile*/
-    @media only screen and (max-width: 768px)  {
+    @media only screen and (max-width: 800px)  {
         width: 7.5rem;
         height: 10rem;
         margin: 0.5rem 0.5rem;
@@ -41,7 +41,7 @@
         text-align: center;
         
         /*Tablet & Mobile*/
-        @media only screen and (max-width: 768px)  {
+        @media only screen and (max-width: 800px)  {
             font-size: 1rem;
             line-height: 1rem;
         }
@@ -53,13 +53,13 @@
         height:12.125rem;
 
         /*Desktop 1024*/
-        @media only screen and (min-width:769px) and (max-width: 1024px){
+        @media only screen and (min-width:801px) and (max-width: 1024px){
             width: 9.09375rem;
             height: 9.09375rem;
         }
 
         /*Tablet & Mobile*/
-        @media only screen and (max-width: 768px)  {
+        @media only screen and (max-width: 800px)  {
             width: 6.0625rem;
             height: 6.0625rem;
         }

@@ -1,34 +1,46 @@
-.contenedor-botines-selecciones{
+.fondo{
     background-image: url(../Multimedia/plp-bg.png);
-    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.contenedor-botines-estilos{
+    position: absolute;
     min-height: 100vh;
     padding: 0;
 
     .contenedor-titulo-plp{
         width: 100%;
-        height:9.75rem;
-        left: 0;
-        right: 0;
-        z-index: 1;
+        z-index: 10;
+        height: 7rem;
+
+        @media only screen and (max-width:525px) {
+            height:5rem;
+        }
 
         .banner{
             position: fixed;
-            z-index: 1;
+            z-index:10 ;
             width: 100%;
-            height:5.25rem ;
+            height:3.5rem ;
             background: #C2CD4D;
+
+            @media only screen and (max-width:525px) {
+                height:2.5rem;
+            }
         }  
 
         h3{
             position: fixed;
-            z-index: 1;
-            
-            top: 84px;
+            z-index:10 ;
+            top: 3.5rem;
             width: 100%;
-            height: 4.75rem;
+            height: 3.5rem;
             text-align: center;
-            line-height: 5rem;
+            line-height: 3rem;
             color: #FFFF;
             text-transform: uppercase;
             font-weight: 800;
@@ -40,36 +52,50 @@
             border-color: #D0B160;
 
             /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width:768px) {
+            @media only screen and (min-width:526px) and (max-width:768px) {
                 font-size:1rem ;
             }
 
             /*Mobile*/
-            @media only screen and (max-width:425px) {
+            @media only screen and (max-width:525px) {
+                top: 2.5rem;
+                height: 2.5rem;
                 font-size:0.75rem ;
             }
         }
 
         .logo{
             position: fixed;
-            $left:calc(100vw - 10rem);
+            $left:calc(100vw - 7.5rem);
             left: $left;
             z-index: 10;
+            width: 100px;
 
-            @media only screen and (max-width:769px) {
+            @media only screen and (min-width:526px) and (max-width:769px) {
                 width: 75px;
-                top: 30px;
-                $left2:calc(100vw - 7.5rem);
-                left: $left2;
+                top: 15px;
+                $left:calc(100vw - 5rem);
+                left: $left;
+            }
+
+            @media only screen and (max-width:525px) {
+                width: 50px;
+                top: 12.5px;
+                $left:calc(100vw - 3.5rem);
+                left: $left;
             }
         }
     }
 
     .drawer{
+        position: fixed;
         width: 100%;
+        z-index: 10;
+
         @media only screen and (min-width:769px) {
             display: none;
         }
+
 
         h4{
             font-style: italic;
@@ -80,17 +106,18 @@
             text-transform: uppercase;
             color: #F1F1F1;
 
-            background: rgba(0, 0, 0, 0.25);
+            background: rgba(0, 0, 0, 1);
             border-bottom: 1px solid #D0B160;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
             border-radius: 0px 8px 8px 0px;
 
-            width: 6.75rem;
+            width: 100%;
             height: 2.5rem;
+            margin-bottom: 0;
         }
 
         .contenedor-selectores{
-            background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 0.49) 100%);
+            background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 1) 100%);
             border-top: 1px solid #FFCA43;
             border-bottom: 1px solid #FFCA43;
             height: 3.375rem;
@@ -127,11 +154,10 @@
         display: flex;
         flex-direction: column;
         width: 22.75rem;
-        height: 93vh;
+        min-height: 100vh;
         position: sticky;
-        top:204px;
+        top:154px;
         left: 0.6rem;
-
         margin-left: 1.5rem;
 
         background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 0.49) 100%);
@@ -308,10 +334,8 @@
                     position: absolute;
                     left: 235px;
                     top: 155px;
-                }
-                
+                } 
             }
-
         }
 
         .contenedor-estilos{
@@ -376,18 +400,19 @@
     }
 
     .contenedor-cards{
-        margin-top: 10rem;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding: 10rem 1rem 0 1rem;
 
+        /*Tablet & Mobile*/
         @media only screen and (max-width:768px) {
-            margin-top: 1rem;
+            padding: 6.5rem 2rem 0 2rem;
         }
 
         .error-msg{
             color: white;
-            font-size: 1.5rem;
+            font-size: 1.5rem;  
         }
     }
     

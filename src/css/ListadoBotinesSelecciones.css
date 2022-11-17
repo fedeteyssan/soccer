@@ -1,35 +1,52 @@
-.contenedor-botines-selecciones {
+.fondo {
   background-image: url(../Multimedia/plp-bg.png);
-  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.contenedor-botines-estilos {
+  position: absolute;
   min-height: 100vh;
   padding: 0;
 }
 
-.contenedor-botines-selecciones .contenedor-titulo-plp {
+.contenedor-botines-estilos .contenedor-titulo-plp {
   width: 100%;
-  height: 9.75rem;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  z-index: 10;
+  height: 7rem;
 }
 
-.contenedor-botines-selecciones .contenedor-titulo-plp .banner {
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp {
+    height: 5rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp .banner {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
-  height: 5.25rem;
+  height: 3.5rem;
   background: #C2CD4D;
 }
 
-.contenedor-botines-selecciones .contenedor-titulo-plp h3 {
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .banner {
+    height: 2.5rem;
+  }
+}
+
+.contenedor-botines-estilos .contenedor-titulo-plp h3 {
   position: fixed;
-  z-index: 1;
-  top: 84px;
+  z-index: 10;
+  top: 3.5rem;
   width: 100%;
-  height: 4.75rem;
+  height: 3.5rem;
   text-align: center;
-  line-height: 5rem;
+  line-height: 3rem;
   color: #FFFF;
   text-transform: uppercase;
   font-weight: 800;
@@ -42,43 +59,56 @@
   /*Mobile*/
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-  .contenedor-botines-selecciones .contenedor-titulo-plp h3 {
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
     font-size: 1rem;
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .contenedor-botines-selecciones .contenedor-titulo-plp h3 {
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
+    top: 2.5rem;
+    height: 2.5rem;
     font-size: 0.75rem;
   }
 }
 
-.contenedor-botines-selecciones .contenedor-titulo-plp .logo {
+.contenedor-botines-estilos .contenedor-titulo-plp .logo {
   position: fixed;
-  left: calc(100vw - 10rem);
+  left: calc(100vw - 7.5rem);
   z-index: 10;
+  width: 100px;
 }
 
-@media only screen and (max-width: 769px) {
-  .contenedor-botines-selecciones .contenedor-titulo-plp .logo {
+@media only screen and (min-width: 526px) and (max-width: 769px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
     width: 75px;
-    top: 30px;
-    left: calc(100vw - 7.5rem);
+    top: 15px;
+    left: calc(100vw - 5rem);
   }
 }
 
-.contenedor-botines-selecciones .drawer {
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
+    width: 50px;
+    top: 12.5px;
+    left: calc(100vw - 3.5rem);
+  }
+}
+
+.contenedor-botines-estilos .drawer {
+  position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 769px) {
-  .contenedor-botines-selecciones .drawer {
+  .contenedor-botines-estilos .drawer {
     display: none;
   }
 }
 
-.contenedor-botines-selecciones .drawer h4 {
+.contenedor-botines-estilos .drawer h4 {
   font-style: italic;
   font-weight: 600;
   font-size: 0.875rem;
@@ -86,18 +116,19 @@
   text-align: center;
   text-transform: uppercase;
   color: #F1F1F1;
-  background: rgba(0, 0, 0, 0.25);
+  background: black;
   border-bottom: 1px solid #D0B160;
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   border-radius: 0px 8px 8px 0px;
-  width: 6.75rem;
+  width: 100%;
   height: 2.5rem;
+  margin-bottom: 0;
 }
 
-.contenedor-botines-selecciones .drawer .contenedor-selectores {
-  background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(rgba(129, 123, 123, 0.49)));
-  background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 0.49) 100%);
+.contenedor-botines-estilos .drawer .contenedor-selectores {
+  background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(#817b7b));
+  background: linear-gradient(180deg, #D9D9D9 0%, #817b7b 100%);
   border-top: 1px solid #FFCA43;
   border-bottom: 1px solid #FFCA43;
   height: 3.375rem;
@@ -112,7 +143,7 @@
           justify-content: space-evenly;
 }
 
-.contenedor-botines-selecciones .drawer .contenedor-selectores select {
+.contenedor-botines-estilos .drawer .contenedor-selectores select {
   height: 2rem;
   width: 10rem;
   text-align: center;
@@ -130,11 +161,11 @@
   color: #FFFCFC;
 }
 
-.contenedor-botines-selecciones .drawer .contenedor-selectores select:focus {
+.contenedor-botines-estilos .drawer .contenedor-selectores select:focus {
   outline: gold;
 }
 
-.contenedor-botines-selecciones .controlador {
+.contenedor-botines-estilos .controlador {
   float: right;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,10 +175,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 22.75rem;
-  height: 93vh;
+  min-height: 100vh;
   position: -webkit-sticky;
   position: sticky;
-  top: 204px;
+  top: 154px;
   left: 0.6rem;
   margin-left: 1.5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(rgba(129, 123, 123, 0.49)));
@@ -156,12 +187,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contenedor-botines-selecciones .controlador {
+  .contenedor-botines-estilos .controlador {
     display: none;
   }
 }
 
-.contenedor-botines-selecciones .controlador h4 {
+.contenedor-botines-estilos .controlador h4 {
   font-style: italic;
   font-weight: 600;
   font-size: 1.75rem;
@@ -178,7 +209,7 @@
   border-radius: 0px 8px 8px 0px;
 }
 
-.contenedor-botines-selecciones .controlador .filtro {
+.contenedor-botines-estilos .controlador .filtro {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
   border: 1px solid #FFCA43;
@@ -190,7 +221,7 @@
   margin: 0 auto 0.5rem auto;
 }
 
-.contenedor-botines-selecciones .controlador .filtro span {
+.contenedor-botines-estilos .controlador .filtro span {
   margin-left: 1rem;
   font-weight: 600;
   font-size: 1rem;
@@ -200,23 +231,23 @@
   text-transform: uppercase;
 }
 
-.contenedor-botines-selecciones .controlador .filtro img {
+.contenedor-botines-estilos .controlador .filtro img {
   position: relative;
   left: 170px;
   top: 5px;
   width: 1.25rem;
 }
 
-.contenedor-botines-selecciones .controlador .filtro img.open {
+.contenedor-botines-estilos .controlador .filtro img.open {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.contenedor-botines-selecciones .controlador .filtro .flecha {
+.contenedor-botines-estilos .controlador .filtro .flecha {
   left: 115px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .reset {
+.contenedor-botines-estilos .controlador .contenedor-tactica .reset {
   position: absolute;
   left: 19rem;
   padding: 5px 10px;
@@ -233,16 +264,16 @@
   color: #000000;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar img {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar img {
   margin-top: 1rem;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .boton-pos {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos {
   width: 2.375rem;
   height: 1.2rem;
   border-radius: 50%;
@@ -257,78 +288,78 @@
   color: #000000;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .boton-pos:focus {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-arq {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-arq {
   position: absolute;
   left: 162px;
   top: 340px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-li {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-li {
   position: absolute;
   left: 80px;
   top: 290px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-dfc {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dfc {
   position: absolute;
   left: 162px;
   top: 300px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ld {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ld {
   position: absolute;
   left: 250px;
   top: 290px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mcd {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mcd {
   position: absolute;
   left: 163px;
   top: 250px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mi {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mi {
   position: absolute;
   left: 100px;
   top: 210px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-md {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-md {
   position: absolute;
   left: 230px;
   top: 210px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mco {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mco {
   position: absolute;
   left: 162px;
   top: 195px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ei {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ei {
   position: absolute;
   left: 99px;
   top: 155px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-dc {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dc {
   position: absolute;
   left: 162px;
   top: 135px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ed {
+.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ed {
   position: absolute;
   left: 235px;
   top: 155px;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos {
+.contenedor-botines-estilos .controlador .contenedor-estilos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,7 +372,7 @@
   padding-left: 1rem;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones {
+.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +383,7 @@
   padding: 1rem 0;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo {
+.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,26 +393,26 @@
   margin: 0.5rem;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo input {
+.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo input {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
   border: 1px solid;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo input:focus {
+.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo input:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo label {
+.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo label {
   margin-left: 0.5rem;
   font-size: 0.875rem;
   font-weight: 500;
   text-align: center;
 }
 
-.contenedor-botines-selecciones .controlador .contenedor-estilos .reset {
+.contenedor-botines-estilos .controlador .contenedor-estilos .reset {
   padding: 5px 10px;
   margin-bottom: 1rem;
   border-radius: 25px 25px 25px 25px;
@@ -394,8 +425,7 @@
   color: #000000;
 }
 
-.contenedor-botines-selecciones .contenedor-cards {
-  margin-top: 10rem;
+.contenedor-botines-estilos .contenedor-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -404,15 +434,17 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 10rem 1rem 0 1rem;
+  /*Tablet & Mobile*/
 }
 
 @media only screen and (max-width: 768px) {
-  .contenedor-botines-selecciones .contenedor-cards {
-    margin-top: 1rem;
+  .contenedor-botines-estilos .contenedor-cards {
+    padding: 6.5rem 2rem 0 2rem;
   }
 }
 
-.contenedor-botines-selecciones .contenedor-cards .error-msg {
+.contenedor-botines-estilos .contenedor-cards .error-msg {
   color: white;
   font-size: 1.5rem;
 }

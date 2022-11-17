@@ -1,35 +1,52 @@
-.contenedor-botines-posiciones {
+.fondo {
   background-image: url(../Multimedia/plp-bg.png);
-  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.contenedor-botines-posiciones {
+  position: absolute;
   min-height: 100vh;
   padding: 0;
 }
 
 .contenedor-botines-posiciones .contenedor-titulo-plp {
   width: 100%;
-  height: 9.75rem;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  z-index: 10;
+  height: 7rem;
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-posiciones .contenedor-titulo-plp {
+    height: 5rem;
+  }
 }
 
 .contenedor-botines-posiciones .contenedor-titulo-plp .banner {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
-  height: 5.25rem;
+  height: 3.5rem;
   background: #C2CD4D;
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-posiciones .contenedor-titulo-plp .banner {
+    height: 2.5rem;
+  }
 }
 
 .contenedor-botines-posiciones .contenedor-titulo-plp h3 {
   position: fixed;
-  z-index: 1;
-  top: 84px;
+  z-index: 10;
+  top: 3.5rem;
   width: 100%;
-  height: 4.75rem;
+  height: 3.5rem;
   text-align: center;
-  line-height: 5rem;
+  line-height: 3rem;
   color: #FFFF;
   text-transform: uppercase;
   font-weight: 800;
@@ -42,34 +59,47 @@
   /*Mobile*/
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 526px) and (max-width: 768px) {
   .contenedor-botines-posiciones .contenedor-titulo-plp h3 {
     font-size: 1rem;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 525px) {
   .contenedor-botines-posiciones .contenedor-titulo-plp h3 {
+    top: 2.5rem;
+    height: 2.5rem;
     font-size: 0.75rem;
   }
 }
 
 .contenedor-botines-posiciones .contenedor-titulo-plp .logo {
   position: fixed;
-  left: calc(100vw - 10rem);
+  left: calc(100vw - 7.5rem);
   z-index: 10;
+  width: 100px;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 526px) and (max-width: 769px) {
   .contenedor-botines-posiciones .contenedor-titulo-plp .logo {
     width: 75px;
-    top: 30px;
-    left: calc(100vw - 7.5rem);
+    top: 15px;
+    left: calc(100vw - 5rem);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .contenedor-botines-posiciones .contenedor-titulo-plp .logo {
+    width: 50px;
+    top: 12.5px;
+    left: calc(100vw - 3.5rem);
   }
 }
 
 .contenedor-botines-posiciones .drawer {
+  position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 769px) {
@@ -86,13 +116,14 @@
   text-align: center;
   text-transform: uppercase;
   color: #F1F1F1;
-  background: rgba(0, 0, 0, 0.25);
+  background: black;
   border-bottom: 1px solid #D0B160;
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   border-radius: 0px 8px 8px 0px;
-  width: 6.75rem;
+  width: 100%;
   height: 2.5rem;
+  margin-bottom: 0;
 }
 
 .contenedor-botines-posiciones .drawer .contenedor-selectores {
@@ -144,10 +175,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 22.75rem;
-  height: 93vh;
+  min-height: 100vh;
   position: -webkit-sticky;
   position: sticky;
-  top: 204px;
+  top: 154px;
   left: 0.6rem;
   margin-left: 1.5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(rgba(129, 123, 123, 0.49)));
@@ -203,6 +234,7 @@
 .contenedor-botines-posiciones .controlador .filtro img {
   position: relative;
   left: 160px;
+  top: 5px;
   width: 1.25rem;
 }
 
@@ -212,7 +244,7 @@
 }
 
 .contenedor-botines-posiciones .controlador .filtro .flecha {
-  left: 115px;
+  left: 170px;
 }
 
 .contenedor-botines-posiciones .controlador .contenedor-estilos {
@@ -286,7 +318,7 @@
 }
 
 .contenedor-botines-posiciones .controlador .contenedor-selector-paises select {
-  height: 200px;
+  height: 150px;
   width: 80%;
   text-align: center;
   border: 1px solid gold;
@@ -297,7 +329,6 @@
 }
 
 .contenedor-botines-posiciones .contenedor-cards {
-  margin-top: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,11 +337,13 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 10rem 1rem 0 1rem;
+  /*Tablet & Mobile*/
 }
 
 @media only screen and (max-width: 768px) {
   .contenedor-botines-posiciones .contenedor-cards {
-    margin-top: 1rem;
+    padding: 6.5rem 2rem 0 2rem;
   }
 }
 

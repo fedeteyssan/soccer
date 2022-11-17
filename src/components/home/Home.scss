@@ -194,18 +194,18 @@
         flex-direction: column;
     
         /*Mobile & Tablet*/
-        @media only screen and (max-width: 800px)  {
-           min-height: 100vh;
+        @media only screen and (min-width:526px) and (max-width: 800px)  {
+            scroll-margin: 5.5rem;
         }
 
         /*Mobile*/
         @media only screen and (min-width:366px) and (max-width:525px) {
-            scroll-margin: 5.5rem;
+            scroll-margin: 4.5rem;
         } 
 
         /*Mobile2*/
         @media only screen and (max-width:365px) {
-            scroll-margin: 4.5rem;
+            scroll-margin: 3.5rem;
         } 
 
         h3{

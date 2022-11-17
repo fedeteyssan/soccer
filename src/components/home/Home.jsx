@@ -1,11 +1,11 @@
 import "./Home.scss";
-import { Container } from "react-bootstrap";
+import { Container,Button } from "react-bootstrap";
 import { useRef } from "react";
-import ListadoBotinesJugador from "../../containers/ListadoBotinesJugador";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Estilos from "../estilos/Estilos";
 import Posiciones from "../posiciones/Posiciones";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -98,7 +98,7 @@ const Home = () => {
             <section className="seccion-busqueda-jugador" ref={scrollJugador}>
                 <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
-                <ListadoBotinesJugador></ListadoBotinesJugador>
+               <Link to="/jugador"><Button>Ingresá el nombre de tu jugador</Button></Link> 
 
 
                 

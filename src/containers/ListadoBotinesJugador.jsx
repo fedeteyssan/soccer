@@ -1,6 +1,6 @@
 import "./ListadoBotinesJugador.scss";
 import React, { useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Modal, Form, Button } from "react-bootstrap";
 import baseBotines from "../baseBotines.json";
 import Item from "../components/item/Item";
 import ScrolltoTop from "../components/ScrollToTop";
@@ -48,6 +48,12 @@ const ListadoBotinesJugador = () => {
         .catch((err) => console.log(err));
     }, []);
 
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+
 
     return (
 
@@ -59,11 +65,18 @@ const ListadoBotinesJugador = () => {
 
             <Container fluid className="contenedor-botines-jugadores">
 
+               
 
+                <Modal show={show} onHide={handleClose} centered>
+                <Modal.Body>
+                    <Form.Control type="search" placeholder="nombre jugador" autoFocus onChange={handleChange} value={busqueda}/>
+                    <Button variant="primary" onClick={handleClose}>Confirmar</Button>
+                </Modal.Body>
+                </Modal>
 
-                <div className="container-input">
-                    <input  type="search" className="form-control input-buscar" placeholder="Ingresá el nombre de un jugador" onChange={handleChange} value={busqueda}/>
-                </div>
+                <Button onClick={handleShow} className="mt-5">BUSCAR</Button>
+
+                
 
                 <div className="contenedor-cards">
                     {botines.length

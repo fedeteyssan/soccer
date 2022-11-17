@@ -37,8 +37,9 @@ const Home = () => {
             <header>
 
                 <div className="contenedor-banner">
-                    <div className="banner"></div>
-                    <img className="logo" src= {require ("../../Multimedia/logo.png")} alt="" />
+                    <div className="banner">
+                        <img className="logo" src= {require ("../../Multimedia/logo.png")} alt="" />
+                    </div>
                 </div>
 
                 <div className="cta">

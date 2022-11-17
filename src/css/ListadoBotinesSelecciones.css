@@ -7,25 +7,25 @@
   position: fixed;
 }
 
-.contenedor-botines-estilos {
+.contenedor-botines-selecciones {
   position: absolute;
   min-height: 100vh;
   padding: 0;
 }
 
-.contenedor-botines-estilos .contenedor-titulo-plp {
+.contenedor-botines-selecciones .contenedor-titulo-plp {
   width: 100%;
   z-index: 10;
   height: 7rem;
 }
 
 @media only screen and (max-width: 525px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp {
+  .contenedor-botines-selecciones .contenedor-titulo-plp {
     height: 5rem;
   }
 }
 
-.contenedor-botines-estilos .contenedor-titulo-plp .banner {
+.contenedor-botines-selecciones .contenedor-titulo-plp .banner {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -34,12 +34,12 @@
 }
 
 @media only screen and (max-width: 525px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp .banner {
+  .contenedor-botines-selecciones .contenedor-titulo-plp .banner {
     height: 2.5rem;
   }
 }
 
-.contenedor-botines-estilos .contenedor-titulo-plp h3 {
+.contenedor-botines-selecciones .contenedor-titulo-plp h3 {
   position: fixed;
   z-index: 10;
   top: 3.5rem;
@@ -60,20 +60,20 @@
 }
 
 @media only screen and (min-width: 526px) and (max-width: 768px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
+  .contenedor-botines-selecciones .contenedor-titulo-plp h3 {
     font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 525px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp h3 {
+  .contenedor-botines-selecciones .contenedor-titulo-plp h3 {
     top: 2.5rem;
     height: 2.5rem;
     font-size: 0.75rem;
   }
 }
 
-.contenedor-botines-estilos .contenedor-titulo-plp .logo {
+.contenedor-botines-selecciones .contenedor-titulo-plp .logo {
   position: fixed;
   left: calc(100vw - 7.5rem);
   z-index: 10;
@@ -81,7 +81,7 @@
 }
 
 @media only screen and (min-width: 526px) and (max-width: 769px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
+  .contenedor-botines-selecciones .contenedor-titulo-plp .logo {
     width: 75px;
     top: 15px;
     left: calc(100vw - 5rem);
@@ -89,26 +89,26 @@
 }
 
 @media only screen and (max-width: 525px) {
-  .contenedor-botines-estilos .contenedor-titulo-plp .logo {
+  .contenedor-botines-selecciones .contenedor-titulo-plp .logo {
     width: 50px;
     top: 12.5px;
     left: calc(100vw - 3.5rem);
   }
 }
 
-.contenedor-botines-estilos .drawer {
+.contenedor-botines-selecciones .drawer {
   position: fixed;
   width: 100%;
   z-index: 10;
 }
 
 @media only screen and (min-width: 769px) {
-  .contenedor-botines-estilos .drawer {
+  .contenedor-botines-selecciones .drawer {
     display: none;
   }
 }
 
-.contenedor-botines-estilos .drawer h4 {
+.contenedor-botines-selecciones .drawer h4 {
   font-style: italic;
   font-weight: 600;
   font-size: 0.875rem;
@@ -126,7 +126,7 @@
   margin-bottom: 0;
 }
 
-.contenedor-botines-estilos .drawer .contenedor-selectores {
+.contenedor-botines-selecciones .drawer .contenedor-selectores {
   background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(#817b7b));
   background: linear-gradient(180deg, #D9D9D9 0%, #817b7b 100%);
   border-top: 1px solid #FFCA43;
@@ -143,7 +143,7 @@
           justify-content: space-evenly;
 }
 
-.contenedor-botines-estilos .drawer .contenedor-selectores select {
+.contenedor-botines-selecciones .drawer .contenedor-selectores select {
   height: 2rem;
   width: 10rem;
   text-align: center;
@@ -161,11 +161,11 @@
   color: #FFFCFC;
 }
 
-.contenedor-botines-estilos .drawer .contenedor-selectores select:focus {
+.contenedor-botines-selecciones .drawer .contenedor-selectores select:focus {
   outline: gold;
 }
 
-.contenedor-botines-estilos .controlador {
+.contenedor-botines-selecciones .controlador {
   float: right;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,12 +187,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contenedor-botines-estilos .controlador {
+  .contenedor-botines-selecciones .controlador {
     display: none;
   }
 }
 
-.contenedor-botines-estilos .controlador h4 {
+.contenedor-botines-selecciones .controlador h4 {
   font-style: italic;
   font-weight: 600;
   font-size: 1.75rem;
@@ -209,7 +209,7 @@
   border-radius: 0px 8px 8px 0px;
 }
 
-.contenedor-botines-estilos .controlador .filtro {
+.contenedor-botines-selecciones .controlador .filtro {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
   border: 1px solid #FFCA43;
@@ -221,7 +221,7 @@
   margin: 0 auto 0.5rem auto;
 }
 
-.contenedor-botines-estilos .controlador .filtro span {
+.contenedor-botines-selecciones .controlador .filtro span {
   margin-left: 1rem;
   font-weight: 600;
   font-size: 1rem;
@@ -231,23 +231,23 @@
   text-transform: uppercase;
 }
 
-.contenedor-botines-estilos .controlador .filtro img {
+.contenedor-botines-selecciones .controlador .filtro img {
   position: relative;
   left: 170px;
   top: 5px;
   width: 1.25rem;
 }
 
-.contenedor-botines-estilos .controlador .filtro img.open {
+.contenedor-botines-selecciones .controlador .filtro img.open {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.contenedor-botines-estilos .controlador .filtro .flecha {
+.contenedor-botines-selecciones .controlador .filtro .flecha {
   left: 115px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .reset {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .reset {
   position: absolute;
   left: 19rem;
   padding: 5px 10px;
@@ -264,16 +264,16 @@
   color: #000000;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar img {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar img {
   margin-top: 1rem;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .boton-pos {
   width: 2.375rem;
   height: 1.2rem;
   border-radius: 50%;
@@ -288,78 +288,78 @@
   color: #000000;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .boton-pos:focus {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .boton-pos:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-arq {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-arq {
   position: absolute;
   left: 162px;
   top: 340px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-li {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-li {
   position: absolute;
   left: 80px;
   top: 290px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dfc {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-dfc {
   position: absolute;
   left: 162px;
   top: 300px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ld {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ld {
   position: absolute;
   left: 250px;
   top: 290px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mcd {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mcd {
   position: absolute;
   left: 163px;
   top: 250px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mi {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mi {
   position: absolute;
   left: 100px;
   top: 210px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-md {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-md {
   position: absolute;
   left: 230px;
   top: 210px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-mco {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-mco {
   position: absolute;
   left: 162px;
   top: 195px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ei {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ei {
   position: absolute;
   left: 99px;
   top: 155px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-dc {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-dc {
   position: absolute;
   left: 162px;
   top: 135px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-tactica .tactica-sidebar .pos-ed {
+.contenedor-botines-selecciones .controlador .contenedor-tactica .tactica-sidebar .pos-ed {
   position: absolute;
   left: 235px;
   top: 155px;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos {
+.contenedor-botines-selecciones .controlador .contenedor-estilos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,7 +372,7 @@
   padding-left: 1rem;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +383,7 @@
   padding: 1rem 0;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,26 +393,26 @@
   margin: 0.5rem;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo input {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo input {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
   border: 1px solid;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo input:focus {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo input:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#B6A36D), to(#9B947B));
   background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .contenedor-botones .botones-estilo label {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .contenedor-botones .botones-estilo label {
   margin-left: 0.5rem;
   font-size: 0.875rem;
   font-weight: 500;
   text-align: center;
 }
 
-.contenedor-botines-estilos .controlador .contenedor-estilos .reset {
+.contenedor-botines-selecciones .controlador .contenedor-estilos .reset {
   padding: 5px 10px;
   margin-bottom: 1rem;
   border-radius: 25px 25px 25px 25px;
@@ -425,7 +425,7 @@
   color: #000000;
 }
 
-.contenedor-botines-estilos .contenedor-cards {
+.contenedor-botines-selecciones .contenedor-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,12 +439,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contenedor-botines-estilos .contenedor-cards {
+  .contenedor-botines-selecciones .contenedor-cards {
     padding: 6.5rem 2rem 0 2rem;
   }
 }
 
-.contenedor-botines-estilos .contenedor-cards .error-msg {
+.contenedor-botines-selecciones .contenedor-cards .error-msg {
   color: white;
   font-size: 1.5rem;
 }

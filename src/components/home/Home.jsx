@@ -61,9 +61,9 @@ const Home = () => {
 
             </header>
             
-            <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
+            
             <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
-                
+                <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
 
                 <h3>Elegí una selección nacional</h3>
 
@@ -76,9 +76,8 @@ const Home = () => {
                 
             </section>
            
-            <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
             <section className="seccion-busqueda-estilos" ref={scrollEstilos}>
-               
+                <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
 
                 <h3 className="subtitulo-estilos">Elegí tu estilo de juego</h3>
 
@@ -86,9 +85,8 @@ const Home = () => {
 
             </section>
       
-            <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
             <section className="seccion-busqueda-posiciones"ref={scrollPosiciones} >
-                
+                <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
 
                 <h3>Elegí tu posición en la cancha</h3>
 
@@ -96,9 +94,9 @@ const Home = () => {
 
             </section>
       
-            <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
+            
             <section className="seccion-busqueda-jugador" ref={scrollJugador}>
-               
+                <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
                 <ListadoBotinesJugador></ListadoBotinesJugador>
 

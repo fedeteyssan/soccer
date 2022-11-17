@@ -65,7 +65,7 @@ const ListadoBotinesJugador = () => {
                 </div>
 
                 <div className="container-input">
-                    <input  type="search" className="form-control input-buscar" placeholder="nombre jugador" autofocus onChange={handleChange} value={busqueda}/>
+                    <input  type="search" className="form-control input-buscar" placeholder="nombre jugador" autoFocus onChange={handleChange} value={busqueda}/>
                 </div>
 
                 <div className="contenedor-cards">

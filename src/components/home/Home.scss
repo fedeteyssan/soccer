@@ -325,7 +325,9 @@
 
         .box-búsqueda{
            text-align: center;
-           margin-top: 50%;
+           margin-top: 5rem;
+           display: flex;
+           flex-direction: column;
 
             label{
                 color: #FFF3F3;

@@ -84,12 +84,11 @@ const ListadoBotinesEsilos = () => {
 
     return (
         <div>
+            <ScrolltoTop />
 
             <div className="fondo"></div>
             
-            <Container fluid className="contenedor-botines-estilos">
-
-                <ScrolltoTop />
+            <Container fluid className="contenedor-botines-estilos">  
 
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>

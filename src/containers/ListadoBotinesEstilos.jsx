@@ -1,7 +1,7 @@
 import "./ListadoBotinesEstilos.scss";
 import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-import baseBotines from "../baseBotines.json";
+import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import { Link,useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
@@ -56,11 +56,11 @@ const ListadoBotinesEsilos = () => {
     });
 
     useEffect(() => {
-        getbotines(baseBotines)
+        getbotines(baseFinal)
         .then((result) => {
             estiloID
             ? setBotines(result.filter((product) => product.estilo1 === estiloID || product.estilo2 === estiloID))
-            : setBotines(baseBotines);
+            : setBotines(baseFinal);
         })
         .catch((err) => console.log(err));
     }, [estiloID]);

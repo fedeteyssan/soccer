@@ -1,7 +1,7 @@
 import "./ListadoBotinesSelecciones.scss";
 import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-import baseBotines from "../baseBotines.json";
+import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import { Link, useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
@@ -52,11 +52,11 @@ const ListadoBotinesSelecciones = () => {
     });
 
     useEffect(() => {
-        getbotines(baseBotines)
+        getbotines(baseFinal)
         .then((result) => {
             seleccionID
             ? setBotines(result.filter((product) => product.seleccion === seleccionID))
-            : setBotines(baseBotines);
+            : setBotines(baseFinal);
         })
         .catch((err) => console.log(err));
     }, [seleccionID]);

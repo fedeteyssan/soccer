@@ -2,7 +2,7 @@ import "./ListadoBotinesPosiciones.scss";
 import React, { useState, useEffect } from "react";
 import { useHistory, Link} from "react-router-dom";
 import { Container } from "react-bootstrap";
-import baseBotines from "../baseBotines.json";
+import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import { useQuery } from "../hooks/useQuery";
 import ScrolltoTop from "../components/ScrollToTop";
@@ -54,11 +54,11 @@ const ListadoBotinesPosiciones = () => {
             
     });
     useEffect(() => {
-        getbotines(baseBotines)
+        getbotines(baseFinal)
         .then((result) => {
             posicionID
             ? setBotines(result.filter((product) => product.posicion === posicionID))
-            : setBotines(baseBotines);
+            : setBotines(baseFinal);
         })
         .catch((err) => console.log(err));
     }, [posicionID]);

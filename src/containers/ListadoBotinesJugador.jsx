@@ -1,7 +1,7 @@
 import "./ListadoBotinesJugador.scss";
 import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-import baseBotines from "../baseBotines.json";
+import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import ScrolltoTop from "../components/ScrollToTop";
 
@@ -40,10 +40,10 @@ const ListadoBotinesJugador = () => {
     }
     
     useEffect(() => {
-        getbotines(baseBotines)
+        getbotines(baseFinal)
         .then((result) => {
-            setBotines(baseBotines);
-            setTablaBotines(baseBotines);
+            setBotines(baseFinal);
+            setTablaBotines(baseFinal);
         })
         .catch((err) => console.log(err));
     }, []);

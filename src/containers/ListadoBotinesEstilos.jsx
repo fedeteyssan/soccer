@@ -145,8 +145,7 @@ const ListadoBotinesEsilos = () => {
                             <option value="Defensor-central">Defensor central</option>
                             <option value="Lateral-derecho">Lateral derecho</option>
                             <option value="Volante-defensivo">Volante defensivo</option>
-                            <option value="Volante-izquierdo">Volante izquierdo</option>
-                            <option value="Volante-derecho">Volante derecho</option>
+                            <option value="Volante-central">Volante central</option>
                             <option value="Volante-ofensivo">Volante ofensivo</option>
                             <option value="Extremo-Izquierdo">Extremo izquierdo</option>
                             <option value="Delantero">Delantero</option>
@@ -179,8 +178,8 @@ const ListadoBotinesEsilos = () => {
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Lateral-derecho`}><button className="boton-pos pos-ld">LD</button></Link>
 
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-defensivo`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-izquierdo`}><button className="boton-pos pos-mi">MI</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-derecho`}><button className="boton-pos pos-md">MD</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-central`}><button className="boton-pos pos-mi">MC</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-central`}><button className="boton-pos pos-md">MC</button></Link>
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-ofensivo`}><button className="boton-pos pos-mco">MCO</button></Link>
 
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Extremo-Izquierdo`}><button className="boton-pos pos-ei">EI</button></Link>

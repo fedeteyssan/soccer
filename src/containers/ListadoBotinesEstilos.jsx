@@ -141,9 +141,16 @@ const ListadoBotinesEsilos = () => {
                         <select onChange={event => handleChangePosicion(event.target.value)}>
                             <option value="null">POSICION</option>
                             <option value="Arquero">Arquero</option>
-                            <option value="Defensor">Defensor</option>
-                            <option value="Mediocampista">Mediocampista</option>
+                            <option value="Lateral-izquierdo">Lateral izquierdo</option>
+                            <option value="Defensor-central">Defensor central</option>
+                            <option value="Lateral-derecho">Lateral derecho</option>
+                            <option value="Volante-defensivo">Volante defensivo</option>
+                            <option value="Volante-izquierdo">Volante izquierdo</option>
+                            <option value="Volante-derecho">Volante derecho</option>
+                            <option value="Volante-ofensivo">Volante ofensivo</option>
+                            <option value="Extremo-Izquierdo">Extremo izquierdo</option>
                             <option value="Delantero">Delantero</option>
+                            <option value="Extremo-Derecho">Extremo derecho</option>
                         </select>
 
                     </div>
@@ -167,18 +174,18 @@ const ListadoBotinesEsilos = () => {
 
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-li">LI</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-dfc">DFC</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor`}><button className="boton-pos pos-ld">LD</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Lateral-izquierdo`}><button className="boton-pos pos-li">LI</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc">DFC</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Lateral-derecho`}><button className="boton-pos pos-ld">LD</button></Link>
 
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mi">MI</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-md">MD</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Mediocampista`}><button className="boton-pos pos-mco">MCO</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-defensivo`}><button className="boton-pos pos-mcd">MCD</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-izquierdo`}><button className="boton-pos pos-mi">MI</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-derecho`}><button className="boton-pos pos-md">MD</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-ofensivo`}><button className="boton-pos pos-mco">MCO</button></Link>
 
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ei">EI</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Extremo-Izquierdo`}><button className="boton-pos pos-ei">EI</button></Link>
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-ed">ED</button></Link>
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Extremo-Derecho`}><button className="boton-pos pos-ed">ED</button></Link>
                         </div>
                         
                     </div>

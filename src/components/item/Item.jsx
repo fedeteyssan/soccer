@@ -10,7 +10,7 @@ const Item = ({item}) =>{
                 <h4 className="nombre-jugador">{item.jugador}</h4>
                 
                 <h5 >{item.seleccion}</h5>
-                <h5 >{item.posicion}</h5>
+                <h5 >{item.posicion.replace(/-/g, ' ')}</h5>
                 <h5 >{item.club}</h5>
             </div>
            

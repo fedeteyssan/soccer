@@ -18,7 +18,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Defensor">
+        <Link to="/posicion?posicion=Lateral-izquierdo">
             <div className="contenedor-posicion contenedor-li">
                 <div className="contenedor-hover">
                     <p>LATERAL IZQUIERDO</p>
@@ -29,7 +29,7 @@ const Posiciones = () =>{
                 </div>
         </Link>
 
-        <Link to="/posicion?posicion=Defensor">
+        <Link to="/posicion?posicion=Defensor-central">
             <div className="contenedor-posicion contenedor-dfc">
                 <div className="contenedor-hover">
                     <p>DEFENSOR CENTRAL</p>
@@ -40,7 +40,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Defensor">
+        <Link to="/posicion?posicion=Lateral-derecho">
             <div className="contenedor-posicion contenedor-ld">
                 <div className="contenedor-hover">
                     <p>LATERAL DERECHO</p>
@@ -51,7 +51,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Mediocampista">
+        <Link to="/posicion?posicion=Volante-defensivo">
             <div className="contenedor-posicion contenedor-mcd">
                 <div className="contenedor-hover">
                     <p>MEDIOCAMPO DEFENSIVO</p>
@@ -84,7 +84,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Mediocampista">
+        <Link to="/posicion?posicion=Volante-ofensivo">
             <div className="contenedor-posicion contenedor-mco">
                 <div className="contenedor-hover">
                     <p>MEDIOCAMPO OFENSIVO</p>
@@ -95,7 +95,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Delantero">
+        <Link to="/posicion?posicion=Extremo-Izquierdo">
             <div className="contenedor-posicion contenedor-ei">
                 <div className="contenedor-hover">
                     <p>EXTREMO IZQUIERDO</p>
@@ -117,7 +117,7 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Delantero">
+        <Link to="/posicion?posicion=Extremo-Derecho">
             <div className="contenedor-posicion contenedor-ed">
                 <div className="contenedor-hover">
                     <p>EXTREMO DERECHO</p>

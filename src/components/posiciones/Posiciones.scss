@@ -174,7 +174,7 @@
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:100px;
+            left:110px;
             top: 390px;
         }
 
@@ -187,13 +187,13 @@
 
     .contenedor-li{
         position: absolute;
-        left:110px;
+        left:100px;
         top: 300px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:60px;
-            top: 310px;
+            top: 300px;
         }
 
         /*Tablet*/
@@ -205,55 +205,85 @@
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:-15px;
-            top: 270px;
+            top: 250px;
         }
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
             left:35px;
-            top: 270px;
+            top: 260px;
         }
     }
 
-    .contenedor-dfc{
+    .contenedor-dfc1{
         position: absolute;
-        left:400px;
+        left:300px;
         top: 340px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:305px;
+            left:230px;
             top: 330px;
         }
 
         /*Tablet*/
         @media only screen and (min-width:526px) and (max-width: 800px)  {
-            left:175px;
-            top: 480px;
+            left:120px;
+            top: 490px;
         }
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:100px;
+            left:70px;
             top: 310px;
         }
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
+            left:110px;
+            top: 300px;
+        }
+    }
+
+    .contenedor-dfc2{
+        position: absolute;
+        left:500px;
+        top: 340px;
+
+        /*Desktop 1024*/
+        @media only screen and (min-width:801px) and (max-width: 1024px){
+            left:380px;
+            top: 330px;
+        }
+
+        /*Tablet*/
+        @media only screen and (min-width:526px) and (max-width: 800px)  {
+            left:230px;
+            top: 490px;
+        }
+
+        /*Mobile*/
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
             left:150px;
             top: 310px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:190px;
+            top: 300px;
         }
     }
 
     .contenedor-ld{
         position: absolute;
-        left:690px;
+        left:700px;
         top: 310px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:569px;
-            top: 320px;
+            top: 300px;
         }
 
         /*Tablet*/
@@ -264,14 +294,14 @@
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:220px;
-            top: 270px;
+            left:230px;
+            top: 250px;
         }
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
             left:270px;
-            top: 270px;
+            top: 260px;
         }
     }
 
@@ -294,7 +324,7 @@
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:100px;
+            left:110px;
             top: 200px;
         }
 
@@ -303,106 +333,76 @@
             left:150px;
             top: 200px;
         }
-    }
-
-    .contenedor-mi{
-        position: absolute;
-        left:140px;
-        top: 140px;
-
-        /*Desktop 1024*/
-        @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:95px;
-            top: 145px;
-        }
-
-        /*Tablet*/
-        @media only screen and (min-width:526px) and (max-width: 800px)  {
-            left:15px;
-            top: 200px;
-        }
-
-        /*Mobile*/
-        @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:-10px;
-            top: 130px;
-        }
-
-        /*Mobile2*/
-        @media only screen and (max-width: 375px)  {
-            left:40px;
-            top: 130px;
-        }
-    }
-
-    .contenedor-md{
-        position: absolute;
-        left:660px;
-        top: 140px;
-
-        /*Desktop 1024*/
-        @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:525px;
-            top: 145px;
-        }
-
-        /*Tablet*/
-        @media only screen and (min-width:526px) and (max-width: 800px)  {
-            left:335px;
-            top: 200px;
-        }
-
-        /*Mobile*/
-        @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:215px;
-            top: 130px;
-        }
-
-        /*Mobile2*/
-        @media only screen and (max-width: 375px)  {
-            left:265px;
-            top: 130px;
-        }  
     }
 
     .contenedor-mco{
         position: absolute;
-        left:400px;
-        top: 98px;
+        left:280px;
+        top: 120px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:305px;
-            top: 85px;
+            left:190px;
+            top: 115px;
         }
 
         /*Tablet*/
         @media only screen and (min-width:526px) and (max-width: 800px)  {
-            left:175px;
-            top: 120px;
+            left:80px;
+            top: 180px;
         }
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:100px;
-            top: 70px;
+            left:30px;
+            top: 110px;
         }
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
-            left:150px;
-            top: 70px;
+            left:80px;
+            top: 110px;
+        }
+    }
+
+    .contenedor-mc{
+        position: absolute;
+        left:550px;
+        top: 140px;
+
+        /*Desktop 1024*/
+        @media only screen and (min-width:801px) and (max-width: 1024px){
+            left:425px;
+            top: 135px;
+        }
+
+        /*Tablet*/
+        @media only screen and (min-width:526px) and (max-width: 800px)  {
+            left:300px;
+            top: 220px;
+        }
+
+        /*Mobile*/
+        @media only screen and (min-width:376px) and (max-width: 525px)  {
+            left:200px;
+            top: 140px;
+        }
+
+        /*Mobile2*/
+        @media only screen and (max-width: 375px)  {
+            left:235px;
+            top: 140px;
         }  
     }
 
     .contenedor-ei{
         position: absolute;
-        left:180px;
+        left:170px;
         top:10px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:140px;
+            left:130px;
             top: 10px;
         }
 
@@ -421,7 +421,7 @@
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
             left: 45px;
-            top:10px;
+            top:25px;
         }  
     }
 
@@ -444,25 +444,25 @@
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:100px;
+            left:110px;
             top:-40px;
         }   
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
             left:150px;
-            top:-40px;
+            top:0px;
         }  
     }
 
     .contenedor-ed{
         position: absolute;
-        left:630px;
+        left:640px;
         top:10px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:490px;
+            left:500px;
             top: 10px;
         }
 
@@ -474,14 +474,14 @@
 
         /*Mobile*/
         @media only screen and (min-width:376px) and (max-width: 525px)  {
-            left:210px;
+            left:220px;
             top:10px;
         }
 
         /*Mobile2*/
         @media only screen and (max-width: 375px)  {
             left:260px;
-            top:10px;
+            top:25px;
         }    
     }
     

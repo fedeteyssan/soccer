@@ -30,7 +30,18 @@ const Posiciones = () =>{
         </Link>
 
         <Link to="/posicion?posicion=Defensor-central">
-            <div className="contenedor-posicion contenedor-dfc">
+            <div className="contenedor-posicion contenedor-dfc1">
+                <div className="contenedor-hover">
+                    <p>DEFENSOR CENTRAL</p>
+                    <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
+                    <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
+                </div>
+                <button className="boton-posicion">DFC</button>
+            </div>
+        </Link>
+
+        <Link to="/posicion?posicion=Defensor-central">
+            <div className="contenedor-posicion contenedor-dfc2">
                 <div className="contenedor-hover">
                     <p>DEFENSOR CENTRAL</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
@@ -62,19 +73,10 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Volante-central">
-            <div className="contenedor-posicion contenedor-mi">
-                <div className="contenedor-hover">
-                    <p>VOLANTE CENTRAL</p>
-                    <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
-                    <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
-                </div>
-                <button className="boton-posicion">MC</button>
-            </div>
-        </Link>
+        
 
         <Link to="/posicion?posicion=Volante-central">
-            <div className="contenedor-posicion contenedor-md">
+            <div className="contenedor-posicion contenedor-mc">
                 <div className="contenedor-hover">
                     <p>VOLANTE CENTRAL</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />

@@ -146,12 +146,12 @@ const ListadoBotinesSelecciones = () => {
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Lateral-izquierdo`}><button className="boton-pos pos-li">LI</button></Link>
-                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc">DFC</button></Link>
+                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc1">DFC</button></Link>
+                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc2">DFC</button></Link>
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Lateral-derecho`}><button className="boton-pos pos-ld">LD</button></Link>
 
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Volante-defensivo`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Volante-central`}><button className="boton-pos pos-mi">MC</button></Link>
-                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Volante-central`}><button className="boton-pos pos-md">MC</button></Link>
+                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Volante-central`}><button className="boton-pos pos-mc">MC</button></Link>
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Volante-ofensivo`}><button className="boton-pos pos-mco">MCO</button></Link>
 
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Extremo-Izquierdo`}><button className="boton-pos pos-ei">EI</button></Link>

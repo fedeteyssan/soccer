@@ -9,7 +9,7 @@ const Item = ({item}) =>{
             <div className="jugador-box">
                 <h4 className="nombre-jugador">{item.jugador}</h4>
                 
-                <h5 >{item.seleccion}</h5>
+                <h5 >{item.seleccion.replace(/-/g, ' ')}</h5>
                 <h5 >{item.posicion.replace(/-/g, ' ')}</h5>
                 <h5 >{item.club}</h5>
             </div>

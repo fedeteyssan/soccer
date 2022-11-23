@@ -68,12 +68,12 @@
 
             /*Tablet*/
             @media only screen and (min-width:426px) and (max-width: 800px)  {
-                font-size: 1rem;
+                font-size: 0.875rem;
             }
 
             /*Mobile*/
             @media only screen and (max-width: 425px)  {
-                font-size: 0.875rem;
+                font-size: 0.75rem;
             }
         }
 
@@ -116,6 +116,7 @@
 
         .nombre-botin{
             font-size: 1.1rem;
+            font-weight: bold;
             transform: skew(5deg, 0deg);
             padding-top: 1rem;
             margin-left: 0.5rem;

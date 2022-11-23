@@ -4034,13 +4034,13 @@
   "posicion": "Delantero",
   "jugador": "Luka Jović",
   "club": "ACF Fiorentina",
-  "botin": "adidas X Speedflow+",
+  "botin": "adidas X Speedflow.1",
   "estilo1": "Imparable",
   "estilo2": "Intuitivo",
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/adidas-X-Speedflow%2B.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/adidas-X-Speedflow.1-LB.webp"
  },
  {
   "seleccion": "Dinamarca",
@@ -4380,6 +4380,344 @@
   "skill3": "Gambeta",
   "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9-Elite.webp"
  },
+ {
+    "seleccion": "Suiza",
+    "posicion": "Arquero",
+    "jugador": "Gregor Kobel",
+    "club": "Borussia Dortmund",
+    "botin": "Puma Ultra Ultimate",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Ultra-Ultimate.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Arquero",
+    "jugador": "Jonas Omlin",
+    "club": "Montpellier HSC",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Arquero",
+    "jugador": "Yann Sommer",
+    "club": "Borussia Mönchengladbach",
+    "botin": "Nike Mercurial Superfly 8 Elite",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Mercurial-Superfly-VIII-Elite-iD.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Arquero",
+    "jugador": "Philipp Köhn",
+    "club": "Red Bull Salzburg",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Defensor-central",
+    "jugador": "Manuel Akanji",
+    "club": "Manchester City",
+    "botin": "Nike Phantom GT2 DF Elite",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Phantom-GT2-DF-Elite.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Defensor-central",
+    "jugador": "Nico Elvedi",
+    "club": "Borussia Mönchengladbach",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Defensor-central",
+    "jugador": "Fabian Schär",
+    "club": "Newcastle United",
+    "botin": "Puma Ultra Ultimate",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Ultra-Ultimate.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Defensor-central",
+    "jugador": "Eray Cömert",
+    "club": "Valencia CF",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Defensor-central",
+    "jugador": "Ricardo Rodríguez",
+    "club": "Torino FC",
+    "botin": "Nike Tiempo Legend 9",
+    "estilo1": "Elegante",
+    "estilo2": "Estratega",
+    "skill1": "Pase",
+    "skill2": "Toque",
+    "skill3": "Precisión",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Tiempo-Legend-9.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Lateral-derecho",
+    "jugador": "Silvan Widmer",
+    "club": "1. FSV Mainz 05",
+    "botin": "adidas Nemeziz.1",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/adidas-Nemeziz.1.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Volante-defensivo",
+    "jugador": "Denis Zakaria",
+    "club": "Chelsea",
+    "botin": "adidas X Speedportal+",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/adidas-X-Speedportal%2B.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Volante-defensivo",
+    "jugador": "Ardon Jashari",
+    "club": "FC Luzern",
+    "botin": "Puma Ultra Ultimate",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Ultra-Ultimate.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Volante-defensivo",
+    "jugador": "Fabian Frei",
+    "club": "FC Basel",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Granit Xhaka",
+    "club": "Arsenal",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Djibril Sow",
+    "club": "Eintracht Frankfurt",
+    "botin": "Nike Phantom GT2 Elite Q",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Phantom-GT2-Elite-Q.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Remo Freuler",
+    "club": "Nottingham Forest",
+    "botin": "Nike Phantom GT2 Elite Q",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Phantom-GT2-Elite-Q.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Fabian Rieder",
+    "club": "BSC Young Boys",
+    "botin": "Nike Zoom Mercurial Vapor 15 Elite",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Michel Aebischer",
+    "club": "Bologna FC",
+    "botin": "adidas Predator Edge.1 Low",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/adidas-Predator-Edge.1-low.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Central Midfield",
+    "jugador": "Edimilson Fernandes",
+    "club": "1. FSV Mainz 05",
+    "botin": "Nike Zoom Mercurial Superfly 9",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Right Midfield",
+    "jugador": "Christian Fassnacht",
+    "club": "BSC Young Boys",
+    "botin": "Nike Zoom Mercurial Vapor 15 Elite",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Extremo-Izquierdo",
+    "jugador": "Rubén Vargas",
+    "club": "FC Augsburg",
+    "botin": "Nike Zoom Mercurial Superfly 9",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Extremo-Derecho",
+    "jugador": "Xherdan Shaqiri",
+    "club": "Chicago Fire FC",
+    "botin": "Nike Zoom Mercurial Superfly 9 Elite",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9-Elite.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Extremo-Derecho",
+    "jugador": "Renato Steffen",
+    "club": "FC Lugano",
+    "botin": "Nike Zoom Mercurial Superfly 9",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Delantero",
+    "jugador": "Noah Okafor",
+    "club": "Red Bull Salzburg",
+    "botin": "Nike Zoom Mercurial Superfly 9",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Superfly-9.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Delantero",
+    "jugador": "Breel Embolo",
+    "club": "AS Monaco",
+    "botin": "Nike Zoom Mercurial Vapor 15 Elite",
+    "estilo1": "Imparable",
+    "estilo2": "Intuitivo",
+    "skill1": "Velocidad",
+    "skill2": "Explosión",
+    "skill3": "Gambeta",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Vapor-15-Elite.webp"
+   },
+   {
+    "seleccion": "Suiza",
+    "posicion": "Delantero",
+    "jugador": "Haris Seferovic",
+    "club": "Galatasaray",
+    "botin": "Puma Future Z 1.4",
+    "estilo1": "Dominante",
+    "estilo2": "Desafiante",
+    "skill1": "Control",
+    "skill2": "Potencia",
+    "skill3": "Dirección",
+    "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Puma-Future-Z-1.4.webp"
+   },
  {
   "seleccion": "Estados-Unidos",
   "posicion": "Arquero",
@@ -4833,7 +5171,7 @@
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Under-Armour-Magnetico-Pro.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Under-Armour-Clone-Magnetico-Pro.webp"
  },
  {
   "seleccion": "Polonia",
@@ -4989,7 +5327,7 @@
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/New-Balance-Furon-V6+.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/New-Balance-Furon-v6%2B.webp"
  },
  {
   "seleccion": "Polonia",
@@ -6809,7 +7147,7 @@
   "skill1": "Pase",
   "skill2": "Toque",
   "skill3": "Precisión",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-Neo-II-W.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-II-W.webp"
  },
  {
   "seleccion": "Corea",
@@ -7784,7 +8122,7 @@
   "skill1": "Pase",
   "skill2": "Toque",
   "skill3": "Precisión",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-Neo-II.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-II.webp"
  },
  {
   "seleccion": "Japón",
@@ -7940,7 +8278,7 @@
   "skill1": "Pase",
   "skill2": "Toque",
   "skill3": "Precisión",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-Neo-II-W.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Mizuno-Morelia-II-W.webp"
  },
  {
   "seleccion": "Japón",
@@ -9702,13 +10040,13 @@
   "posicion": "Extremo-Izquierdo",
   "jugador": "Salem Al-Dawsari",
   "club": "Al-Hilal Saudi FC",
-  "botin": "Nike Zoom Mercurial Vapor XIII",
+  "botin": "Nike Mercurial Vapor XIII",
   "estilo1": "Imparable",
   "estilo2": "Intuitivo",
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Vapor-XIII-O.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Mercurial-Vapor-XIII-O.webp"
  },
  {
   "seleccion": "Arabia-Saudita",
@@ -9864,7 +10202,7 @@
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/New-Balance-Furon-V6+.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/New-Balance-Furon-v6+.webp"
  },
  {
   "seleccion": "Costa-Rica",
@@ -9910,13 +10248,13 @@
   "posicion": "Lateral-derecho",
   "jugador": "Keysher Fuller",
   "club": "CS Herediano",
-  "botin": "Nike Zoom Mercurial Vapor XIII",
+  "botin": "Nike Mercurial Vapor XIII",
   "estilo1": "Imparable",
   "estilo2": "Intuitivo",
   "skill1": "Velocidad",
   "skill2": "Explosión",
   "skill3": "Gambeta",
-  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Zoom-Mercurial-Vapor-XIII-R.webp"
+  "imagen": "https://raw.githubusercontent.com/fedeteyssan/world-cup/master/public/Images/Nike-Mercurial-Vapor-XIII-R.webp"
  },
  {
   "seleccion": "Costa-Rica",

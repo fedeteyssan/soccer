@@ -153,7 +153,7 @@
         float: right;
         display: flex;
         flex-direction: column;
-        width: 22.75rem;
+        width: 20rem;
         min-height: 100vh;
         position: sticky;
         top:154px;
@@ -218,7 +218,7 @@
             }
 
             .flecha{
-                left: 170px;
+                left: 115px;
             }
         }
        
@@ -268,6 +268,9 @@
             .reset{
                 padding: 5px 10px;
                 margin-bottom: 1rem;
+                position: relative;
+                right: 16px;
+
                 border-radius : 25px 25px 25px 25px;
                 border: transparent;
                 background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);

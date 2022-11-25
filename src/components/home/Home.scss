@@ -213,7 +213,6 @@
             color:#ffca43;
             text-transform: uppercase;
     
-            background: linear-gradient(180deg, #4F6238 0%, #464D43 100%);
             clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
     
             border: 3px solid #be9324;
@@ -224,6 +223,52 @@
             margin: 1rem auto 0 auto;
             position: relative;
             z-index: 2;
+
+            &:before {
+                content: "";
+                background: linear-gradient(
+                  45deg,
+                  #be9324,
+                  #fffb00,
+                  #48ff00,
+                  #FFFF,
+                );
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+                -webkit-filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing 10s linear infinite;
+                transition: opactiy 0.3s ease-in-out;
+            }
+              
+            @keyframes glowing {
+                0% {
+                  background-position: 0 0;
+                }
+
+
+                100% {
+                  background-position: 400% 0;
+                }
+
+                
+            } 
+              
+            &:after {
+                z-index: -1;
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, #4F6238 0%, #464D43 100%);
+                left: 0;
+                top: 0;
+            }  
     
             /*Tablet*/
              @media only screen and (min-width:426px) and (max-width: 800px)  {
@@ -242,9 +287,13 @@
         }  
     
         .subtitulo-estilos{
-            background: linear-gradient(180deg, rgba(146, 117, 117, 0.8) 0%, rgba(61, 52, 51, 0.8) 100%);
-        }
-        
+
+              
+            &:after {
+                background: linear-gradient(180deg, #811111 0%, rgba(59,60,58,0.9) 100%);
+            }  
+    
+        } 
     }
     
     .seccion-busqueda-selecciones{

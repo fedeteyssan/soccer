@@ -32,11 +32,13 @@ const ListadoBotinesSelecciones = () => {
     let history = useHistory();
 
     function handleChangePosicion(value) {
-    history.push(`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=${value}`);
+        history.push(`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=${value}`);
+        window.scrollTo(0, 0);
     }
 
     function handleChangeEstilo(value) {
         history.push(`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=${value}`);
+        window.scrollTo(0, 0);
     }
 
 
@@ -131,7 +133,7 @@ const ListadoBotinesSelecciones = () => {
 
                     <h4>FILTROS</h4>
 
-                    <div className="filtro">
+                    <div className="filtro filtro1">
                         <span>POSICION</span>
                         <img className={flagPosicion?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                     </div>
@@ -141,7 +143,7 @@ const ListadoBotinesSelecciones = () => {
                         <div className="tactica-sidebar">
                             <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
-                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}`}><button className="reset">X</button></Link> 
+                            <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}`} onClick={handleClick}><button className="reset">{posicionID!=="null"?posicionID:""} X</button></Link> 
 
                             <Link to={`/seleccion?seleccion=${seleccionID}&estilo=${estiloID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
@@ -169,6 +171,8 @@ const ListadoBotinesSelecciones = () => {
 
                     {flagEstilo && (<div className="contenedor-estilos">
 
+                        <Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}`} onClick={handleClick2}><button className="reset">{estiloID!=="null"?estiloID:""} X</button></Link> 
+
                         <div className="contenedor-botones">
                             <div className="botones-estilo">
                                 <Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=Elegante`}><input type="button" id="Elegante"></input></Link>
@@ -183,7 +187,7 @@ const ListadoBotinesSelecciones = () => {
                             <div className="botones-estilo">
                                 <Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=Imparable`}><input type="button" id="Imparable"></input></Link>
                                 <label for="Imparable">IMPARABLE</label>
-                        </div>  
+                            </div>  
                             
                         </div>
 
@@ -199,13 +203,11 @@ const ListadoBotinesSelecciones = () => {
                             </div>
                             
                             <div className="botones-estilo">
-                            <   Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=Intuitivo`}><input type="button" id="Intuitivo"></input></Link>
+                                <Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}&estilo=Intuitivo`}><input type="button" id="Intuitivo"></input></Link>
                                 <label for="Intuitivo">INTUITIVO</label>
-                        </div>  
+                            </div>  
                             
                         </div>
-                        
-                        <Link to={`/seleccion?seleccion=${seleccionID}&posicion=${posicionID}`}><button className="reset">X</button></Link> 
 
 
                     </div>

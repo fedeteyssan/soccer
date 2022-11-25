@@ -32,13 +32,16 @@ const ListadoBotinesEsilos = () => {
 
     function handleChange(value) {
     history.push(`/estilo?estilo=${estiloID}&posicion=${posicionID}&seleccion=${value}`);
+    window.scrollTo(0, 0);
     }
 
     function handleChangeSeleccion(value) {
         history.push(`/estilo?estilo=${estiloID}&posicion=${posicionID}&seleccion=${value}`);
+        window.scrollTo(0, 0);
     }
     function handleChangePosicion(value) {
         history.push(`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${value}`);
+        window.scrollTo(0, 0);
     }
     
     
@@ -159,7 +162,7 @@ const ListadoBotinesEsilos = () => {
 
                     <h4>FILTROS</h4>
 
-                    <div className="filtro">
+                    <div className="filtro filtro1">
                         <span>POSICION</span>
                         <img className={flagPosicion?"open flecha":"close flecha"}  onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                     </div>
@@ -169,7 +172,7 @@ const ListadoBotinesEsilos = () => {
                         <div className="tactica-sidebar">
                             <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
-                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`}><button className="reset">X</button></Link> 
+                            <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`} onClick={handleClick}><button className="reset">{posicionID!=="null"?posicionID:""} X</button></Link> 
 
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 

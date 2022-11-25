@@ -95,6 +95,7 @@ const ListadoBotinesPosiciones = () => {
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
                     <h3>Botines de Jugadores con Posicion {posicionID.replace(/-/g, ' ')}</h3>
+                    <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>
 

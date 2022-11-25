@@ -64,23 +64,29 @@
             }
         }
 
-        .logo{
+        .home{
             position: fixed;
-            $left:calc(100vw - 7.5rem);
-            left: $left;
+            top: 10px;
+            left: 15px;
             z-index: 10;
-            width: 100px;
-
-            @media only screen and (min-width:526px) and (max-width:800px) {
-                width: 75px;
-                top: 15px;
-                $left:calc(100vw - 5rem);
-                left: $left;
-            }
+            width: 45px;
 
             @media only screen and (max-width:525px) {
-                width: 50px;
-                top: 12.5px;
+                width: 30px;
+            }
+        }
+
+        .logo{
+            position: fixed;
+            $left:calc(100vw - 5rem);
+            left: $left;
+            z-index: 10;
+            top: -5px;
+            width: 65px;
+
+            @media only screen and (max-width:525px) {
+                width: 40px;
+                top: 0px;
                 $left:calc(100vw - 3.5rem);
                 left: $left;
             }

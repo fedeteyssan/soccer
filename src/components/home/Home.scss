@@ -51,21 +51,15 @@
     
             .logo{
                 position: fixed;
-                $left:calc(100vw - 7.5rem);
+                $left:calc(100vw - 5rem);
                 left: $left;
                 z-index: 10;
-                width: 100px;
-    
-                @media only screen and (min-width:526px) and (max-width:800px) {
-                    width: 75px;
-                    top: 15px;
-                    $left:calc(100vw - 5rem);
-                    left: $left;
-                }
+                top: -5px;
+                width: 65px;
     
                 @media only screen and (max-width:525px) {
-                    width: 50px;
-                    top: 12.5px;
+                    width: 40px;
+                    top: 0px;
                     $left:calc(100vw - 3.5rem);
                     left: $left;
                 }
@@ -207,17 +201,14 @@
         } 
 
         h3{
-            font-weight: 600;
+            font-family: 'Stick No Bills', sans-serif;
             font-size: 1.5rem;
             text-align: center;
-            color:#ffca43;
+            color:#FFFF;
             text-transform: uppercase;
     
-            clip-path: polygon(4% 0, 96% 0, 94% 100%, 6% 100%);
-    
             border: 3px solid #be9324;
-            border-radius: 28px;
-    
+           
             width: 70%;
             padding: 0.5rem 0;
             margin: 1rem auto 0 auto;
@@ -230,7 +221,6 @@
                   45deg,
                   #be9324,
                   #fffb00,
-                  #48ff00,
                   #FFFF,
                 );
                 position: absolute;
@@ -242,7 +232,7 @@
                 -webkit-filter: blur(5px);
                 width: calc(100% + 4px);
                 height: calc(100% + 4px);
-                animation: glowing 10s linear infinite;
+                animation: glowing 20s linear infinite;
                 transition: opactiy 0.3s ease-in-out;
             }
               
@@ -251,9 +241,13 @@
                   background-position: 0 0;
                 }
 
+                50% {
+                    background-position: 400% 0;
+                  }
+
 
                 100% {
-                  background-position: 400% 0;
+                  background-position: 0 0;
                 }
 
                 

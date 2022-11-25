@@ -33,23 +33,36 @@
             }
         }  
 
+        .home{
+            position: fixed;
+            top: 10px;
+            left: 15px;
+            z-index: 10;
+            height: 5%;
+
+            @media only screen and (max-width:525px) {
+                height: 3.5%;
+            }
+        }
+
         .logo{
             position: fixed;
             $left:calc(100vw - 7.5rem);
             left: $left;
+            top:-10px;
             z-index: 10;
             width: 100px;
 
             @media only screen and (min-width:526px) and (max-width:800px) {
                 width: 75px;
-                top: 15px;
+                top: 7.5px;
                 $left:calc(100vw - 5rem);
                 left: $left;
             }
 
             @media only screen and (max-width:525px) {
                 width: 50px;
-                top: 12.5px;
+                top: 7.5px;
                 $left:calc(100vw - 3.5rem);
                 left: $left;
             }

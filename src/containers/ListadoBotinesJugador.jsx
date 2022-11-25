@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import ScrolltoTop from "../components/ScrollToTop";
+import { Link } from "react-router-dom";
 
 const ListadoBotinesJugador = () => {
 
@@ -61,6 +62,7 @@ const ListadoBotinesJugador = () => {
 
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
+                    <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>
 

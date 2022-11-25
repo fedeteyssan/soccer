@@ -10,6 +10,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
+    const scrollTop =() =>{
+        window.scrollTo(0, 0);
+    }
+
     const scrollSelecciones = useRef();
     const controlScrollSelecciones = () => {
     scrollSelecciones.current?.scrollIntoView({behavior: 'smooth'});
@@ -38,6 +42,7 @@ const Home = () => {
 
                 <div className="contenedor-banner">
                     <div className="banner"></div>
+                    <img className="home" src= {require ("../../Multimedia/home.png")} onClick={scrollTop} alt="" />
                     <img className="logo" src= {require ("../../Multimedia/logo.png")} alt="" />
                 </div>
 

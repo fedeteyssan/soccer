@@ -6,7 +6,7 @@
 
     /*Mobile*/
     @media only screen and (max-width:375px) {
-        margin: 2rem 0 0 1rem;
+        margin: 2rem auto;
     }
     
     a{
@@ -158,12 +158,12 @@
     .contenedor-arq{
         position: absolute;
         left:400px;
-        top: 450px;
+        top: 445px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:305px;
-            top: 450px;
+            top: 445px;
         }
 
         /*Tablet*/
@@ -188,12 +188,12 @@
     .contenedor-li{
         position: absolute;
         left:100px;
-        top: 300px;
+        top: 260px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:60px;
-            top: 300px;
+            top: 250px;
         }
 
         /*Tablet*/
@@ -217,13 +217,13 @@
 
     .contenedor-dfc1{
         position: absolute;
-        left:300px;
-        top: 340px;
+        left:290px;
+        top: 310px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:230px;
-            top: 330px;
+            left:195px;
+            top: 300px;
         }
 
         /*Tablet*/
@@ -247,13 +247,13 @@
 
     .contenedor-dfc2{
         position: absolute;
-        left:500px;
-        top: 340px;
+        left:510px;
+        top: 310px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:380px;
-            top: 330px;
+            left:410px;
+            top: 300px;
         }
 
         /*Tablet*/
@@ -278,12 +278,12 @@
     .contenedor-ld{
         position: absolute;
         left:700px;
-        top: 310px;
+        top: 260px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:569px;
-            top: 300px;
+            left:565px;
+            top: 250px;
         }
 
         /*Tablet*/
@@ -308,12 +308,12 @@
     .contenedor-mcd{
         position: absolute;
         left:400px;
-        top: 220px;
+        top: 205px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:305px;
-            top: 205px;
+            top: 190px;
         }
 
         /*Tablet*/
@@ -338,12 +338,12 @@
     .contenedor-mco{
         position: absolute;
         left:280px;
-        top: 120px;
+        top: 80px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:190px;
-            top: 115px;
+            top: 95px;
         }
 
         /*Tablet*/
@@ -367,13 +367,13 @@
 
     .contenedor-mc{
         position: absolute;
-        left:550px;
-        top: 140px;
+        left:540px;
+        top: 110px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:425px;
-            top: 135px;
+            top: 115px;
         }
 
         /*Tablet*/
@@ -397,13 +397,13 @@
 
     .contenedor-ei{
         position: absolute;
-        left:170px;
-        top:10px;
+        left:150px;
+        top:5px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
-            left:130px;
-            top: 10px;
+            left:105px;
+            top: -25px;
         }
 
         /*Tablet*/
@@ -457,13 +457,13 @@
 
     .contenedor-ed{
         position: absolute;
-        left:640px;
-        top:10px;
+        left:650px;
+        top:5px;
 
         /*Desktop 1024*/
         @media only screen and (min-width:801px) and (max-width: 1024px){
             left:500px;
-            top: 10px;
+            top: -25px;
         }
 
         /*Tablet*/

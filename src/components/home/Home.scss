@@ -357,7 +357,9 @@
     }
     
     .seccion-busqueda-posiciones{
-        background: linear-gradient(180deg, #3D4038 0%, #212D0D 100%);
+        background-image: url(../../Multimedia/seccionPosiciones-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     
     .seccion-busqueda-jugador{

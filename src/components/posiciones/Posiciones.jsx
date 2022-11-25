@@ -131,7 +131,7 @@ const Posiciones = () =>{
         </Link>
 
         <div className="contenedor-cancha">
-            <img className="cancha-desktop" src= {require ("../../Multimedia/cancha-desktop.png")} alt="" />
+            <img className="cancha-desktop" src= {require ("../../Multimedia/cancha-mobile2.png")} alt="" />
             <img className="cancha-mobile" src= {require ("../../Multimedia/cancha-mobile.png")} alt="" />
         </div>            
         </div>

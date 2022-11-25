@@ -185,6 +185,7 @@
                         background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
                         border: 8px solid #D0B160;
                         border-radius: 14px;
+                        animation: none;
                     }
         
                     /*Tablet*/
@@ -480,6 +481,7 @@
                             transform: scale(0.95);
                         }
                     }
+
 
                     /*Tablet & mobile*/
                     @media only screen and (max-width: 800px)  {

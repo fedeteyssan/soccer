@@ -248,9 +248,7 @@
 
                 100% {
                   background-position: 0 0;
-                }
-
-                
+                }   
             } 
               
             &:after {
@@ -376,15 +374,45 @@
 
             label{
                 color: #FFF3F3;
+                font-size: 1.75rem;
+
+                /*Tablet & Mobile*/
+                @media only screen and (max-width: 800px)  {
+                    font-size: 1rem;
+                }
             }
 
             a{
                 text-decoration: none;
+                margin-top: 1rem;
     
                 button{
+                    font-size: 1.25rem;
                     background-color: #a98323;
                     color: #FFF3F3;
                     padding: 0.5rem;
+                    border-radius: 5px;
+                    border:transparent;
+                    animation: pulse 2s infinite;
+
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(0.95);
+                        }
+                    
+                        70% {
+                            transform: scale(1);
+                        }
+                    
+                        100% {
+                            transform: scale(0.95);
+                        }
+                    }
+
+                    /*Tablet & mobile*/
+                    @media only screen and (max-width: 800px)  {
+                        font-size: 1rem;
+                    }
                 }
             }
         }

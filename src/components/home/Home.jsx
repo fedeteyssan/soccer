@@ -76,12 +76,16 @@ const Home = () => {
                 <h3>Elegí una selección nacional</h3>
 
                 <Carousel></Carousel>
-                
 
                 <h5 className="titulo-selector-grupos">
                     GRUPOS QATAR 2022
                 </h5> 
-                
+
+                <div className="scrollDown">
+                    <p> ¡Scrolleá para ver más! </p>
+                    <img src= {require ("../../Multimedia/bouncingBall-scroller.gif")} className="ball" alt="" />
+                </div>
+                     
             </section>
            
             <section className="seccion-busqueda-estilos" ref={scrollEstilos}>
@@ -91,6 +95,11 @@ const Home = () => {
 
                 <Estilos></Estilos>
 
+                <div className="scrollDown">
+                    <p> ¡Scrolleá para ver más! </p>
+                    <img src= {require ("../../Multimedia/bouncingBall-scroller.gif")} className="ball" alt="" />
+                </div>
+
             </section>
       
             <section className="seccion-busqueda-posiciones"ref={scrollPosiciones} >
@@ -99,6 +108,11 @@ const Home = () => {
                 <h3>Elegí tu posición en la cancha</h3>
 
                 <Posiciones></Posiciones>
+
+                <div className="scrollDown">
+                    <p> ¡Scrolleá para ver más! </p>
+                    <img src= {require ("../../Multimedia/bouncingBall-scroller.gif")} className="ball" alt="" />
+                </div>
 
             </section>
       
@@ -110,9 +124,6 @@ const Home = () => {
                     <label>Buscá los botines de tu jugador favorito </label>
                     <Link to="/jugador"><button>Click para ingresar nombre</button></Link> 
                 </div>
-                
-
-
                 
             </section>
             

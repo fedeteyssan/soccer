@@ -38,10 +38,10 @@
             top: 10px;
             left: 15px;
             z-index: 10;
-            height: 5%;
+            width: 50px;
 
             @media only screen and (max-width:525px) {
-                height: 3.5%;
+                width: 30px;
             }
         }
 

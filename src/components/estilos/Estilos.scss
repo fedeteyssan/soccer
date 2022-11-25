@@ -50,18 +50,25 @@
             align-items: center;
             justify-content: center;
 
-            /*Tablet & Mobile*/
-            @media only screen and (max-width: 800px)  {
-                margin: 0.5rem 0.75rem;
-                width:137.9px ;
-                height:147px ;
-            }
-
             &:hover{
                 background: linear-gradient(180deg, rgba(79, 23, 23, 0.4524) 0%, rgba(12, 11, 11, 0.3306) 100%);
                 border: 8px solid #D0B160;
                 border-radius: 12px;   
             }
+
+            /*Tablet & Mobile*/
+            @media only screen and (max-width: 800px)  {
+                margin: 0.5rem 0.75rem;
+                width:137.9px ;
+                height:147px ;
+
+                &:active{
+                    background: linear-gradient(180deg, rgba(79, 23, 23, 0.4524) 0%, rgba(12, 11, 11, 0.3306) 100%);
+                    border: 8px solid #D0B160;
+                    border-radius: 12px;   
+                }
+            }
+   
 
             img{
                 height: 125px;

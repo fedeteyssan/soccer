@@ -163,20 +163,32 @@
 
                 img{
                     width: 45%;
-        
-                    /*Tablet*/
-                    @media only screen and (min-width:426px) and (max-width: 800px)  {  
-                    }
-        
-                    /*Mobile*/
-                    @media only screen and (max-width: 425px)  {
-                    }
 
                     &:hover{
                         background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
                         border: 8px solid #D0B160;
                         border-radius: 14px;
                     }
+        
+                    /*Tablet*/
+                    @media only screen and (min-width:426px) and (max-width: 800px)  {  
+                        &:active{
+                            background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
+                            border: 8px solid #D0B160;
+                            border-radius: 14px;
+                        }
+                    }
+        
+                    /*Mobile*/
+                    @media only screen and (max-width: 425px)  {
+                        &:active{
+                            background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
+                            border: 8px solid #D0B160;
+                            border-radius: 14px;
+                        }
+                    }
+
+                   
                 }
             }
 

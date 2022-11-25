@@ -5,7 +5,7 @@ import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import { Link,useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
-import ScrolltoTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 
 const ListadoBotinesEsilos = () => {
 
@@ -87,7 +87,7 @@ const ListadoBotinesEsilos = () => {
 
     return (
         <div>
-            <ScrolltoTop />
+            <ScrollToTop />
 
             <div className="fondo"></div>
             

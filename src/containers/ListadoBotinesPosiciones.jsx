@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
 import { useQuery } from "../hooks/useQuery";
-import ScrolltoTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const ListadoBotinesPosiciones = () => {
@@ -86,7 +86,7 @@ const ListadoBotinesPosiciones = () => {
 
         <div>
 
-            <ScrolltoTop />
+            <ScrollToTop />
 
             <div className="fondo"></div>
 

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import baseFinal from "../baseFinal.json";
 import Item from "../components/item/Item";
-import ScrolltoTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
 
 const ListadoBotinesJugador = () => {
@@ -54,7 +54,7 @@ const ListadoBotinesJugador = () => {
 
         <div>
 
-            <ScrolltoTop />
+            <ScrollToTop />
 
             <div className="fondo"></div>
 

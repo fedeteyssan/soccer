@@ -1,11 +1,12 @@
 import "./Home.scss";
 import { Container } from "react-bootstrap";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Estilos from "../estilos/Estilos";
 import Posiciones from "../posiciones/Posiciones";
-import { Link } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop";
 
 
 const Home = () => {
@@ -37,6 +38,8 @@ const Home = () => {
 
     return (
         <Container fluid className="home">
+
+            <ScrollToTop />
 
             <header>
 

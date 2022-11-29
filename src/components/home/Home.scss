@@ -51,13 +51,14 @@
 
             .home{
                 position: fixed;
-                top: 10px;
+                top: 9px;
                 left: 15px;
                 z-index: 10;
                 width: 45px;
     
                 @media only screen and (max-width:525px) {
                     width: 30px;
+                    top: 8px;
                 }
             }
     
@@ -66,7 +67,7 @@
                 $left:calc(100vw - 5rem);
                 left: $left;
                 z-index: 10;
-                top: -5px;
+                top: -6px;
                 width: 65px;
     
                 @media only screen and (max-width:525px) {
@@ -98,7 +99,7 @@
                 font-size: 2.875rem;
                 text-transform: uppercase;
                 color: #C2CD4D;
-                -webkit-text-stroke-color: #666161;
+                -webkit-text-stroke-color: #C2CD4D;
                 -webkit-text-stroke-width: 1px;
 
                 padding: 0 0.25rem;
@@ -130,6 +131,26 @@
             width: 100%;
             display: flex;
             justify-content: space-evenly;
+
+            animation: pulse 2s infinite;
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(0.95);
+                }
+            
+                70% {
+                    transform: scale(1);
+                }
+            
+                100% {
+                    transform: scale(0.95);
+                }
+            }
+
+            &:hover{
+                animation: none;
+            }
     
             /*Desktop 1440*/
             @media only screen and (min-width:1025px) and (max-width: 1440px){
@@ -165,27 +186,10 @@
                 img{
                     width: 45%;
 
-                    animation: pulse 2s infinite;
-
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(0.95);
-                        }
-                    
-                        70% {
-                            transform: scale(1);
-                        }
-                    
-                        100% {
-                            transform: scale(0.95);
-                        }
-                    }
-
                     &:hover{
                         background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
                         border: 8px solid #D0B160;
                         border-radius: 14px;
-                        animation: none;
                     }
         
                     /*Tablet*/

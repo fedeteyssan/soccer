@@ -183,7 +183,7 @@
  },
  {
   "seleccion": "Argentina",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Rodrigo de Paul",
   "club": "Atlético de Madrid",
   "botin": "adidas X Speedportal.1",
@@ -196,7 +196,7 @@
  },
  {
   "seleccion": "Argentina",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Enzo Fernández",
   "club": "Benfica",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -209,7 +209,7 @@
  },
  {
   "seleccion": "Argentina",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Alexis Mac Allister",
   "club": "Brighton & Hove Albion",
   "botin": "adidas X Speedflow.1",
@@ -222,7 +222,7 @@
  },
  {
   "seleccion": "Argentina",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Exequiel Palacios",
   "club": "Bayer 04 Leverkusen",
   "botin": "adidas X Speedportal.1",
@@ -521,7 +521,7 @@
  },
  {
   "seleccion": "Brasil",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Fred",
   "club": "Manchester United",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -534,7 +534,7 @@
  },
  {
   "seleccion": "Brasil",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Éverton Ribeiro",
   "club": "Flamengo",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -846,7 +846,7 @@
  },
  {
   "seleccion": "España",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Pedri",
   "club": "FC Barcelona",
   "botin": "adidas Copa Sense+",
@@ -859,7 +859,7 @@
  },
  {
   "seleccion": "España",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Gavi",
   "club": "FC Barcelona",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -872,7 +872,7 @@
  },
  {
   "seleccion": "España",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Marcos Llorente",
   "club": "Atlético de Madrid",
   "botin": "Nike Tiempo Legend 9 MI",
@@ -885,7 +885,7 @@
  },
  {
   "seleccion": "España",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Carlos Soler",
   "club": "Paris Saint-Germain",
   "botin": "adidas Predator Edge+",
@@ -898,7 +898,7 @@
  },
  {
   "seleccion": "España",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Koke",
   "club": "Atlético de Madrid",
   "botin": "adidas Predator Edge.1 Low",
@@ -1184,7 +1184,7 @@
  },
  {
   "seleccion": "Francia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Eduardo Camavinga",
   "club": "Real Madrid",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -1197,7 +1197,7 @@
  },
  {
   "seleccion": "Francia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mattéo Guendouzi",
   "club": "Olympique de Marseille",
   "botin": "adidas Predator Edge+",
@@ -1210,7 +1210,7 @@
  },
  {
   "seleccion": "Francia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Youssouf Fofana",
   "club": "AS Monaco",
   "botin": "adidas Predator Edge+",
@@ -1223,7 +1223,7 @@
  },
  {
   "seleccion": "Francia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Adrien Rabiot",
   "club": "Juventus",
   "botin": "Nike Phantom GT2",
@@ -1236,7 +1236,7 @@
  },
  {
   "seleccion": "Francia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Jordan Veretout",
   "club": "Olympique de Marseille",
   "botin": "adidas X Speedportal.1",
@@ -1522,7 +1522,7 @@
  },
  {
   "seleccion": "Portugal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Vitinha",
   "club": "Paris Saint-Germain",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -1535,7 +1535,7 @@
  },
  {
   "seleccion": "Portugal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Matheus Nunes",
   "club": "Wolves",
   "botin": "adidas Copa Sense+",
@@ -1548,7 +1548,7 @@
  },
  {
   "seleccion": "Portugal",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Otávio",
   "club": "Porto",
   "botin": "adidas X Speedflow.1",
@@ -1847,7 +1847,7 @@
  },
  {
   "seleccion": "Alemania",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Leon Goretzka",
   "club": "Bayern München",
   "botin": "adidas X Speedportal.1",
@@ -1860,7 +1860,7 @@
  },
  {
   "seleccion": "Alemania",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ilkay Gündogan",
   "club": "Manchester City",
   "botin": "adidas Copa Sense.1",
@@ -2198,7 +2198,7 @@
  },
  {
   "seleccion": "Inglaterra",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Phil Foden",
   "club": "Manchester City",
   "botin": "Nike Phantom GT2",
@@ -2211,7 +2211,7 @@
  },
  {
   "seleccion": "Inglaterra",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Jude Bellingham",
   "club": "Borussia Dortmund",
   "botin": "adidas Predator Edge.1 Low",
@@ -2224,7 +2224,7 @@
  },
  {
   "seleccion": "Inglaterra",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Conor Gallagher",
   "club": "Chelsea",
   "botin": "Nike Zoom Mercurial Superfly 9",
@@ -2237,7 +2237,7 @@
  },
  {
   "seleccion": "Inglaterra",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Jordan Henderson",
   "club": "Liverpool",
   "botin": "Nike Tiempo Legend 9 MI",
@@ -2250,7 +2250,7 @@
  },
  {
   "seleccion": "Inglaterra",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Bukayo Saka",
   "club": "Arsenal",
   "botin": "New Balance Furon V7",
@@ -2523,7 +2523,7 @@
  },
  {
   "seleccion": "Holanda",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Frenkie de Jong",
   "club": "FC Barcelona",
   "botin": "Nike Mercurial Vapor 14",
@@ -2536,7 +2536,7 @@
  },
  {
   "seleccion": "Holanda",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Kenneth Taylor",
   "club": "Ajax",
   "botin": "Nike Zoom Mercurial Vapor 15",
@@ -2549,7 +2549,7 @@
  },
  {
   "seleccion": "Holanda",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Denzel Dumfries",
   "club": "Inter",
   "botin": "adidas X Speedportal+",
@@ -2861,7 +2861,7 @@
  },
  {
   "seleccion": "Bélgica",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Youri Tielemans",
   "club": "Leicester City",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -3212,7 +3212,7 @@
  },
  {
   "seleccion": "Uruguay",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Federico Valverde",
   "club": "Real Madrid",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -3225,7 +3225,7 @@
  },
  {
   "seleccion": "Uruguay",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Rodrigo Bentancur",
   "club": "Tottenham Hotspur",
   "botin": "adidas Copa Sense.1",
@@ -3238,7 +3238,7 @@
  },
  {
   "seleccion": "Uruguay",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Nicolás de la Cruz",
   "club": "River Plate",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -3251,7 +3251,7 @@
  },
  {
   "seleccion": "Uruguay",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Matías Vecino",
   "club": "Lazio",
   "botin": "Nike Phantom GT2 DF",
@@ -3550,7 +3550,7 @@
  },
  {
   "seleccion": "Croacia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mateo Kovacic",
   "club": "Chelsea",
   "botin": "Nike Mercurial Vapor 14",
@@ -3563,7 +3563,7 @@
  },
  {
   "seleccion": "Croacia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Luka Sucic",
   "club": "Red Bull Salzburg",
   "botin": "Nike Zoom Mercurial Vapor 15",
@@ -3576,7 +3576,7 @@
  },
  {
   "seleccion": "Croacia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Luka Modric",
   "club": "Real Madrid",
   "botin": "Nike Mercurial Vapor 14",
@@ -3589,7 +3589,7 @@
  },
  {
   "seleccion": "Croacia",
-  "posicion": "Left Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ivan Perisic",
   "club": "Tottenham Hotspur",
   "botin": "Nike Zoom Mercurial Superfly 8",
@@ -3888,7 +3888,7 @@
  },
  {
   "seleccion": "Serbia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Sergej Milinković-Savić",
   "club": "Lazio",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -3901,7 +3901,7 @@
  },
  {
   "seleccion": "Serbia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Saša Lukić",
   "club": "Torino FC",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -3914,7 +3914,7 @@
  },
  {
   "seleccion": "Serbia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ivan Ilić",
   "club": "Hellas Verona",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -3927,7 +3927,7 @@
  },
  {
   "seleccion": "Serbia",
-  "posicion": "Left Midfield",
+  "posicion": "Volante-central",
   "jugador": "Filip Kostić",
   "club": "Juventus",
   "botin": "Nike Zoom Mercurial Vapor 15",
@@ -3940,7 +3940,7 @@
  },
  {
   "seleccion": "Serbia",
-  "posicion": "Left Midfield",
+  "posicion": "Volante-central",
   "jugador": "Darko Lazović",
   "club": "Hellas Verona",
   "botin": "adidas X Speedportal+",
@@ -4200,7 +4200,7 @@
  },
  {
   "seleccion": "Dinamarca",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Pierre-Emile Höjbjerg",
   "club": "Tottenham Hotspur",
   "botin": "adidas Predator Edge.1",
@@ -4213,7 +4213,7 @@
  },
  {
   "seleccion": "Dinamarca",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mathias Jensen",
   "club": "Brentford FC",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -4226,7 +4226,7 @@
  },
  {
   "seleccion": "Dinamarca",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Thomas Delaney",
   "club": "Sevilla FC",
   "botin": "Nike Tiempo Legend 9 Elite Q",
@@ -4239,7 +4239,7 @@
  },
  {
   "seleccion": "Dinamarca",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Daniel Wass",
   "club": "Brøndby IF",
   "botin": "adidas X Speedportal.1",
@@ -4252,7 +4252,7 @@
  },
  {
   "seleccion": "Dinamarca",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Andreas Skov Olsen",
   "club": "Club Brugge",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -4551,7 +4551,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Granit Xhaka",
   "club": "Arsenal",
   "botin": "Puma Future Z 1.4",
@@ -4564,7 +4564,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Djibril Sow",
   "club": "Eintracht Frankfurt",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -4577,7 +4577,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Remo Freuler",
   "club": "Nottingham Forest",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -4590,7 +4590,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Fabian Rieder",
   "club": "BSC Young Boys",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -4603,7 +4603,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Michel Aebischer",
   "club": "Bologna FC",
   "botin": "adidas Predator Edge.1 Low",
@@ -4616,7 +4616,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Edimilson Fernandes",
   "club": "1. FSV Mainz 05",
   "botin": "Nike Zoom Mercurial Superfly 9",
@@ -4629,7 +4629,7 @@
  },
  {
   "seleccion": "Suiza",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Christian Fassnacht",
   "club": "BSC Young Boys",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -4902,7 +4902,7 @@
  },
  {
   "seleccion": "Estados-Unidos",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Weston McKennie",
   "club": "Juventus",
   "botin": "adidas Predator Accuracy.1 Low",
@@ -4915,7 +4915,7 @@
  },
  {
   "seleccion": "Estados-Unidos",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Yunus Musah",
   "club": "Valencia CF",
   "botin": "Puma Ultra Ultimate",
@@ -4928,7 +4928,7 @@
  },
  {
   "seleccion": "Estados-Unidos",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Cristian Roldán",
   "club": "Seattle Sounders FC",
   "botin": "adidas X Speedportal.1",
@@ -4941,7 +4941,7 @@
  },
  {
   "seleccion": "Estados-Unidos",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Luca de la Torre",
   "club": "Celta de Vigo",
   "botin": "Nike Mercurial Vapor 14",
@@ -5227,7 +5227,7 @@
  },
  {
   "seleccion": "Polonia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Szymon Zurkowski",
   "club": "ACF Fiorentina",
   "botin": "Nike Mercurial Vapor 14",
@@ -5240,7 +5240,7 @@
  },
  {
   "seleccion": "Polonia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Damian Szymanski",
   "club": "AEK Athens",
   "botin": "adidas Predator Edge.1 Low",
@@ -5253,7 +5253,7 @@
  },
  {
   "seleccion": "Polonia",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Przemyslaw Frankowski",
   "club": "RC Lens",
   "botin": "Puma Ultra Ultimate",
@@ -5266,7 +5266,7 @@
  },
  {
   "seleccion": "Polonia",
-  "posicion": "Left Midfield",
+  "posicion": "Volante-central",
   "jugador": "Nicola Zalewski",
   "club": "AS Roma",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -5565,7 +5565,7 @@
  },
  {
   "seleccion": "Marruecos",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Azzedine Ounahi",
   "club": "Angers SCO",
   "botin": "adidas X Speedportal+",
@@ -5929,7 +5929,7 @@
  },
  {
   "seleccion": "Senegal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Pape Matar Sarr",
   "club": "Tottenham Hotspur",
   "botin": "Nike Zoom Mercurial Superfly 9",
@@ -5942,7 +5942,7 @@
  },
  {
   "seleccion": "Senegal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Idrissa Gueye",
   "club": "Everton",
   "botin": "adidas X Speedportal.1",
@@ -5955,7 +5955,7 @@
  },
  {
   "seleccion": "Senegal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Pathé Ciss",
   "club": "Rayo Vallecano",
   "botin": "Nike Phantom GT",
@@ -5968,7 +5968,7 @@
  },
  {
   "seleccion": "Senegal",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Moustapha Name",
   "club": "Pafos FC",
   "botin": "adidas X Speedportal.1",
@@ -6592,7 +6592,7 @@
  },
  {
   "seleccion": "Canadá",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Stephen Eustaquio",
   "club": "Porto",
   "botin": "adidas X Speedportal+",
@@ -6605,7 +6605,7 @@
  },
  {
   "seleccion": "Canadá",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ismaël Koné",
   "club": "CF Montreal",
   "botin": "Nike Phantom GT2",
@@ -6618,7 +6618,7 @@
  },
  {
   "seleccion": "Canadá",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Jonathan Osorio",
   "club": "Toronto FC",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -6631,7 +6631,7 @@
  },
  {
   "seleccion": "Canadá",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mark-Anthony Kaye",
   "club": "Toronto FC",
   "botin": "adidas Copa Sense.1",
@@ -6917,7 +6917,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Carlos Rodríguez",
   "club": "CD Cruz Azul",
   "botin": "Nike Tiempo Legend 9 Elite Q",
@@ -6930,7 +6930,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Érick Gutiérrez",
   "club": "PSV Eindhoven",
   "botin": "adidas Copa 20.1",
@@ -6943,7 +6943,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Luis Romo",
   "club": "CF Monterrey",
   "botin": "adidas Copa Sense+",
@@ -6956,7 +6956,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Orbelín Pineda",
   "club": "AEK Athens",
   "botin": "adidas X Speedportal+",
@@ -6969,7 +6969,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Héctor Herrera",
   "club": "Houston Dynamo FC",
   "botin": "Nike Phantom GT2 DF Elite",
@@ -6982,7 +6982,7 @@
  },
  {
   "seleccion": "México",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Andrés Guardado",
   "club": "Real Betis",
   "botin": "adidas Predator Edge+",
@@ -7268,7 +7268,7 @@
  },
  {
   "seleccion": "Corea",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "In-beom Hwang",
   "club": "Olympiacos",
   "botin": "Mizuno Morelia Neo III Beta",
@@ -7281,7 +7281,7 @@
  },
  {
   "seleccion": "Corea",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Seung-ho Paik",
   "club": "Jeonbuk Hyundai Motors",
   "botin": "Nike Phantom GT2",
@@ -7593,7 +7593,7 @@
  },
  {
   "seleccion": "Gales",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Aaron Ramsey",
   "club": "OGC Nice",
   "botin": "Nike Phantom GT2",
@@ -7606,7 +7606,7 @@
  },
  {
   "seleccion": "Gales",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Joe Allen",
   "club": "Swansea City",
   "botin": "Nike Tiempo Legend 9",
@@ -7619,7 +7619,7 @@
  },
  {
   "seleccion": "Gales",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Dylan Levitt",
   "club": "Dundee United FC",
   "botin": "Puma Future Z 1.4",
@@ -7632,7 +7632,7 @@
  },
  {
   "seleccion": "Gales",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Joe Morrell",
   "club": "FC Portsmouth",
   "botin": "Nike Phantom GT2",
@@ -7944,7 +7944,7 @@
  },
  {
   "seleccion": "Camerún",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Olivier Ntcham",
   "club": "Swansea City",
   "botin": "Nike Phantom Ultra Venom",
@@ -7957,7 +7957,7 @@
  },
  {
   "seleccion": "Camerún",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Pierre Kunde",
   "club": "Olympiacos",
   "botin": "Nike Phantom GT2",
@@ -8269,7 +8269,7 @@
  },
  {
   "seleccion": "Japón",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ao Tanaka",
   "club": "Fortuna Düsseldorf",
   "botin": "Mizuno Morelia II",
@@ -8282,7 +8282,7 @@
  },
  {
   "seleccion": "Japón",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Gaku Shibasaki",
   "club": "CD Leganés",
   "botin": "Umbro Accelerator f-lash U",
@@ -8620,7 +8620,7 @@
  },
  {
   "seleccion": "Ecuador",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Moisés Caicedo",
   "club": "Brighton & Hove Albion",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -8633,7 +8633,7 @@
  },
  {
   "seleccion": "Ecuador",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "José Cifuentes",
   "club": "Los Angeles FC",
   "botin": "Nike Mercurial Superfly VII",
@@ -8646,7 +8646,7 @@
  },
  {
   "seleccion": "Ecuador",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Alan Franco",
   "club": "Club Atlético Talleres",
   "botin": "Nike Zoom Mercurial Superfly 9 Elite",
@@ -8958,7 +8958,7 @@
  },
  {
   "seleccion": "Túnez",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Aïssa Laïdouni",
   "club": "Ferencváros",
   "botin": "adidas X Speedportal+",
@@ -8971,7 +8971,7 @@
  },
  {
   "seleccion": "Túnez",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Anis Slimane",
   "club": "Brøndby IF",
   "botin": "Nike Phantom GT2 Elite Q",
@@ -8984,7 +8984,7 @@
  },
  {
   "seleccion": "Túnez",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mohamed Ali Ben Romdhane",
   "club": "Esperance Tunis",
   "botin": "Nike Mercurial Vapor 14",
@@ -8997,7 +8997,7 @@
  },
  {
   "seleccion": "Túnez",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ferjani Sassi",
   "club": "Al-Duhail SC",
   "botin": "Nike Phantom VNM",
@@ -9010,7 +9010,7 @@
  },
  {
   "seleccion": "Túnez",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ghaylen Chaaleli",
   "club": "Esperance Tunis",
   "botin": "Nike Phantom VNM",
@@ -9309,7 +9309,7 @@
  },
  {
   "seleccion": "Irán",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ahmad Nourollahi",
   "club": "FC Shabab Al-Ahli Dubai",
   "botin": "Nike Mercurial Vapor XIII MDS",
@@ -9322,7 +9322,7 @@
  },
  {
   "seleccion": "Irán",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Ali Karimi",
   "club": "Kayserispor",
   "botin": "Puma Future Z 1.4",
@@ -9621,7 +9621,7 @@
  },
  {
   "seleccion": "Australia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Aaron Mooy",
   "club": "Celtic",
   "botin": "Nike Tiempo Legend 9 Elite Q",
@@ -9634,7 +9634,7 @@
  },
  {
   "seleccion": "Australia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Riley McGree",
   "club": "Middlesbrough",
   "botin": "Nike Zoom Mercurial Vapor 15 Elite",
@@ -9647,7 +9647,7 @@
  },
  {
   "seleccion": "Australia",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Jackson Irvine",
   "club": "FC St. Pauli",
   "botin": "adidas X Speedportal+",
@@ -9972,7 +9972,7 @@
  },
  {
   "seleccion": "Arabia-Saudita",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mohamed Kanno",
   "club": "Al-Hilal Saudi FC",
   "botin": "Nike Phantom GT2",
@@ -9985,7 +9985,7 @@
  },
  {
   "seleccion": "Arabia-Saudita",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Abdulelah Al-Malki",
   "club": "Al-Hilal Saudi FC",
   "botin": "adidas X Speedportal.1",
@@ -9998,7 +9998,7 @@
  },
  {
   "seleccion": "Arabia-Saudita",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Salman Al-Faraj",
   "club": "Al-Hilal Saudi FC",
   "botin": "adidas X Speedflow.1",
@@ -10310,7 +10310,7 @@
  },
  {
   "seleccion": "Costa-Rica",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Roan Wilson",
   "club": "Municipal Grecia",
   "botin": "adidas X Speedportal.1",
@@ -10323,7 +10323,7 @@
  },
  {
   "seleccion": "Costa-Rica",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Celso Borges",
   "club": "LD Alajuelense",
   "botin": "Nike Tiempo Legend 9 Elite Q",
@@ -10336,7 +10336,7 @@
  },
  {
   "seleccion": "Costa-Rica",
-  "posicion": "Right Midfield",
+  "posicion": "Volante-central",
   "jugador": "Gerson Torres",
   "club": "CS Herediano",
   "botin": "adidas Copa Sense.1",
@@ -10349,7 +10349,7 @@
  },
  {
   "seleccion": "Costa-Rica",
-  "posicion": "Left Midfield",
+  "posicion": "Volante-central",
   "jugador": "Álvaro Zamora",
   "club": "Deportivo Saprissa",
   "botin": "Nike Zoom Mercurial Superfly 9",
@@ -10648,7 +10648,7 @@
  },
  {
   "seleccion": "Qatar",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Abdulaziz Hatem",
   "club": "Al-Rayyan SC",
   "botin": "adidas X Speedflow.1",
@@ -10661,7 +10661,7 @@
  },
  {
   "seleccion": "Qatar",
-  "posicion": "Central Midfield",
+  "posicion": "Volante-central",
   "jugador": "Mustafa Mashaal",
   "club": "Al-Sadd SC",
   "botin": "adidas X Speedportal.1",

@@ -101,7 +101,7 @@ const ListadoBotinesPosiciones = () => {
 
                 <div className="drawer">
 
-                    <h4>FILTROS</h4>
+                    <h4>FILTROS <img className="filter-icon" src= {require ("../Multimedia/filter-icon.png")} alt="" /></h4>
 
                     <div className="contenedor-selectores">
 
@@ -156,7 +156,7 @@ const ListadoBotinesPosiciones = () => {
 
                 <aside className="controlador">
 
-                    <h4>FILTROS</h4>
+                    <h4>FILTROS <img className="ms-3" src= {require ("../Multimedia/filter-icon.png")} alt="" /></h4>
 
                     <div className="filtro filtro1">
                         <span>ESTILO DE JUEGO</span>

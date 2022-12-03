@@ -31,7 +31,7 @@ const Carousel = () => {
                             </div>
                             <div className="d-flex">
                                 <Link to="/seleccion?seleccion=Senegal"><CardSeleccion text="Senegal" img ={require("../../Multimedia/senegal.png")}></CardSeleccion></Link>
-                                <Link to="/seleccion?seleccion=Holanda"><CardSeleccion text="Holanda" img ={require("../../Multimedia/holanda.png")}></CardSeleccion></Link>
+                                <Link to="/seleccion?seleccion=Países-Bajos"><CardSeleccion text="Países Bajos" img ={require("../../Multimedia/holanda.png")}></CardSeleccion></Link>
                             </div>
                             
                             

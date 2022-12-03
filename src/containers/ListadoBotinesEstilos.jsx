@@ -126,7 +126,7 @@ const ListadoBotinesEsilos = () => {
                             <option value="Francia">Francia</option>
                             <option value="Gales">Gales</option>
                             <option value="Ghana">Ghana</option>
-                            <option value="Holanda">Holanda</option>
+                            <option value="Países-Bajos">Países Bajos</option>
                             <option value="Inglaterra">Inglaterra</option>
                             <option value="Irán">Irán</option>
                             <option value="Japón">Japón</option>
@@ -220,7 +220,7 @@ const ListadoBotinesEsilos = () => {
                         <option value="Francia">Francia</option>
                         <option value="Gales">Gales</option>
                         <option value="Ghana">Ghana</option>
-                        <option value="Holanda">Holanda</option>
+                        <option value="Países-Bajos">Países Bajos</option>
                         <option value="Inglaterra">Inglaterra</option>
                         <option value="Irán">Irán</option>
                         <option value="Japón">Japón</option>

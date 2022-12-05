@@ -2,7 +2,7 @@
     padding: 0;
 
     header{
-        background-image: url(../../Multimedia/header-bg-1920x1080.jpg);
+        background-image: url(../../Multimedia/header-bg-desktop.webp);
         background-repeat: no-repeat;
         background-size: cover;
             -webkit-background-size: cover;
@@ -16,7 +16,7 @@
         
         /*Tablet & Mobile*/
         @media only screen and (max-width:800px) {
-            background-image: url(../../Multimedia/header-bg-mobile.jpg);
+            background-image: url(../../Multimedia/header-bg-mobile.webp);
             background-repeat: no-repeat;
             background-size: cover;
                 -webkit-background-size: cover;
@@ -367,7 +367,7 @@
     }
     
     .seccion-busqueda-selecciones{
-        background-image: url(../../Multimedia/seccionSelecciones-bg.png);
+        background-image: url(../../Multimedia/seccionSelecciones-bg.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -433,13 +433,13 @@
     }
     
     .seccion-busqueda-posiciones{
-        background-image: url(../../Multimedia/seccionPosiciones-bg.png);
+        background-image: url(../../Multimedia/seccionPosiciones-bg.webp);
         background-size: cover;
         background-repeat: no-repeat;
     }
     
     .seccion-busqueda-jugador{
-        background-image: url(../../Multimedia/plp-bg.png);
+        background-image: url(../../Multimedia/plp-bg.webp);
         background-size: cover;
         background-position:bottom;
         background-repeat: no-repeat;

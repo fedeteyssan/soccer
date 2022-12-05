@@ -1,6 +1,6 @@
 
 .cover-container{
-    background-image: url(../../Multimedia/cover-bg-1920x1080.jpg);
+    background-image: url(../../Multimedia/cover-bg-desktop.webp);
     background-repeat: no-repeat;
     background-size: cover;
         -webkit-background-size: cover;
@@ -10,7 +10,7 @@
 
     /*Tablet & Mobile*/
     @media only screen and (max-width:800px) {
-        background-image: url(../../Multimedia/cover-bg-mobile.jpg);
+        background-image: url(../../Multimedia/cover-bg-mobile.webp);
         background-repeat: no-repeat;
         background-size: cover;
             -webkit-background-size: cover;

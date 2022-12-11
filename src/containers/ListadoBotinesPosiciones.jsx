@@ -15,36 +15,47 @@ const ListadoBotinesPosiciones = () => {
     const estiloID = query.get("estilo");
     const seleccionID = query.get("seleccion");
     const posicionID = query.get("posicion");
+    const marcaID = query.get("marca");
 
     const [botines, setBotines] = useState([]);
     const[filteredBotines, setFilteredBotines]= useState([]);
 
-    const [flagSeleccion,setFlagSeleccion]=useState(false)
-
+    const [flagSeleccion,setFlagSeleccion]=useState(false);
     const handleClick =() =>{
         setFlagSeleccion(flagSeleccion?false:true);
     }
 
-    const [flagEstilo,setFlagEstilo]=useState(false)
+    const [flagEstilo,setFlagEstilo]=useState(false);
     const handleClick2 =() =>{
         setFlagEstilo(flagEstilo?false:true);
     }
 
+    const [flagMarca,setFlagMarca]=useState(false);
+    const handleClick3 =() =>{
+        setFlagMarca(flagMarca?false:true);
+    }
+
     let history = useHistory();
     function handleChange(value) {
-        history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
+        history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&marca=${marcaID}&seleccion=${value}`);
         window.scrollTo(0, 0);
     }
 
     function handleChangeSeleccion(value) {
-        history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&seleccion=${value}`);
+        history.push(`/posicion?posicion=${posicionID}&estilo=${estiloID}&marca=${marcaID}&seleccion=${value}`);
         window.scrollTo(0, 0);
     }
 
     function handleChangeEstilo(value) {
-        history.push(`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${value}`);
+        history.push(`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=${value}`);
         window.scrollTo(0, 0);
     }
+
+    function handleChangeMarca(value) {
+        history.push(`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${estiloID}&marca=${value}`);
+        window.scrollTo(0, 0);
+    }
+
 
     const getbotines = (dataBase) => 
         new Promise((resolve, reject) => {
@@ -77,9 +88,13 @@ const ListadoBotinesPosiciones = () => {
         if(seleccionID&&seleccionID!=="null"){
             filteredProducts = filteredProducts.filter((product)=>product.seleccion === seleccionID);   
         }
+        if(marcaID&&marcaID!=="null"){
+            filteredProducts = filteredProducts.filter((product)=>product.marca === marcaID);   
+        }
+
         setFilteredBotines(filteredProducts)
 
-    },[botines,seleccionID,estiloID]);
+    },[botines,seleccionID,estiloID,marcaID]);
 
 
     return (
@@ -106,7 +121,7 @@ const ListadoBotinesPosiciones = () => {
                     <div className="contenedor-selectores">
 
                         <select onChange={event => handleChangeSeleccion(event.target.value)}>
-                            <option value="null">SELECCION</option>
+                            <option value="null">SELECCIÓN</option>
                             <option value="Alemania">Alemania</option>
                             <option value="Arabia-Saudita">Arabia Saudita</option>
                             <option value="Argentina">Argentina</option>
@@ -151,6 +166,13 @@ const ListadoBotinesPosiciones = () => {
                             <option value="Intuitivo">Intuitivo</option>
                         </select>
 
+                        <select onChange={event => handleChangeMarca(event.target.value)}>
+                            <option value="null">MARCA</option>
+                            <option value="adidas">adidas</option>
+                            <option value="Nike">Nike</option>
+                            <option value="Puma">Puma</option>
+                        </select>  
+
                     </div>
                 </div>
 
@@ -158,97 +180,132 @@ const ListadoBotinesPosiciones = () => {
 
                     <h4>FILTROS <img className="ms-3" src= {require ("../Multimedia/filter-icon.png")} alt="" /></h4>
 
-                    <div className="filtro filtro1">
-                        <span>ESTILO DE JUEGO</span>
-                        <img className={flagEstilo?"open flecha":"close flecha"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
-                    </div>
+                    <div className="contenedor-filtros">
 
-                    {flagEstilo && (<div className="contenedor-estilos">
-
-                        <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}`} onClick={handleClick2}><button className="reset">{estiloID!=="null"?estiloID:""} X</button></Link> 
-
-                        <div className="contenedor-botones">
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Elegante`}><input type="button" id="Elegante"></input></Link>
-                                <label for="Elegante">ELEGANTE</label>
-                            </div>
-
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Dominante`}><input type="button" id="Dominante"></input></Link>
-                                <label for="Dominante">DOMINANTE</label>
-                            </div>
-                            
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Imparable`}><input type="button" id="Imparable"></input></Link>
-                                <label for="Imparable">IMPARABLE</label>
-                            </div>  
-                            
+                        <div className="filtro filtro1">
+                            <span>ESTILO DE JUEGO</span>
+                            <img className={flagEstilo?"open flecha1":"close flecha1"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                         </div>
 
-                        <div className="contenedor-botones">
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Estratega`}><input type="button" id="Estratega"></input></Link>
-                                <label for="Estratega">ESTRATEGA</label>
+                        {flagEstilo && (<div className="contenedor-estilos">
+
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}`} onClick={handleClick2}><button className="reset">{estiloID!=="null"?estiloID:""} X</button></Link> 
+
+                            <div className="contenedor-botones">
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Elegante`}><input type="button" id="Elegante"></input></Link>
+                                    <label for="Elegante">ELEGANTE</label>
+                                </div>
+
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Dominante`}><input type="button" id="Dominante"></input></Link>
+                                    <label for="Dominante">DOMINANTE</label>
+                                </div>
+                                
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Imparable`}><input type="button" id="Imparable"></input></Link>
+                                    <label for="Imparable">IMPARABLE</label>
+                                </div>  
+                                
                             </div>
 
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Desafiante`}><input type="button" id="Desafiante"></input></Link>
-                                <label for="Desafiante">DESAFIANTE</label>
+                            <div className="contenedor-botones">
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Estratega`}><input type="button" id="Estratega"></input></Link>
+                                    <label for="Estratega">ESTRATEGA</label>
+                                </div>
+
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Desafiante`}><input type="button" id="Desafiante"></input></Link>
+                                    <label for="Desafiante">DESAFIANTE</label>
+                                </div>
+                                
+                                <div className="botones-estilo">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&marca=${marcaID}&estilo=Intuitivo`}><input type="button" id="Intuitivo"></input></Link>
+                                    <label for="Intuitivo">INTUITIVO</label>
+                                </div>  
+                                
                             </div>
-                            
-                            <div className="botones-estilo">
-                                <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=Intuitivo`}><input type="button" id="Intuitivo"></input></Link>
-                                <label for="Intuitivo">INTUITIVO</label>
-                            </div>  
-                            
+
+                        </div>
+                        )}
+
+                        <div className="filtro">
+                            <span>SELECCIÓN</span>
+                            <img className={flagSeleccion?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                         </div>
 
-                    </div>
-                    )}
+                        {flagSeleccion && (<div className="contenedor-selector-paises">
+                            <select size="32"onChange={event => handleChange(event.target.value)}>
+                                <option value="null">TODOS</option>
+                                <option value="Alemania">Alemania</option>
+                                <option value="Arabia-Saudita">Arabia Saudita</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Bélgica">Bélgica</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Camerún">Camerún</option>
+                                <option value="Canadá">Canadá</option>
+                                <option value="Corea">Corea</option>
+                                <option value="Costa-Rica">Costa Rica</option>
+                                <option value="Croacia">Croacia</option>
+                                <option value="Dinamarca">Dinamarca</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="España">España</option>
+                                <option value="Estados-Unidos">Estados Unidos</option>
+                                <option value="Francia">Francia</option>
+                                <option value="Gales">Gales</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Países-Bajos">Países Bajos</option>
+                                <option value="Inglaterra">Inglaterra</option>
+                                <option value="Irán">Irán</option>
+                                <option value="Japón">Japón</option>
+                                <option value="Marruecos">Marruecos</option>
+                                <option value="México">México</option>
+                                <option value="Polonia">Polonia</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Qatar">Qatar</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Serbia">Serbia</option>
+                                <option value="Suiza">Suiza</option>
+                                <option value="Túnez">Túnez</option>
+                                <option value="Uruguay">Uruguay</option>
+                            </select>
+                        </div>
+                        )}
 
-                    <div className="filtro">
-                        <span>SELECCION</span>
-                        <img className={flagSeleccion?"open":"close"} onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
-                    </div>
+                        <div className="filtro filtro3">
+                            <span>MARCA</span>
+                            <img className={flagMarca?"open flecha3":"close flecha3"} onClick={handleClick3} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
+                        </div>
 
-                    {flagSeleccion && (<div className="contenedor-selector-paises">
-                    <select size="32"onChange={event => handleChange(event.target.value)}>
-                        <option value="null">TODOS</option>
-                        <option value="Alemania">Alemania</option>
-                        <option value="Arabia-Saudita">Arabia Saudita</option>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Bélgica">Bélgica</option>
-                        <option value="Brasil">Brasil</option>
-                        <option value="Camerún">Camerún</option>
-                        <option value="Canadá">Canadá</option>
-                        <option value="Corea">Corea</option>
-                        <option value="Costa-Rica">Costa Rica</option>
-                        <option value="Croacia">Croacia</option>
-                        <option value="Dinamarca">Dinamarca</option>
-                        <option value="Ecuador">Ecuador</option>
-                        <option value="España">España</option>
-                        <option value="Estados-Unidos">Estados Unidos</option>
-                        <option value="Francia">Francia</option>
-                        <option value="Gales">Gales</option>
-                        <option value="Ghana">Ghana</option>
-                        <option value="Países-Bajos">Países Bajos</option>
-                        <option value="Inglaterra">Inglaterra</option>
-                        <option value="Irán">Irán</option>
-                        <option value="Japón">Japón</option>
-                        <option value="Marruecos">Marruecos</option>
-                        <option value="México">México</option>
-                        <option value="Polonia">Polonia</option>
-                        <option value="Portugal">Portugal</option>
-                        <option value="Qatar">Qatar</option>
-                        <option value="Senegal">Senegal</option>
-                        <option value="Serbia">Serbia</option>
-                        <option value="Suiza">Suiza</option>
-                        <option value="Túnez">Túnez</option>
-                        <option value="Uruguay">Uruguay</option>
-                    </select>
+                        {flagMarca && (<div className="contenedor-marcas">
+
+                            <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${estiloID}`} onClick={handleClick3}><button className="reset">{marcaID!=="null"?marcaID:""} X</button></Link> 
+
+                            <div className="contenedor-botones">
+                                <div className="botones-marcas">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${estiloID}&marca=adidas`}><img className="logo-marca" src= {require ("../Multimedia/logo-adidas.png")} alt="" /></Link>
+                                    <label for="adidas">adidas</label>
+                                </div>
+
+                                <div className="botones-marcas">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${estiloID}&marca=Nike`}><img className="logo-marca" src= {require ("../Multimedia/logo-nike.png")} alt="" /></Link>
+                                    <label for="Nike">Nike</label>
+                                </div>
+                                
+                                <div className="botones-marcas">
+                                    <Link to={`/posicion?posicion=${posicionID}&seleccion=${seleccionID}&estilo=${estiloID}&marca=Puma`}><img className="logo-marca" src= {require ("../Multimedia/logo-puma.png")} alt="" /></Link>
+                                    <label for="Puma">Puma</label>
+                                </div>  
+                                
+                            </div>
+
+                        </div>
+                        )}
+
+
                     </div>
-                    )}
 
                 </aside>
 

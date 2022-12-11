@@ -16,21 +16,20 @@ const ListadoBotinesEsilos = () => {
     const posicionID = query.get("posicion");
     const marcaID = query.get("marca");
 
-    
     const [botines, setBotines] = useState([]);
     const[filteredBotines, setFilteredBotines]= useState([]);
 
-    const [flagPosicion,setFlagPosicion]=useState(false)
+    const [flagPosicion,setFlagPosicion]=useState(false);
     const handleClick =() =>{
         setFlagPosicion(flagPosicion?false:true);
     }
 
-    const [flagSeleccion,setFlagSeleccion]=useState(false)
+    const [flagSeleccion,setFlagSeleccion]=useState(false);
     const handleClick2 =() =>{
         setFlagSeleccion(flagSeleccion?false:true);
     }
 
-    const [flagMarca,setFlagMarca]=useState(false)
+    const [flagMarca,setFlagMarca]=useState(false);
     const handleClick3 =() =>{
         setFlagMarca(flagMarca?false:true);
     }
@@ -123,7 +122,7 @@ const ListadoBotinesEsilos = () => {
                     <div className="contenedor-selectores">
 
                         <select onChange={event => handleChangeSeleccion(event.target.value)}>
-                            <option value="null">SELECCION</option>
+                            <option value="null">SELECCIÓN</option>
                             <option value="Alemania">Alemania</option>
                             <option value="Arabia-Saudita">Arabia Saudita</option>
                             <option value="Argentina">Argentina</option>
@@ -159,7 +158,7 @@ const ListadoBotinesEsilos = () => {
                         </select>  
 
                         <select onChange={event => handleChangePosicion(event.target.value)}>
-                            <option value="null">POSICION</option>
+                            <option value="null">POSICIÓN</option>
                             <option value="Arquero">Arquero</option>
                             <option value="Lateral-izquierdo">Lateral izquierdo</option>
                             <option value="Defensor-central">Defensor central</option>
@@ -189,7 +188,7 @@ const ListadoBotinesEsilos = () => {
                     <div className="contenedor-filtros">
 
                         <div className="filtro filtro1">
-                            <span>POSICION</span>
+                            <span>POSICIÓN</span>
                             <img className={flagPosicion?"open flecha1":"close flecha1"}  onClick={handleClick} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                         </div>
 
@@ -198,29 +197,29 @@ const ListadoBotinesEsilos = () => {
                             <div className="tactica-sidebar">
                                 <img src= {require ("../Multimedia/cancha-sidebar.png")} alt="" />
 
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}`} onClick={handleClick}><button className="reset">{posicionID!=="null"?posicionID:""} X</button></Link> 
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}`} onClick={handleClick}><button className="reset">{posicionID!=="null"?posicionID:""} X</button></Link> 
 
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Arquero`}><button className="boton-pos pos-arq">ARQ</button></Link>
 
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Lateral-izquierdo`}><button className="boton-pos pos-li">LI</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc1">DFC</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc2">DFC</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Lateral-derecho`}><button className="boton-pos pos-ld">LD</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Lateral-izquierdo`}><button className="boton-pos pos-li">LI</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc1">DFC</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Defensor-central`}><button className="boton-pos pos-dfc2">DFC</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Lateral-derecho`}><button className="boton-pos pos-ld">LD</button></Link>
 
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-defensivo`}><button className="boton-pos pos-mcd">MCD</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-central`}><button className="boton-pos pos-mc">MC</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Volante-ofensivo`}><button className="boton-pos pos-mco">MCO</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Volante-defensivo`}><button className="boton-pos pos-mcd">MCD</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Volante-central`}><button className="boton-pos pos-mc">MC</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Volante-ofensivo`}><button className="boton-pos pos-mco">MCO</button></Link>
 
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Extremo-Izquierdo`}><button className="boton-pos pos-ei">EI</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
-                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=Extremo-Derecho`}><button className="boton-pos pos-ed">ED</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Extremo-Izquierdo`}><button className="boton-pos pos-ei">EI</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Delantero`}><button className="boton-pos pos-dc">DC</button></Link>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&marca=${marcaID}&posicion=Extremo-Derecho`}><button className="boton-pos pos-ed">ED</button></Link>
                             </div>
                         
                         </div>
                         )}
 
                         <div className="filtro">
-                            <span>SELECCION</span>
+                            <span>SELECCIÓN</span>
                             <img className={flagSeleccion?"open":"close"} onClick={handleClick2} src= {require ("../Multimedia/arrowDown.png")} alt="" />                
                         </div>
 

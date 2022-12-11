@@ -71,7 +71,7 @@
 
         /*Mobile*/
         @media only screen and (max-width: 800px)  {
-            margin-top: 6rem;
+            margin-top: 4rem;
         }
 
         .input-buscar{
@@ -93,21 +93,21 @@
     }
 
     .contenedor-cards{
-        padding-top: 5rem;
         display: flex;
         justify-content: space-evenly;
         margin: 0 5rem;
         flex-wrap: wrap;
+        padding-top: 5rem;
     
         /*Tablet*/
         @media only screen and (min-width:426px) and (max-width: 800px)  {
-            padding-top: 1rem;
+            padding: 1rem 2rem 0 2rem;
             margin: 0;
         }
 
         /*Mobile*/
         @media only screen and (max-width: 425px)  {
-            padding-top: 1rem;
+            padding: 1rem 2rem 0 2rem;
             margin: 0;
         }
 

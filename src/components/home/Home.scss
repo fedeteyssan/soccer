@@ -22,7 +22,7 @@
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
-            background-position: center;
+                background-position: center;
                 -webkit-background-position: center;
                 -moz-background-position: center;
                 -o-background-position: center;
@@ -481,10 +481,18 @@
     }
     
     .seccion-busqueda-estilos{
-        background-image: url(../../Multimedia/seccionEstilos-bg.png);
+        background-image: url(../../Multimedia/seccionEstilos-bg.webp);
         background-size: cover;
         background-position:bottom;
         background-repeat: no-repeat;  
+
+        /*Tablet & Mobile*/
+        @media only screen and (max-width:800px) {
+            background-image: url(../../Multimedia/seccionEstilos-bg-mobile.webp);
+            background-size: cover;
+            background-position:bottom;
+            background-repeat: no-repeat;  
+        }
     }
     
     .seccion-busqueda-posiciones{

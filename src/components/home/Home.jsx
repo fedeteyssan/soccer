@@ -71,7 +71,7 @@ const Home = () => {
             
             
             <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
-                <TituloSeccion text="Iniciar juego por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
+                <TituloSeccion text="Iniciar búsqueda por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
 
                 <h3>Elegí una selección nacional</h3>
 
@@ -89,7 +89,7 @@ const Home = () => {
             </section>
            
             <section className="seccion-busqueda-estilos" ref={scrollEstilos}>
-                <TituloSeccion text="Iniciar juego por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
+                <TituloSeccion text="Iniciar búsqueda por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
 
                 <h3 className="subtitulo-estilos">Elegí tu estilo de juego</h3>
 
@@ -103,7 +103,7 @@ const Home = () => {
             </section>
       
             <section className="seccion-busqueda-posiciones"ref={scrollPosiciones} >
-                <TituloSeccion text="Iniciar juego por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
+                <TituloSeccion text="Iniciar búsqueda por posición" className="contenedor-titulo contenedor-titulo-posiciones"/>
 
                 <h3>Elegí tu posición en la cancha</h3>
 
@@ -118,7 +118,7 @@ const Home = () => {
       
             
             <section className="seccion-busqueda-jugador" ref={scrollJugador}>
-                <TituloSeccion text="Iniciar juego por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
+                <TituloSeccion text="Iniciar búsqueda por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
 
                 <div className="box-búsqueda">
                     <label>Buscá los botines de tu jugador favorito </label>

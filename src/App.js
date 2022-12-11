@@ -7,6 +7,7 @@ import ListadoBotinesSelecciones from './containers/ListadoBotinesSelecciones';
 import ListadoBotinesPosiciones from './containers/ListadoBotinesPosiciones';
 import ListadoBotinesEstilos from './containers/ListadoBotinesEstilos';
 import ListadoBotinesJugador from './containers/ListadoBotinesJugador';
+import ListadoBotinesMarcas from './containers/ListadoBotinesMarcas';
   
 
 const App = () => {
@@ -39,7 +40,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/marca">
-          
+          <ListadoBotinesMarcas/>
         </Route>
 
         <Route exact path="/jugador">

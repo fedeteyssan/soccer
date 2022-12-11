@@ -7,7 +7,7 @@
     position: fixed;
 }
 
-.contenedor-botines-posiciones{
+.contenedor-botines-marcas{
     position: absolute;
     min-height: 100vh;
     padding: 0;
@@ -124,12 +124,12 @@
 
             .filter-icon{
                 width: 20px;
-                margin-left: 0.5rem;
+                margin-left: 0.5rem;    
             }
         }
 
         .contenedor-selectores{
-            background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 0.49) 100%);
+            background: linear-gradient(180deg, #D9D9D9 0%, rgba(129, 123, 123, 1) 100%);
             border-top: 1px solid #FFCA43;
             border-bottom: 1px solid #FFCA43;
             height: 3.375rem;
@@ -186,7 +186,7 @@
             text-align: center;
             text-transform: uppercase;
             color: #F1F1F1;
-
+           
             position: relative;
             bottom: 43px;
 
@@ -235,82 +235,137 @@
                 }
     
                 .flecha1{
-                    left: 115px;
+                    left: 170px;
                 }
-
+    
                 .flecha3{
-                    left: 190px;
+                    left: 115px;
                 }
             }
     
             .filtro1{
-                margin-top: 0.5rem;
-              }   
-      
+              margin-top: 0.5rem;
+            }   
+    
             .filtro3{
                 margin-top: 1rem;
             }
-           
-            .contenedor-estilos{
     
-                display: flex;
-                justify-content: space-around;
-                background: linear-gradient(180deg, #FDFDFD 0%, rgba(245, 245, 243, 0.59) 100%);
-                border-radius: 12px;
-                margin: 2.5rem 1.5rem 1.5rem 1.5rem;
-                padding: 0 1rem;
-                position: relative;
-    
-                .contenedor-botones{
-                    display: flex;
-                    flex-direction: column;
-                    padding: 0.5rem 0;
-    
-                    .botones-estilo{
-                        display: flex;
-                        align-items: center;
-                        margin: 0.15rem 0.5rem;
-    
-                        input{
-                            width: 1.5rem;
-                            height: 1.5rem;
-                            border-radius: 50%;
-                            border: 1px solid;
-    
-                            &:focus{
-                                background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
-                            }
-                        }
-    
-                        label{
-                            margin-left:0.5rem;
-                            font-size: 0.875rem;
-                            font-weight: 500;
-                            text-align: center;
-                        }
-                    }
-                }
+            .contenedor-tactica{
     
                 .reset{
-                    padding: 2.5px 10px;
-                    margin-bottom: 1rem;
                     position: absolute;
-                    bottom:7rem;
-                    right: -0.5rem;
-                    width: max-content;
+                    right: 1rem;
+                    top: 3.6rem;
     
+                    padding: 2.5px 10px;
                     border-radius : 25px 25px 25px 25px;
                     border: transparent;
                     background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             
                     font-weight: 500;
-                    font-size: 0.6785rem;
+                    font-size: 10px;
             
                     text-align: center;
                     color: #000000;
-                }    
-            }
+                }
     
+                .tactica-sidebar{
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    
+                    img{
+                        margin-top: 1.75rem;
+                    }
+        
+                    .boton-pos{
+                        width: 2.375rem;
+                        height: 1.2rem;
+                        border-radius: 50%;
+                        border: transparent;
+                        background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            
+                        font-weight: 500;
+                        font-size: 0.6785rem;
+            
+                        text-align: center;
+                        color: #000000;
+        
+                        &:focus{
+                            background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                        }     
+                    }
+        
+                    .pos-arq{
+                        position: absolute;
+                        left: 142px;
+                        top: 300px;
+                    }
+        
+                    .pos-li{
+                        position: absolute;
+                        left: 60px;
+                        top: 230px;
+                    }
+        
+                    .pos-dfc1{
+                        position: absolute;
+                        left: 112px;
+                        top: 255px;   
+                    }
+    
+                    .pos-dfc2{
+                        position: absolute;
+                        left: 172px;
+                        top: 255px;  
+                    }
+        
+                    .pos-ld{
+                        position: absolute;
+                        left: 230px;
+                        top: 230px;
+                    }
+                    
+                    .pos-mcd{
+                        position: absolute;
+                        left: 142px;
+                        top: 222px;
+                    }
+        
+                    .pos-mc{
+                        position: absolute;
+                        left: 190px;
+                        top: 175px;
+                    }
+        
+                    .pos-mco{
+                        position: absolute;
+                        left: 110px;
+                        top: 160px;
+                    }
+        
+                    .pos-ei{
+                        position: absolute;
+                        left: 80px;
+                        top: 125px;
+                    }
+        
+                    .pos-dc{
+                        position: absolute;
+                        left: 142px;
+                        top: 100px;
+                    }
+        
+                    .pos-ed{
+                        position: absolute;
+                        left: 210px;
+                        top: 125px;
+                    }     
+                }
+            }
+       
             .contenedor-selector-paises{   
                 text-align: center;
     
@@ -324,33 +379,40 @@
                         outline: gold;
                     }
                 }
-            }  
-
-            .contenedor-marcas{
+            }
     
+            .contenedor-estilos{
+
                 display: flex;
                 justify-content: space-around;
                 background: linear-gradient(180deg, #FDFDFD 0%, rgba(245, 245, 243, 0.59) 100%);
                 border-radius: 12px;
-                margin: 2.5rem 1.5rem;
+                margin: 2.5rem 1.5rem 1.5rem 1.5rem;
                 padding: 0 1rem;
                 position: relative;
-    
+
                 .contenedor-botones{
                     display: flex;
+                    flex-direction: column;
                     padding: 0.5rem 0;
                     
-    
-                    .botones-marcas{
+
+                    .botones-estilo{
                         display: flex;
                         align-items: center;
                         margin: 0.15rem 0.5rem;
-    
-                        .logo-marca{
-                            width: 24px; 
-                            padding-bottom: 5px;          
+
+                        input{
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            border-radius: 50%;
+                            border: 1px solid;
+
+                            &:focus{
+                                background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                            }
                         }
-    
+
                         label{
                             margin-left:0.5rem;
                             font-size: 0.875rem;
@@ -359,15 +421,15 @@
                         }
                     }
                 }
-    
+
                 .reset{
                     padding: 2.5px 10px;
                     margin-bottom: 1rem;
                     position: absolute;
-                    bottom:2.25rem;
+                    bottom:7rem;
                     right: -0.5rem;
                     width: max-content;
-    
+
                     border-radius : 25px 25px 25px 25px;
                     border: transparent;
                     background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
@@ -377,9 +439,9 @@
             
                     text-align: center;
                     color: #000000;
-                }   
-            }  
-        }   
+                } 
+            } 
+        }
     }
 
     .contenedor-cards{
@@ -397,6 +459,5 @@
             color: white;
             font-size: 1.5rem;  
         }
-    }
-    
+    }   
 }

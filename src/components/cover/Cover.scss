@@ -1,6 +1,6 @@
 
 .cover-container{
-    background-image: url(../../Multimedia/cover-bg-desktop.webp);
+    background-image: url(../../Multimedia/cover-bg-desktop1.webp);
     background-repeat: no-repeat;
     background-size: cover;
         -webkit-background-size: cover;
@@ -10,7 +10,7 @@
 
     /*Tablet & Mobile*/
     @media only screen and (max-width:800px) {
-        background-image: url(../../Multimedia/cover-bg-mobile.webp);
+        background-image: url(../../Multimedia/cover-bg-mobile1.webp);
         background-repeat: no-repeat;
         background-size: cover;
             -webkit-background-size: cover;
@@ -80,6 +80,8 @@
             line-height: 6.5rem;
             text-transform: uppercase;
             color: #C2CD4D;
+            -webkit-text-stroke-color: black;
+            -webkit-text-stroke-width: 1px;
 
             /*Tablet*/
             @media only screen and (min-width:426px) and (max-width:800px) {
@@ -147,9 +149,9 @@
             text-transform: uppercase;
             color: #FFF5F5;
         
-            width: 16.5rem;
+            width: 24rem;
             height: 3rem;
-            margin-top:6rem;
+            margin-top:4rem;
             margin-left: 2rem;
             position: relative;
             top:0px;
@@ -183,8 +185,10 @@
 
             /*Mobile*/
             @media only screen and (max-width:425px) {
+                width: 18rem;
                 margin-top:50%;
-                margin-left: 0rem;
+                margin-left: 4rem;
+                top: 6rem;
             }
         }  
     }

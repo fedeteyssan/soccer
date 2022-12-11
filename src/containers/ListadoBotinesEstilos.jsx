@@ -99,10 +99,10 @@ const ListadoBotinesEstilos = () => {
     },[botines,posicionID,seleccionID,marcaID]);
 
 
-
     return (
         <div>
-            <ScrollToTop />
+            
+            <ScrollToTop /> 
 
             <div className="fondo"></div>
             

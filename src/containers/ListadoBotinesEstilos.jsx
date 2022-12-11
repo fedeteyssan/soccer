@@ -110,7 +110,7 @@ const ListadoBotinesEstilos = () => {
 
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
-                    <h3>Botines de Jugadores con Estilo {estiloID}</h3>
+                    <h3>Botines de jugadores con estilo {estiloID}</h3>
                     <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>

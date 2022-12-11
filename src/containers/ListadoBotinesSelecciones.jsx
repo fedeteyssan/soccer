@@ -106,7 +106,7 @@ const ListadoBotinesSelecciones = () => {
 
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
-                    <h3>Botines de Jugadores Selección {seleccionID.replace(/-/g, ' ')}</h3>
+                    <h3>Botines de jugadores selección {seleccionID.replace(/-/g, ' ')}</h3>
                     <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>

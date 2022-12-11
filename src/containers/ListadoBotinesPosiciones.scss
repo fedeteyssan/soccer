@@ -82,9 +82,8 @@
             $left:calc(100vw - 5rem);
             left: $left;
             z-index: 10;
-            top: -5px;
-            width: 65px;
-            display: none;
+            top: -6.5px;
+            width: 50px;
 
             @media only screen and (max-width:525px) {
                 width: 40px;

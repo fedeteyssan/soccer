@@ -21,7 +21,7 @@
 
     .contenedor-banner{
         width: 100%;
-        height:3.5rem;
+        height:2.5rem;
         z-index: 10;
 
         @media only screen and (max-width:425px) {
@@ -32,7 +32,7 @@
             position: fixed;
             width: 100%;
             z-index: 10;
-            height:3.5rem ;
+            height:2.5rem ;
             background: #C2CD4D;
 
             @media only screen and (max-width:525px) {
@@ -46,9 +46,8 @@
             $left:calc(100vw - 5rem);
             left: $left;
             z-index: 10;
-            top: -5px;
-            width: 65px;
-            display: none;
+            top: -6.5px;
+            width: 50px;
 
             @media only screen and (max-width:525px) {
                 width: 40px;

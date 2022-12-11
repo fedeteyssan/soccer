@@ -254,6 +254,8 @@
                 text-align: center;
 
                 img{
+                    width: 25%;
+
                     &:hover{
                         background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
                         border: 8px solid #D0B160;

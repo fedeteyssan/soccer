@@ -119,6 +119,11 @@
                     -webkit-text-stroke-width: 1px;
 
                     padding: 0 0.25rem;    
+
+                    @media only screen and (max-width:425px) {
+                        font-size: 2rem;
+                        line-height: 3.25rem;
+                    }
                 }
             }
         

@@ -129,9 +129,10 @@
             p{
                 font-family: 'Stick No Bills';  
                 font-weight: 500;
-                font-size: 1.625rem;
+                font-size: 1.5rem;
                 line-height: 2rem;
-                color: #FFF3F3;
+                color: #FFCA43;
+                text-transform: uppercase;
                 margin-top: 4rem;
                 -webkit-text-stroke-color: black;
                 -webkit-text-stroke-width: 1px;
@@ -139,7 +140,7 @@
                 padding: 0 0.25rem;
     
                 @media only screen and (max-width:425px) {
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                     margin-top: 2rem;
                 }
             }
@@ -259,11 +260,11 @@
                 }
 
                 img{
-                    width: 25%;
+                    width:27.5%;
 
                     /*Tablet*/
                     @media only screen and (max-width: 800px) {  
-                        width: 55%;
+                        width: 57.5%;
                     }
 
 

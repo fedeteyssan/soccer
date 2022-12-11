@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
 
                     <div className="contenedor-jugador">
-                        <Link to="/jugador"><img src= {require ("../../Multimedia/inicio-jugador.png")} alt=""/></Link>
+                        <Link to="/jugador"><img src= {require ("../../Multimedia/inicio-jugador2.png")} alt=""/></Link>
                     </div>
 
                 </div>

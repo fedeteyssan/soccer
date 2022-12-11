@@ -81,7 +81,7 @@
         }
     
         .cta{
-            margin: 10rem 0 5rem 0;
+            margin: 10rem 0 2rem 0;
             text-align: center;
             
             /*Mobile*/
@@ -109,14 +109,26 @@
                     font-size: 2rem;
                     line-height: 3.25rem;
                 }
+
+                span{
+                    font-family: 'Permanent Marker';
+                    font-size: 2.875rem;
+                    text-transform: uppercase;
+                    color: #DFE1C8;
+                    -webkit-text-stroke-color: #C2CD4D;
+                    -webkit-text-stroke-width: 1px;
+
+                    padding: 0 0.25rem;    
+                }
             }
         
             p{
+                font-family: 'Stick No Bills';  
                 font-weight: 500;
                 font-size: 1.625rem;
                 line-height: 2rem;
                 color: #FFF3F3;
-                margin-top: 2rem;
+                margin-top: 4rem;
                 -webkit-text-stroke-color: black;
                 -webkit-text-stroke-width: 1px;
 
@@ -128,107 +140,121 @@
             }
         }
     
-        .contenedor-imagenes{
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-
+        .contenedor-caminos{
             animation: pulse 2s infinite;
-
-            @keyframes pulse {
-                0% {
-                    transform: scale(0.95);
-                }
-            
-                70% {
-                    transform: scale(1);
-                }
-            
-                100% {
-                    transform: scale(0.95);
-                }
-            }
-
-            &:hover{
-                animation: none;
-            }
     
-            /*Desktop 1440*/
-            @media only screen and (min-width:1025px) and (max-width: 1440px){
-            }
-
-            /*Tablet*/
-            @media only screen and (min-width:426px) and (max-width: 800px){
-                flex-direction: column;
-            }
+                @keyframes pulse {
+                    0% {
+                        transform: scale(0.95);
+                    }
+                
+                    70% {
+                        transform: scale(1);
+                    }
+                
+                    100% {
+                        transform: scale(0.95);
+                    }
+                }
     
-            /*Mobile*/
-            @media only screen and (max-width: 425px)  {
-                flex-direction: column;
-            }
+                &:hover{
+                    animation: none;
+                }
 
-            .grupos-imagenes{
+            .contenedor-imagenes{
                 width: 100%;
                 display: flex;
-                justify-content: space-around;
-                align-items: center;
-               
+                justify-content: space-evenly;
 
+        
+                /*Desktop 1440*/
+                @media only screen and (min-width:1025px) and (max-width: 1440px){
+                }
+    
                 /*Tablet*/
                 @media only screen and (min-width:426px) and (max-width: 800px){
-                    margin-bottom: 2rem;
+                    flex-direction: column;
                 }
-
+        
                 /*Mobile*/
                 @media only screen and (max-width: 425px)  {
-                    margin-bottom: 2rem;
+                    flex-direction: column;
                 }
+    
+                .grupos-imagenes{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                   
+    
+                    /*Tablet*/
+                    @media only screen and (min-width:426px) and (max-width: 800px){
+                        margin-bottom: 2rem;
+                    }
+    
+                    /*Mobile*/
+                    @media only screen and (max-width: 425px)  {
+                        margin-bottom: 2rem;
+                    }
+    
+                    img{
+                        width: 45%;
+    
+                        &:hover{
+                            background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
+                            border: 8px solid #D0B160;
+                            border-radius: 14px;
+                        }
+            
+                        /*Tablet*/
+                        @media only screen and (min-width:426px) and (max-width: 800px)  {  
+                            &:active{
+                                background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
+                                border: 8px solid #D0B160;
+                                border-radius: 14px;
+                            }
+                        }
+            
+                        /*Mobile*/
+                        @media only screen and (max-width: 425px)  {
+                            &:active{
+                                background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
+                                border: 8px solid #D0B160;
+                                border-radius: 14px;
+                            }
+                        }
+                    }
+                }
+    
+                .grupo-1{
+    
+                    /*Tablet & Mobile*/
+                    @media only screen and (max-width: 800px){
+    
+                    }
+                }
+    
+                .grupo-2{
+          
+                    /*Tablet & Mobile*/
+                    @media only screen and (max-width: 800px){
+    
+                    }
+                }
+            }
+    
+            .contenedor-jugador{
+                margin-top: 2rem;
+                text-align: center;
 
                 img{
-                    width: 45%;
-
                     &:hover{
                         background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
                         border: 8px solid #D0B160;
                         border-radius: 14px;
                     }
-        
-                    /*Tablet*/
-                    @media only screen and (min-width:426px) and (max-width: 800px)  {  
-                        &:active{
-                            background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
-                            border: 8px solid #D0B160;
-                            border-radius: 14px;
-                        }
-                    }
-        
-                    /*Mobile*/
-                    @media only screen and (max-width: 425px)  {
-                        &:active{
-                            background: linear-gradient(180deg, #777473 0%, rgba(108, 114, 91, 0.4) 100%);
-                            border: 8px solid #D0B160;
-                            border-radius: 14px;
-                        }
-                    }
-
-                   
-                }
-            }
-
-            .grupo-1{
-
-                /*Tablet & Mobile*/
-                @media only screen and (max-width: 800px){
-
-                }
-            }
-
-            .grupo-2{
-      
-                /*Tablet & Mobile*/
-                @media only screen and (max-width: 800px){
-
-                }
+                }     
             }
         }
     }
@@ -298,8 +324,7 @@
 
                 50% {
                     background-position: 400% 0;
-                  }
-
+                }
 
                 100% {
                   background-position: 0 0;
@@ -332,11 +357,22 @@
                 line-height: 1.5rem;
             }
         }  
+
+        .subtitulo-selecciones{ 
+            &:after {
+                background: linear-gradient(180deg, #555156 0%, #380C52 100%);
+            }  
+        } 
     
-        .subtitulo-estilos{
-              
+        .subtitulo-estilos{ 
             &:after {
                 background: linear-gradient(180deg, #811111 0%, rgba(59,60,58,0.9) 100%);
+            }  
+        } 
+
+        .subtitulo-marcas{ 
+            &:after {
+                background: linear-gradient(180deg, #606A6F 0%, rgba(58, 60, 57, 0.9) 100%);
             }  
         } 
 
@@ -429,8 +465,7 @@
         background-image: url(../../Multimedia/seccionEstilos-bg.png);
         background-size: cover;
         background-position:bottom;
-        background-repeat: no-repeat;
-      
+        background-repeat: no-repeat;  
     }
     
     .seccion-busqueda-posiciones{
@@ -439,66 +474,11 @@
         background-repeat: no-repeat;
     }
     
-    .seccion-busqueda-jugador{
-        background-image: url(../../Multimedia/plp-bg.webp);
+    .seccion-busqueda-marca{
+        background-image: url(../../Multimedia/seccionMarcas-bg.webp);
         background-size: cover;
-        background-position:bottom;
         background-repeat: no-repeat;
-
-        .box-búsqueda{
-           text-align: center;
-           margin-top: 5rem;
-           display: flex;
-           flex-direction: column;
-
-            label{
-                color: #FFF3F3;
-                font-size: 1.75rem;
-
-                /*Tablet & Mobile*/
-                @media only screen and (max-width: 800px)  {
-                    font-size: 1rem;
-                }
-            }
-
-            a{
-                text-decoration: none;
-                margin-top: 1rem;
-    
-                button{
-                    font-size: 1.25rem;
-                    background-color: #a98323;
-                    color: #FFF3F3;
-                    padding: 0.5rem;
-                    border-radius: 5px;
-                    border:transparent;
-                    animation: pulse 2s infinite;
-
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(0.95);
-                        }
-                    
-                        70% {
-                            transform: scale(1);
-                        }
-                    
-                        100% {
-                            transform: scale(0.95);
-                        }
-                    }
-
-
-                    /*Tablet & mobile*/
-                    @media only screen and (max-width: 800px)  {
-                        font-size: 1rem;
-                    }
-                }
-            }
-        }
-        
-        
+        background-position:center;
     }
-
 }
 

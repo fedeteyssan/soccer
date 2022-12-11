@@ -6,6 +6,7 @@ import TituloSeccion from "../tituloSeccion/TituloSeccion";
 import Carousel from "../carousel/Carousel";
 import Estilos from "../estilos/Estilos";
 import Posiciones from "../posiciones/Posiciones";
+import Marcas from "../marcas/Marcas";
 import ScrollToTop from "../ScrollToTop";
 
 
@@ -30,9 +31,9 @@ const Home = () => {
     scrollPosiciones.current?.scrollIntoView({behavior: 'smooth'});
     };
 
-    const scrollJugador = useRef();
-    const controlScrollJugador = () => {
-    scrollJugador.current?.scrollIntoView({behavior: 'smooth'});
+    const scrollMarca = useRef();
+    const controlScrollMarca = () => {
+    scrollMarca.current?.scrollIntoView({behavior: 'smooth'});
     };
 
 
@@ -50,32 +51,38 @@ const Home = () => {
                 </div>
 
                 <div className="cta">
-                    <h1>BIENVENIDO A NUESTRO BUSCADOR</h1>
+                    <h1>BIENVENIDO A NUESTRO <br/> <span>BUSCADOR DE BOTINES</span></h1>
                     <p>Elegí un camino para empezar </p>
                 </div>
 
-                <div className="contenedor-imagenes">
-                    <div className="grupos-imagenes grupo-1">
-                        <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
-                        <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
-                    </div>
-                    
-                    <div className="grupos-imagenes grupo-2">
-                        <img src= {require ("../../Multimedia/inicio-posiciones.png")} alt="" onClick={controlScrollPosiciones}/>
-                        <img src= {require ("../../Multimedia/inicio-jugador.png")} alt="" onClick={controlScrollJugador}/>
-                    </div>
-                    
-                </div>
+                <div className="contenedor-caminos">
 
+                    <div className="contenedor-imagenes">
+                        <div className="grupos-imagenes grupo-1">
+                            <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
+                            <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
+                        </div>
+                        
+                        <div className="grupos-imagenes grupo-2">
+                            <img src= {require ("../../Multimedia/inicio-posiciones.png")} alt="" onClick={controlScrollPosiciones}/>
+                            <img src= {require ("../../Multimedia/inicio-marca.png")} alt="" onClick={controlScrollMarca}/>
+                        </div>
+                    </div>
+
+                    <div className="contenedor-jugador">
+                        <Link to="/jugador"><img src= {require ("../../Multimedia/inicio-jugador.png")} alt=""/></Link>
+                    </div>
+
+                </div>
             </header>
             
             
             <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
-                <TituloSeccion text="Iniciar búsqueda por selección" className="contenedor-titulo contenedor-titulo-selecciones"/>
+                <TituloSeccion text="Iniciar búsqueda por equipo" className="contenedor-titulo contenedor-titulo-selecciones"/>
 
-                <h3>Elegí una selección nacional</h3>
+                <h3 className="subtitulo-selecciones">Elegí una selección nacional</h3>
 
-                <Carousel></Carousel>
+                <Carousel />
 
                 <h5 className="titulo-selector-grupos">
                     GRUPOS QATAR 2022
@@ -89,11 +96,11 @@ const Home = () => {
             </section>
            
             <section className="seccion-busqueda-estilos" ref={scrollEstilos}>
-                <TituloSeccion text="Iniciar búsqueda por estilos" className="contenedor-titulo contenedor-titulo-estilos"/>
+                <TituloSeccion text="Iniciar búsqueda por estilo de juego" className="contenedor-titulo contenedor-titulo-estilos"/>
 
                 <h3 className="subtitulo-estilos">Elegí tu estilo de juego</h3>
 
-                <Estilos></Estilos>
+                <Estilos />
 
                 <div className="scrollDown">
                     <p> ¡Scrolleá para ver más! </p>
@@ -107,7 +114,7 @@ const Home = () => {
 
                 <h3>Elegí tu posición en la cancha</h3>
 
-                <Posiciones></Posiciones>
+                <Posiciones />
 
                 <div className="scrollDown">
                     <p> ¡Scrolleá para ver más! </p>
@@ -117,13 +124,12 @@ const Home = () => {
             </section>
       
             
-            <section className="seccion-busqueda-jugador" ref={scrollJugador}>
-                <TituloSeccion text="Iniciar búsqueda por jugador" className="contenedor-titulo contenedor-titulo-jugador"/>
+            <section className="seccion-busqueda-marca" ref={scrollMarca}>
+                <TituloSeccion text="Iniciar búsqueda por marca" className="contenedor-titulo contenedor-titulo-marca"/>
 
-                <div className="box-búsqueda">
-                    <label>Buscá los botines de tu jugador favorito </label>
-                    <Link to="/jugador"><button>Click para ingresar nombre</button></Link> 
-                </div>
+                <h3 className="subtitulo-marcas">Elegí tu marca preferida</h3>
+
+                <Marcas />
                 
             </section>
             

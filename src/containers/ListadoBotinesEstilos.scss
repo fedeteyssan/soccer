@@ -15,7 +15,7 @@
     .contenedor-titulo-plp{
         width: 100%;
         z-index: 10;
-        height: 7rem;
+        height: 5rem;
 
         @media only screen and (max-width:525px) {
             height:5rem;
@@ -25,7 +25,7 @@
             position: fixed;
             z-index:10 ;
             width: 100%;
-            height:3.5rem ;
+            height:2.5rem ;
             background: #C2CD4D;
 
             @media only screen and (max-width:525px) {
@@ -36,15 +36,15 @@
         h3{
             position: fixed;
             z-index:10 ;
-            top: 3.5rem;
+            top: 2.5rem;
             width: 100%;
-            height: 3.5rem;
+            height: 2.5rem;
             text-align: center;
-            line-height: 3rem;
+            line-height: 2.5rem;
             color: #FFFF;
             text-transform: uppercase;
             font-weight: 800;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
 
             background: rgba(57, 55, 55, 1);
             border-width: 1px 0px;
@@ -66,10 +66,10 @@
 
         .home{
             position: fixed;
-            top: 10px;
+            top: 4px;
             left: 15px;
             z-index: 10;
-            width: 45px;
+            width: 40px;
 
             @media only screen and (max-width:525px) {
                 width: 30px;
@@ -156,7 +156,6 @@
                     outline: gold;
                 }
             }            
-
         }
     }
     
@@ -165,9 +164,9 @@
         display: flex;
         flex-direction: column;
         width: 20rem;
-        min-height: 80vh;
         position: sticky;
-        top:154px;
+        min-height: 85vh;
+        top:123px;
         left: 0.6rem;
         margin-left: 1.5rem;
 
@@ -181,12 +180,12 @@
         h4{
             font-style: italic;
             font-weight: 600;
-            font-size: 1.75rem;
+            font-size: 1.25rem;
             line-height: 2.625rem;
             text-align: center;
             text-transform: uppercase;
             color: #F1F1F1;
-
+           
             position: relative;
             bottom: 43px;
 
@@ -196,186 +195,255 @@
             border-radius: 0px 8px 8px 0px;
         }
 
-        .filtro{
-            background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
-            border: 1px solid #FFCA43;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 2px;
-
-            width: 18.5rem;
-            height: 2.5rem;
-
-            margin: 0 auto 0.5rem auto;
-
-            span{
-                margin-left: 1rem;
-                font-weight: 600;
-                font-size: 1rem;
-                line-height: 2rem;
-                color: #FFFCFC;
-                text-shadow: 2px 2px 10px #D0B160;
-                text-transform: uppercase;
-            }
-
-            img{
-                position: relative;
-                left: 160px;
-                width: 1.25rem;
-            }
-
-            img.open{
-                transform: rotate(180deg);
-            }
-
-            .flecha{
-                left: 170px;
-            }
-        }
-
-        .filtro1{
+        .contenedor-filtros{
             position: relative;
-            bottom: 1.5rem;
-        }
+            bottom: 52px;
 
-        .contenedor-tactica{
+            overflow-y: scroll;
+            max-height: 85vh;
 
-            .reset{
-                position: absolute;
-                right: 1rem;
-                top: 4.6rem;
-
-                padding: 2.5px 10px;
-                border-radius : 25px 25px 25px 25px;
-                border: transparent;
-                background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+            .filtro{
+                background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                border: 1px solid #FFCA43;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        
-                font-weight: 500;
-                font-size: 10px;
-        
-                text-align: center;
-                color: #000000;
-            }
-
-            .tactica-sidebar{
-                text-align: center;
-                margin-bottom: 1rem;
-                
-                img{
-                    margin-top: 0.2rem;
+                border-radius: 2px;
+    
+                width: 18.5rem;
+                height: 2.5rem;
+    
+                margin: 1rem auto 0.5rem auto;
+    
+                span{
+                    margin-left: 1rem;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    line-height: 2rem;
+                    color: #FFFCFC;
+                    text-shadow: 2px 2px 10px #D0B160;
+                    text-transform: uppercase;
                 }
     
-                .boton-pos{
-                    width: 2.375rem;
-                    height: 1.2rem;
-                    border-radius: 50%;
+                img{
+                    position: relative;
+                    left: 160px;
+                    width: 1.25rem;
+                }
+    
+                img.open{
+                    transform: rotate(180deg);
+                }
+    
+                .flecha1{
+                    left: 170px;
+                }
+    
+                .flecha3{
+                    left: 190px;
+                }
+            }
+    
+            .filtro1{
+              margin-top: 0.5rem;
+            }   
+    
+            .filtro3{
+                margin-top: 1rem;
+            }
+    
+            .contenedor-tactica{
+    
+                .reset{
+                    position: absolute;
+                    right: 1rem;
+                    top: 3.6rem;
+    
+                    padding: 2.5px 10px;
+                    border-radius : 25px 25px 25px 25px;
                     border: transparent;
                     background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        
+            
                     font-weight: 500;
-                    font-size: 0.6785rem;
-        
+                    font-size: 10px;
+            
                     text-align: center;
                     color: #000000;
+                }
     
-                    &:focus{
-                        background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                .tactica-sidebar{
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    
+                    img{
+                        margin-top: 1.75rem;
+                    }
+        
+                    .boton-pos{
+                        width: 2.375rem;
+                        height: 1.2rem;
+                        border-radius: 50%;
+                        border: transparent;
+                        background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            
+                        font-weight: 500;
+                        font-size: 0.6785rem;
+            
+                        text-align: center;
+                        color: #000000;
+        
+                        &:focus{
+                            background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
+                        }     
+                    }
+        
+                    .pos-arq{
+                        position: absolute;
+                        left: 142px;
+                        top: 300px;
+                    }
+        
+                    .pos-li{
+                        position: absolute;
+                        left: 60px;
+                        top: 230px;
+                    }
+        
+                    .pos-dfc1{
+                        position: absolute;
+                        left: 112px;
+                        top: 255px;   
+                    }
+    
+                    .pos-dfc2{
+                        position: absolute;
+                        left: 172px;
+                        top: 255px;  
+                    }
+        
+                    .pos-ld{
+                        position: absolute;
+                        left: 230px;
+                        top: 230px;
                     }
                     
-                }
-    
-                .pos-arq{
-                    position: absolute;
-                    left: 142px;
-                    top: 320px;
-                }
-    
-                .pos-li{
-                    position: absolute;
-                    left: 60px;
-                    top: 260px;
-                }
-    
-                .pos-dfc1{
-                    position: absolute;
-                    left: 112px;
-                    top: 280px;   
-                }
-
-                .pos-dfc2{
-                    position: absolute;
-                    left: 172px;
-                    top: 280px;  
-                }
-    
-                .pos-ld{
-                    position: absolute;
-                    left: 230px;
-                    top: 260px;
-                }
-                
-                .pos-mcd{
-                    position: absolute;
-                    left: 142px;
-                    top: 240px;
-                }
-    
-                .pos-mc{
-                    position: absolute;
-                    left: 190px;
-                    top: 200px;
-                }
-    
-                .pos-mco{
-                    position: absolute;
-                    left: 102px;
-                    top: 190px;
-                }
-    
-                .pos-ei{
-                    position: absolute;
-                    left: 80px;
-                    top: 145px;
-                }
-    
-                .pos-dc{
-                    position: absolute;
-                    left: 142px;
-                    top: 125px;
-                }
-    
-                .pos-ed{
-                    position: absolute;
-                    left: 210px;
-                    top: 145px;
-                }     
-            }
-        }
-
+                    .pos-mcd{
+                        position: absolute;
+                        left: 142px;
+                        top: 222px;
+                    }
         
-        .contenedor-selector-paises{   
-            text-align: center;
-
-            select{
-                height: 150px;
-                width:80%;
+                    .pos-mc{
+                        position: absolute;
+                        left: 190px;
+                        top: 175px;
+                    }
+        
+                    .pos-mco{
+                        position: absolute;
+                        left: 110px;
+                        top: 160px;
+                    }
+        
+                    .pos-ei{
+                        position: absolute;
+                        left: 80px;
+                        top: 125px;
+                    }
+        
+                    .pos-dc{
+                        position: absolute;
+                        left: 142px;
+                        top: 100px;
+                    }
+        
+                    .pos-ed{
+                        position: absolute;
+                        left: 210px;
+                        top: 125px;
+                    }     
+                }
+            }
+       
+            .contenedor-selector-paises{   
                 text-align: center;
-                border: 1px solid gold;
-
-                &:focus{
-                    outline: gold;
+    
+                select{
+                    height: 7.5rem;
+                    width:80%;
+                    text-align: center;
+                    border: 1px solid gold;
+    
+                    &:focus{
+                        outline: gold;
+                    }
                 }
             }
+    
+            .contenedor-marcas{
+    
+                display: flex;
+                justify-content: space-around;
+                background: linear-gradient(180deg, #FDFDFD 0%, rgba(245, 245, 243, 0.59) 100%);
+                border-radius: 12px;
+                margin: 2.5rem 1.5rem;
+                padding: 0 1rem;
+                position: relative;
+    
+                .contenedor-botones{
+                    display: flex;
+                    padding: 0.5rem 0;
+                    
+    
+                    .botones-marcas{
+                        display: flex;
+                        align-items: center;
+                        margin: 0.15rem 0.5rem;
+    
+                        .logo-marca{
+                            width: 24px; 
+                            padding-bottom: 5px;          
+                        }
+    
+                        label{
+                            margin-left:0.5rem;
+                            font-size: 0.875rem;
+                            font-weight: 500;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+                .reset{
+                    padding: 2.5px 10px;
+                    margin-bottom: 1rem;
+                    position: absolute;
+                    bottom:2.25rem;
+                    right: -0.5rem;
+                    width: max-content;
+    
+                    border-radius : 25px 25px 25px 25px;
+                    border: transparent;
+                    background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
+            
+                    font-weight: 500;
+                    font-size: 0.6785rem;
+            
+                    text-align: center;
+                    color: #000000;
+                }   
+            }   
+
         }
-        
+
+      
     }
 
     .contenedor-cards{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 5rem 1rem 0 1rem;
+        padding: 2rem 1rem 0 1rem;
 
         /*Tablet & Mobile*/
         @media only screen and (max-width:800px) {
@@ -386,6 +454,5 @@
             color: white;
             font-size: 1.5rem;  
         }
-    }
-    
+    }   
 }

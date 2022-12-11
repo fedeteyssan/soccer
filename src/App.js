@@ -38,6 +38,10 @@ const App = () => {
           <ListadoBotinesEstilos/>
         </Route>
 
+        <Route exact path="/marca">
+          
+        </Route>
+
         <Route exact path="/jugador">
           <ListadoBotinesJugador/>
         </Route>

@@ -393,8 +393,12 @@
                 .contenedor-botones{
                     display: flex;
                     padding: 0.5rem 0;
+
+                    a{
+                        text-decoration: none !important;
+                        color: black;
+                    }
                     
-    
                     .botones-marcas{
                         display: flex;
                         align-items: center;

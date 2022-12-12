@@ -272,20 +272,26 @@ const ListadoBotinesEstilos = () => {
                             <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}`} onClick={handleClick3}><button className="reset">{marcaID!=="null"?marcaID:""} X</button></Link> 
 
                             <div className="contenedor-botones">
-                                <div className="botones-marcas">
-                                    <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=adidas`}><img className="logo-marca" src= {require ("../Multimedia/logo-adidas.png")} alt="" /></Link>
-                                    <label for="adidas">adidas</label>
-                                </div>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=adidas`}>
+                                    <div className="botones-marcas">
+                                        <img className="logo-marca" src= {require ("../Multimedia/logo-adidas.png")} alt="" />
+                                        <label for="adidas">adidas</label>
+                                    </div>
+                                </Link>
 
-                                <div className="botones-marcas">
-                                    <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=Nike`}><img className="logo-marca" src= {require ("../Multimedia/logo-nike.png")} alt="" /></Link>
-                                    <label for="Nike">Nike</label>
-                                </div>
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=Nike`}>
+                                    <div className="botones-marcas">
+                                        <img className="logo-marca" src= {require ("../Multimedia/logo-nike.png")} alt="" />
+                                        <label for="Nike">Nike</label>
+                                    </div>
+                                </Link>
                                 
-                                <div className="botones-marcas">
-                                    <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=Puma`}><img className="logo-marca" src= {require ("../Multimedia/logo-puma.png")} alt="" /></Link>
-                                    <label for="Puma">Puma</label>
-                                </div>  
+                                <Link to={`/estilo?estilo=${estiloID}&seleccion=${seleccionID}&posicion=${posicionID}&marca=Puma`}>
+                                    <div className="botones-marcas">
+                                        <img className="logo-marca" src= {require ("../Multimedia/logo-puma.png")} alt="" />
+                                        <label for="Puma">Puma</label>
+                                    </div>
+                                </Link>  
                                 
                             </div>
 

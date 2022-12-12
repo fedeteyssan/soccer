@@ -97,13 +97,14 @@
         }
     
         p{
-            font-weight: 500;
+            font-weight: 600;
             font-size: 1.625rem;
-            line-height: 2rem;
+            line-height: 2.5rem;
             color: #DFE1C8;
-            margin-top: 2rem;
+            font-weight: bold;
+            margin-top: 7rem;
             -webkit-text-stroke-color: black;
-            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-width: 0.5px;
 
             /*Tablet*/
             @media only screen and (min-width:426px) and (max-width:800px) {
@@ -114,9 +115,11 @@
 
             /*Mobile*/
             @media only screen and (max-width:425px) {
-                font-size: 1rem;
-                line-height: 1.25rem;
+                font-size: 1.125rem;
+                color: #DFE1C8;
+                line-height: 1.5rem;
                 margin: 1rem 0 0.5rem 0;
+                -webkit-text-stroke-width: 0.5px;
             }
         }
     
@@ -151,8 +154,8 @@
         
             width: 24rem;
             height: 3rem;
-            margin-top:4rem;
-            margin-left: 2rem;
+            margin-top:0.5rem;
+            margin-left: 3.5rem;
             position: relative;
             top:0px;
 

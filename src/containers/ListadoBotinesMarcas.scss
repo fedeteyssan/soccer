@@ -85,6 +85,9 @@
             top: -6.5px;
             width: 50px;
 
+            /*no mostrar logo*/
+            display: none;
+
             @media only screen and (max-width:525px) {
                 width: 40px;
                 top: 0px;

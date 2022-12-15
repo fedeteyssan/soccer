@@ -20,6 +20,9 @@
     }
 
     .contenedor-banner{
+        /*no mostrar banner*/
+        display: none;
+
         width: 100%;
         height:2.5rem;
         z-index: 10;
@@ -59,7 +62,9 @@
     }
 
     .cta{
-        margin: 3rem 0 0 3rem;
+        margin: 0rem 0 0 3rem;
+        /*Agrego padding top y quito margin top*/
+        padding-top: 3rem;
 
         /*Tablet*/
          @media only screen and (min-width:426px) and (max-width:800px) {

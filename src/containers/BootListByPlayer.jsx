@@ -1,4 +1,4 @@
-import "./ListadoBotinesJugador.scss";
+import "./BootListByPlayer.scss";
 import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import baseFinal from "../baseFinal.json";
@@ -6,20 +6,20 @@ import Item from "../components/item/Item";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
 
-const ListadoBotinesJugador = () => {
+const BootListByPlayer = () => {
 
-    const [botines, setBotines] = useState([]);
+    const [boots, setBoots] = useState([]);
 
-    const [tablaBotines, setTablaBotines]= useState([]);
+    const [tablaBoots, setTablaBoots]= useState([]);
     const [busqueda, setBusqueda]= useState("");
 
-    const getbotines = (dataBase) => 
+    const getboots = (dataBase) => 
     new Promise((resolve, reject) => {
        
         if (dataBase) {
             resolve(dataBase);
         } else {
-            reject("No se han encontrado productos");
+            reject("No products found");
         };
         
     });
@@ -31,20 +31,20 @@ const ListadoBotinesJugador = () => {
     }
 
     const filtrar = (terminoBusqueda) =>{
-        let resultadoBusqueda = tablaBotines.filter((elemento) => 
-            elemento.jugador.toString().toLowerCase().normalize('NFD')
+        let resultadoBusqueda = tablaBoots.filter((elemento) => 
+            elemento.player.toString().toLowerCase().normalize('NFD')
             .replace(/([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+/gi,"$1")
             .normalize().includes(terminoBusqueda.toLowerCase().trim())
         );
-        setBotines(resultadoBusqueda);
+        setBoots(resultadoBusqueda);
        
     }
     
     useEffect(() => {
-        getbotines(baseFinal)
+        getboots(baseFinal)
         .then((result) => {
-            setBotines(baseFinal);
-            setTablaBotines(baseFinal);
+            setBoots(baseFinal);
+            setTablaBoots(baseFinal);
         })
         .catch((err) => console.log(err));
     }, []);
@@ -67,13 +67,13 @@ const ListadoBotinesJugador = () => {
                 </div>
 
                 <div className="container-input">
-                    <input  type="search" className="form-control input-buscar" placeholder="nombre jugador" autoFocus onChange={handleChange} value={busqueda}/>
+                    <input  type="search" className="form-control input-buscar" placeholder="player name" autoFocus onChange={handleChange} value={busqueda}/>
                 </div>
 
                 <div className="contenedor-cards">
-                    {botines.length
-                    ? busqueda && botines.map((botin) => <Item item={botin}/>)
-                    : <div className="error-msg"><p>...ESTE JUGADOR NO FUE CONVOCADO...</p></div>  
+                    {boots.length
+                    ? busqueda && boots.map((boot) => <Item item={boot}/>)
+                    : <div className="error-msg"><p>...NO PLAYER FOUND...</p></div>  
                     }    
                 </div>
 
@@ -86,4 +86,4 @@ const ListadoBotinesJugador = () => {
      );
  };
  
- export default ListadoBotinesJugador;
+ export default BootListByPlayer;

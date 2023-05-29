@@ -13,38 +13,38 @@ const Estilos = () =>{
             <div className="contenedor-cards-estilos">
 
                 <div className="columna">
-                    <Link to="/estilo?estilo=Elegante"><div className="card-estilos">
+                    <Link to="/style?style=Elegant"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/elegante.png")} alt="" className="figura-estilo" />
-                        <p>ELEGANTE</p>
+                        <p>ELEGANT</p>
                     </div></Link>
 
-                    <Link to="/estilo?estilo=Estratega"><div className="card-estilos">
+                    <Link to="/style?style=Strategist"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/estratega.png")} alt="" className="figura-estilo" />
-                        <p>ESTRATEGA</p>
+                        <p>STRATEGIST</p>
                     </div></Link>
                 </div>
 
                 <div className="columna">
-                    <Link to="/estilo?estilo=Dominante"><div className="card-estilos">
+                    <Link to="/style?style=Dominant"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/dominante.png")} alt="" className="figura-estilo" />
-                        <p>DOMINANTE</p>
+                        <p>DOMINANT</p>
                     </div></Link>
 
-                    <Link to="/estilo?estilo=Desafiante"><div className="card-estilos">
+                    <Link to="/style?style=Defiant"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/desafiante.png")} alt="" className="figura-estilo" />
-                        <p>DESAFIANTE</p>
+                        <p>DEFIANT</p>
                     </div></Link>
                 </div>
 
                 <div className="columna">
-                    <Link to="/estilo?estilo=Imparable"><div className="card-estilos">
+                    <Link to="/style?style=Unstoppable"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/imparable.png")} alt="" className="figura-estilo" />
-                        <p>IMPARABLE</p>
+                        <p>UNSTOPPABLE</p>
                     </div></Link>
 
-                    <Link to="/estilo?estilo=Intuitivo"><div className="card-estilos">
+                    <Link to="/style?style=Intuitive"><div className="card-estilos">
                         <img src= {require ("../../Multimedia/intuitivo.png")} alt="" className="figura-estilo" />
-                        <p>INTUITIVO</p>
+                        <p>INTUITIVE</p>
                     </div></Link>
                 </div>
 

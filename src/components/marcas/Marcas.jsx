@@ -8,15 +8,15 @@ const Marcas = () =>{
         <div className="contenedor-marcas">
 
             <div className="contenedor-cards-marcas">
-                <Link to="/marca?marca=adidas">
+                <Link to="/brand?brand=adidas">
                     <img src= {require ("../../Multimedia/card-adidas.png")} alt="" />
                 </Link>
                
-                <Link to="/marca?marca=Nike">
+                <Link to="/brand?brand=Nike">
                     <img src= {require ("../../Multimedia/card-Nike.png")} alt="" />
                 </Link>
                
-                <Link to="/marca?marca=Puma">
+                <Link to="/brand?brand=Puma">
                     <img src= {require ("../../Multimedia/card-Puma.png")} alt="" />
                 </Link>     
 

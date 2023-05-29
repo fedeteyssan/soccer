@@ -7,126 +7,126 @@ const Posiciones = () =>{
     return(
         <div className="formacion">
 
-        <Link to="/posicion?posicion=Arquero">
+        <Link to="/position?position=Goalkeeper">
             <div className="contenedor-posicion contenedor-arq">
                 <div className="contenedor-hover">
-                    <p>ARQUERO</p>
+                    <p>GOALKEEPER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">ARQ</button>
+                <button className="boton-posicion">GK</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Lateral-izquierdo">
+        <Link to="/position?position=Left-Back">
             <div className="contenedor-posicion contenedor-li">
                 <div className="contenedor-hover">
-                    <p>LATERAL IZQUIERDO</p>
+                    <p>LEFT BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">LI</button>
+                <button className="boton-posicion">LB</button>
                 </div>
         </Link>
 
-        <Link to="/posicion?posicion=Defensor-central">
+        <Link to="/position?position=Central-Back">
             <div className="contenedor-posicion contenedor-dfc1">
                 <div className="contenedor-hover">
-                    <p>DEFENSOR CENTRAL</p>
+                    <p>CENTRAL BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">DFC</button>
+                <button className="boton-posicion">CB</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Defensor-central">
+        <Link to="/position?position=Central-Back">
             <div className="contenedor-posicion contenedor-dfc2">
                 <div className="contenedor-hover">
-                    <p>DEFENSOR CENTRAL</p>
+                    <p>CENTRAL BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">DFC</button>
+                <button className="boton-posicion">CB</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Lateral-derecho">
+        <Link to="/position?position=Right-Back">
             <div className="contenedor-posicion contenedor-ld">
                 <div className="contenedor-hover">
-                    <p>LATERAL DERECHO</p>
+                    <p>RIGHT BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>            
-                <button className="boton-posicion">LD</button>
+                <button className="boton-posicion">RB</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Volante-defensivo">
+        <Link to="/position?position=Defensive-Midfielder">
             <div className="contenedor-posicion contenedor-mcd">
                 <div className="contenedor-hover">
-                    <p>VOLANTE DEFENSIVO</p>
+                    <p>DEFENSIVE MIDFIELDER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>              
-                <button className="boton-posicion">MCD</button>
+                <button className="boton-posicion">CDM</button>
             </div>
         </Link>
 
         
 
-        <Link to="/posicion?posicion=Volante-central">
+        <Link to="/position?position=Central-Midfielder">
             <div className="contenedor-posicion contenedor-mc">
                 <div className="contenedor-hover">
-                    <p>VOLANTE CENTRAL</p>
+                    <p>CENTRAL MIDFIELDER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">MC</button>
+                <button className="boton-posicion">CM</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Volante-ofensivo">
+        <Link to="/position?position=Attacking-Midfielder">
             <div className="contenedor-posicion contenedor-mco">
                 <div className="contenedor-hover">
-                    <p>VOLANTE OFENSIVO</p>
+                    <p>ATTACKING MIDFIELDER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">MCO</button>
+                <button className="boton-posicion">CAM</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Extremo-Izquierdo">
+        <Link to="/position?position=Left-Winger">
             <div className="contenedor-posicion contenedor-ei">
                 <div className="contenedor-hover">
-                    <p>EXTREMO IZQUIERDO</p>
+                    <p>LEFT WINGER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">EI</button>
+                <button className="boton-posicion">LW</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Delantero">
+        <Link to="/position?position=Striker">
             <div className="contenedor-posicion contenedor-dc">
                 <div className="contenedor-hover">
-                    <p>DELANTERO</p>
+                    <p>STRIKER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">DC</button>
+                <button className="boton-posicion">ST</button>
             </div>
         </Link>
 
-        <Link to="/posicion?posicion=Extremo-Derecho">
+        <Link to="/position?position=Right-Winger">
             <div className="contenedor-posicion contenedor-ed">
                 <div className="contenedor-hover">
-                    <p>EXTREMO DERECHO</p>
+                    <p>RIGHT WINGER</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
-                <button className="boton-posicion">ED</button>
+                <button className="boton-posicion">RW</button>
             </div>
         </Link>
 

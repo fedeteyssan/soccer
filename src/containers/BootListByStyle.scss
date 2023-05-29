@@ -7,7 +7,7 @@
     position: fixed;
 }
 
-.contenedor-botines-marcas{
+.contenedor-botines-estilos{
     position: absolute;
     min-height: 100vh;
     padding: 0;
@@ -237,11 +237,15 @@
                 }
     
                 .flecha1{
-                    left: 170px;
+                    left: 169.5px;
+                }
+
+                .flecha2{
+                    left: 200px;
                 }
     
                 .flecha3{
-                    left: 115px;
+                    left: 189.5px;
                 }
             }
     
@@ -383,38 +387,35 @@
                 }
             }
     
-            .contenedor-estilos{
-
+            .contenedor-marcas{
+    
                 display: flex;
                 justify-content: space-around;
                 background: linear-gradient(180deg, #FDFDFD 0%, rgba(245, 245, 243, 0.59) 100%);
                 border-radius: 12px;
-                margin: 2.5rem 1.5rem 1.5rem 1.5rem;
+                margin: 2.5rem 1.5rem;
                 padding: 0 1rem;
                 position: relative;
-
+    
                 .contenedor-botones{
                     display: flex;
-                    flex-direction: column;
                     padding: 0.5rem 0;
-                    
 
-                    .botones-estilo{
+                    a{
+                        text-decoration: none !important;
+                        color: black;
+                    }
+                    
+                    .botones-marcas{
                         display: flex;
                         align-items: center;
                         margin: 0.15rem 0.5rem;
-
-                        input{
-                            width: 1.5rem;
-                            height: 1.5rem;
-                            border-radius: 50%;
-                            border: 1px solid;
-
-                            &:focus{
-                                background: linear-gradient(180deg, #B6A36D 0%, #9B947B 100%);
-                            }
+    
+                        .logo-marca{
+                            width: 24px; 
+                            padding-bottom: 5px;          
                         }
-
+    
                         label{
                             margin-left:0.5rem;
                             font-size: 0.875rem;
@@ -423,15 +424,15 @@
                         }
                     }
                 }
-
+    
                 .reset{
                     padding: 2.5px 10px;
                     margin-bottom: 1rem;
                     position: absolute;
-                    bottom:7rem;
+                    bottom:2.25rem;
                     right: -0.5rem;
                     width: max-content;
-
+    
                     border-radius : 25px 25px 25px 25px;
                     border: transparent;
                     background: linear-gradient(180deg, #FFFFFF 0%, rgba(202, 199, 199, 0.7) 100%);
@@ -441,8 +442,8 @@
             
                     text-align: center;
                     color: #000000;
-                } 
-            } 
+                }   
+            }   
         }
     }
 

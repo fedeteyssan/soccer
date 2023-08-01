@@ -2,12 +2,12 @@ import "./Home.scss";
 import { Container } from "react-bootstrap";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-import TituloSeccion from "../tituloSeccion/TituloSeccion";
-import Carousel from "../carousel/Carousel";
-import Estilos from "../estilos/Estilos";
-import Posiciones from "../posiciones/Posiciones";
-import Marcas from "../marcas/Marcas";
-import ScrollToTop from "../ScrollToTop";
+import TituloSeccion from "../../components/tituloSeccion/TituloSeccion";
+import Estilos from "../../components/estilos/Estilos";
+import Posiciones from "../../components/posiciones/Posiciones";
+import Marcas from "../../components/marcas/Marcas";
+import ScrollToTop from "../../components/ScrollToTop";
+import Clubes from "../../components/clubes/Clubes";
 
 
 const Home = () => {
@@ -16,9 +16,9 @@ const Home = () => {
         window.scrollTo(0, 0);
     }
 
-    const scrollSelecciones = useRef();
-    const controlScrollSelecciones = () => {
-    scrollSelecciones.current?.scrollIntoView({behavior: 'smooth'});
+    const scrollClubes = useRef();
+    const controlScrollClubes = () => {
+    scrollClubes.current?.scrollIntoView({behavior: 'smooth'});
     };
 
     const scrollEstilos = useRef();
@@ -59,7 +59,7 @@ const Home = () => {
 
                     <div className="contenedor-imagenes">
                         <div className="grupos-imagenes grupo-1">
-                            <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollSelecciones}/>
+                            <img src= {require ("../../Multimedia/inicio-selecciones.png")} alt="" onClick={controlScrollClubes}/>
                             <img src= {require ("../../Multimedia/inicio-estilos.png")} alt="" onClick={controlScrollEstilos}/>
                         </div>
                         
@@ -77,16 +77,13 @@ const Home = () => {
             </header>
             
             
-            <section className="seccion-busqueda-selecciones" ref={scrollSelecciones}>
-                <TituloSeccion text="Iniciar búsqueda por equipo" className="contenedor-titulo contenedor-titulo-selecciones"/>
+            <section className="seccion-busqueda-clubes" ref={scrollClubes}>
+                <TituloSeccion text="Iniciar búsqueda por club" className="contenedor-titulo contenedor-titulo-clubes"/>
 
-                <h3 className="subtitulo-selecciones">Elegí una selección nacional</h3>
+                <h3 className="subtitulo-clubes">Elegí el club de tu liga favorita</h3>
 
-                <Carousel />
+                <Clubes />
 
-                <h5 className="titulo-selector-grupos">
-                    GRUPOS QATAR 2022
-                </h5> 
 
                 <div className="scrollDown">
                     <p> ¡Scrolleá para ver más! </p>

@@ -110,7 +110,7 @@ const BootListByPosition = () => {
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
                     <h3>{positionID.replace(/-/g, ' ')} player's boots</h3>
-                    <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
+                    <Link to="/"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>
 

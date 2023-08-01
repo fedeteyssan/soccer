@@ -15,7 +15,7 @@
         min-height: 100vh;  
         
         /*Tablet & Mobile*/
-        @media only screen and (max-width:800px) {
+        @media only screen and (max-width:600px) {
             background-image: url(../../Multimedia/header-bg-mobile.webp);
             background-repeat: no-repeat;
             background-size: cover;
@@ -83,17 +83,17 @@
         }
     
         .cta{
-            margin: 10rem 0 2rem 0;
+            margin: 5rem 0 2rem 0;
             text-align: center;
             
-            /*Mobile*/
-            @media only screen and (min-width:361px) and (max-width:425px) {
-                margin: 4rem 0 1rem 0;
+            /*Tablet*/
+            @media only screen and (min-width:426px) and (max-width:800px) {
+                margin: 2rem 0 0.5rem 0;
             }
 
-            /*Mobile2*/
-            @media only screen and (max-width:360px) {
-                margin: 4rem 0 1rem 0;
+            /*Mobile*/
+            @media only screen and (max-width:425px) {
+                margin: 10rem 0 0.5rem 0;
             }
     
     
@@ -106,9 +106,16 @@
                 -webkit-text-stroke-width: 1px;
 
                 padding: 0 0.25rem;
-    
+                
+                /*Mobile*/
                 @media only screen and (max-width:425px) {
                     font-size: 1.5rem;
+                    line-height: 2rem;
+                }
+
+                /*Tablet*/
+                @media only screen and (min-width:426px) and (max-width:800px) {
+                    font-size: 2rem;
                     line-height: 2rem;
                 }
 
@@ -141,8 +148,15 @@
                 -webkit-text-stroke-width: 1px;
 
                 padding: 0 0.25rem;
-    
+                
+                /*Mobile*/
                 @media only screen and (max-width:425px) {
+                    font-size: 1.25rem;
+                    margin-top: 2rem;
+                }
+
+                /*Tablet*/
+                @media only screen and (min-width:426px) and (max-width:800px) {
                     font-size: 1.25rem;
                     margin-top: 2rem;
                 }
@@ -380,7 +394,7 @@
             }
         }  
 
-        .subtitulo-selecciones{ 
+        .subtitulo-clubes{ 
             &:after {
                 background: linear-gradient(180deg, #555156 0%, #380C52 100%);
             }  
@@ -425,7 +439,7 @@
         
     }
     
-    .seccion-busqueda-selecciones{
+    .seccion-busqueda-clubes{
         background-image: url(../../Multimedia/seccionSelecciones-bg.webp);
         background-size: cover;
         background-position: center;

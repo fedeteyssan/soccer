@@ -1,8 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Cover from './components/cover/Cover';
-import Home from './components/home/Home';
+import Home from './containers/home/Home';
 import BootListByTeam from './containers/BootListByTeam';
 import BootListByPosition from './containers/BootListByPosition';
 import BootListByStyle from './containers/BootListByStyle';
@@ -20,10 +19,6 @@ const App = () => {
       <Switch>
 
         <Route exact path="/">
-          <Cover></Cover>
-        </Route>
-
-        <Route exact path="/home">
           <Home></Home>
         </Route>
 

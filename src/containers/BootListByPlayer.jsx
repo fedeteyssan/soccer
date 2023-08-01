@@ -62,7 +62,7 @@ const BootListByPlayer = () => {
 
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
-                    <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
+                    <Link to="/"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>
 

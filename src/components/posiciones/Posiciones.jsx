@@ -29,10 +29,10 @@ const Posiciones = () =>{
                 </div>
         </Link>
 
-        <Link to="/position?position=Central-Back">
+        <Link to="/position?position=Center-Back">
             <div className="contenedor-posicion contenedor-dfc1">
                 <div className="contenedor-hover">
-                    <p>CENTRAL BACK</p>
+                    <p>CENTER BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>
@@ -40,10 +40,10 @@ const Posiciones = () =>{
             </div>
         </Link>
 
-        <Link to="/position?position=Central-Back">
+        <Link to="/position?position=Center-Back">
             <div className="contenedor-posicion contenedor-dfc2">
                 <div className="contenedor-hover">
-                    <p>CENTRAL BACK</p>
+                    <p>CENTER BACK</p>
                     <img src= {require ("../../Multimedia/cursor.png")} alt="" className="cursor" />
                     <img src= {require ("../../Multimedia/camiseta.png")} alt="" className="camiseta"/>
                 </div>

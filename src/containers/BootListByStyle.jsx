@@ -111,7 +111,7 @@ const BootListByStyle = () => {
                 <div className="contenedor-titulo-plp">
                     <div className="banner"></div>
                     <h3>{styleID} game sytle player's boots</h3>
-                    <Link to="/home"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
+                    <Link to="/"><img className="home" src= {require ("../Multimedia/home.png")} alt="" /></Link>
                     <img className="logo" src= {require ("../Multimedia/logo.png")} alt="" />
                 </div>
 
@@ -202,8 +202,8 @@ const BootListByStyle = () => {
                                 <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Goalkeeper`}><button className="boton-pos pos-arq">GK</button></Link>
 
                                 <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Left-Back`}><button className="boton-pos pos-li">LB</button></Link>
-                                <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Central-Back`}><button className="boton-pos pos-dfc1">CB</button></Link>
-                                <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Central-Back`}><button className="boton-pos pos-dfc2">CB</button></Link>
+                                <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Center-Back`}><button className="boton-pos pos-dfc1">CB</button></Link>
+                                <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Center-Back`}><button className="boton-pos pos-dfc2">CB</button></Link>
                                 <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Right-Back`}><button className="boton-pos pos-ld">RB</button></Link>
 
                                 <Link to={`/style?style=${styleID}&team=${teamID}&brand=${brandID}&position=Defensive-Midfielder`}><button className="boton-pos pos-mcd">CDM</button></Link>
